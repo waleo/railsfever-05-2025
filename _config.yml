@@ -35,6 +35,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+schedule_meeting_link: https://calendly.com/wale/30-minute-consultation
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
