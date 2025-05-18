@@ -1,0 +1,168 @@
+.upgrade_express_service {
+  background-color: #ffffff;
+
+  .hero {
+    text-align: center;
+    padding: 100px 20px 40px;
+    background: #fff0f2;
+  }
+
+  .hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 20px;
+  }
+
+  .hero p {
+    font-size: 20px;
+    color: #4F4F4F;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+
+  .cta-button {
+    background-color: #C33D4D;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .cta-button:hover {
+    background-color: #a33040;
+  }
+
+  section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #C33D4D;
+    margin-top: 80px;
+  }
+
+  .problem-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  .problem-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+
+  .solution-section {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .solution-section p {
+    font-size: 18px;
+    color: #4F4F4F;
+    line-height: 1.6;
+  }
+
+  .steps-section {
+    text-align: center;
+    padding: 60px 20px 40px;
+  }
+
+  .progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+
+  .progress-container::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    right: 50px;
+    height: 4px;
+    background: #C33D4D;
+    z-index: 0;
+  }
+
+  .progress-step {
+    background: #ffffff;
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    text-align: center;
+  }
+
+  .step-number {
+    background: #ffe5e9;
+    color: #C33D4D;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0 auto 15px;
+  }
+
+  .progress-step strong {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #111;
+  }
+
+  .progress-step p {
+    font-size: 16px;
+    color: #6E6E6E;
+    line-height: 1.4;
+  }
+
+  .contact {
+    text-align: center;
+    padding: 40px 20px 100px;
+  }
+
+  .contact h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .contact a {
+    background-color: #C33D4D;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+
+  .contact a:hover {
+    background-color: #a33040;
+  }
+}
