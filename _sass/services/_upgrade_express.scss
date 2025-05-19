@@ -84,32 +84,34 @@
   }
 
   .progress-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    max-width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 1024px;
     margin: 60px auto;
-    padding: 0 20px;
+    position: relative;
   }
 
-  .progress-container::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50px;
-    right: 50px;
-    height: 4px;
-    background: #C33D4D;
-    z-index: 0;
+  /* Tablet view: 2 columns */
+  @media (min-width: 640px) {
+    .progress-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* Desktop view: 4 columns */
+  @media (min-width: 1024px) {
+    .progress-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
 
   .progress-step {
     background: #ffffff;
-    position: relative;
-    z-index: 1;
-    width: 200px;
     text-align: center;
+    padding: 1.25rem;
+    position: relative;
   }
 
   .step-number {
