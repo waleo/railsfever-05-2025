@@ -1,0 +1,46 @@
+.service-container {
+  /* CTA Contact link at bottom of page */
+  .contact {
+    text-align: center;
+    padding: 40px 20px 100px;
+  }
+
+  .contact h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .contact a {
+    background-color: #C33D4D;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    margin: 1rem auto;
+    word-wrap: break-word;
+    line-height: 1.4;
+    transition: background-color 0.3s;
+  }
+
+  .contact a:hover {
+    background-color: #a33040;
+  }
+
+  /* Optional: Smaller screens */
+  @media (max-width: 360px) {
+    .contact a {
+      font-size: 0.95rem;
+      padding: 0.65rem 1rem;
+    }
+  }
+
+
+}
