@@ -1,0 +1,76 @@
+.care-plan-service {
+  .problem-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .problem-card::before {
+    content: "\2713";
+    color: #C33D4D;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .solution-section {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .solution-section p {
+    font-size: 18px;
+    color: #4F4F4F;
+    line-height: 1.6;
+  }
+
+  .care-plan-section {
+    background: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .care-plan-section h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px; margin-bottom: 30px; color: #111;
+  }
+
+  .care-plan-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 800px; margin: 0 auto;
+  }
+
+  .care-plan-item {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+  }
+
+  .care-plan-item::before {
+    content: "\2714";
+    color: #C33D4D;
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .care-plan-item p {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+}
