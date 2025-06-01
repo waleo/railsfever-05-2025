@@ -72,6 +72,52 @@ footer a:hover {
   display: none;
 }
 
+/* Buttons */
+
+.button-link {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  background-color: #C33D4D;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5em;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button-link:hover, .button-link:focus {
+  background-color: #a52e3b; /* Darker red on hover */
+  text-decoration: none;
+}
+
+.button-link:active {
+  background-color: #84242f;
+}
+
+.cta-button {
+  background-color: #C33D4D;
+  color: #ffffff;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 0.85px;
+  line-height: 1.4;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #a33040;
+  text-decoration: none;
+}
+
 /* Show hamburger only on small screens */
 @media (max-width: 768px) {
   /*
@@ -117,49 +163,5 @@ footer a:hover {
   nav a:last-child {
     border-bottom: none;
   }
-}
-
-/* Buttons */
-
-.button-link {
-  display: inline-block;
-  padding: 0.75em 1.5em;
-  background-color: #C33D4D;
-  color: white;
-  text-decoration: none;
-  border-radius: 0.5em;
-  font-weight: bold;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.button-link:hover,
-.button-link:focus {
-  background-color: #a52e3b; /* Darker red on hover */
-  text-decoration: none;
-}
-
-.button-link:active {
-  background-color: #84242f;
-}
-
-.cta-button {
-  background-color: #C33D4D;
-  color: #ffffff;
-  padding: 15px 30px;
-  font-size: 18px;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #a33040;
-  text-decoration: none;
 }
 
