@@ -60,46 +60,46 @@
     line-height: 1.6;
   }
 
-  .care-plan-section, .support-section {
+  .care-plan-section, .support-section, .engagement-section {
     background: #f8f9fa;
     padding: 60px 20px;
     text-align: center;
+
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px; margin-bottom: 30px; color: #111;
+    }
   }
 
-  .care-plan-section h3, .support-section h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px; margin-bottom: 30px; color: #111;
-  }
-
-  .care-plan-grid, .support-grid {
+  .care-plan-grid, .support-grid, .engagement-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     max-width: 800px; margin: 0 auto;
   }
 
-  .care-plan-item, .support-item {
+  .care-plan-item, .support-item, .engagement-item {
     background: #fff;
     border: 1px solid #e0e0e0;
     padding: 20px;
     border-radius: 12px;
     text-align: center;
     position: relative;
-  }
 
-  .care-plan-item::before, .support-item::before {
-    content: "\2714";
-    color: #C33D4D;
-    font-weight: bold;
-    font-size: 24px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-  }
+    &:before {
+      content: "\2714";
+      color: #C33D4D;
+      font-weight: bold;
+      font-size: 24px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
 
-  .care-plan-item p, .support-item p {
-    font-size: 16px;
-    margin-top: 40px;
+    p {
+      font-size: 16px;
+      margin-top: 40px;
+    }
   }
 
   /* CTA Contact link at bottom of page */
