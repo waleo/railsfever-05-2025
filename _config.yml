@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   your infrastructure, stabilize your stack, and keep your product running
   smoothly.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://railsfever.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  waleo
 
@@ -34,6 +34,7 @@ github_username:  waleo
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 schedule_meeting_link: https://calendly.com/wale/30-minute-consultation
 
