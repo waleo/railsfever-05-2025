@@ -2,225 +2,161 @@
 .home {
   /* Hero Section */
   .hero {
-    text-align: center;
-    padding: 150px 20px;
-    background-color: #ffffff;
-  }
+    @include hero-section;
 
-  .hero h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 48px;
-    font-weight: 800;
-    color: #C33D4D;
-    margin-bottom: 20px;
-  }
+    h1 {
+      @include heading-primary;
+    }
 
-  .hero p {
-    font-size: 22px;
-    color: #4F4F4F;
-    margin-bottom: 40px;
+    p {
+      font-size: 22px;
+      color: $text-primary;
+      margin-bottom: 40px;
+    }
   }
 
   /* Services Section */
   .services {
-    background-color: #f1f1f1;
-    padding: 100px 20px;
-    text-align: center;
-  }
+    @include section-centered;
+    background-color: $bg-medium-gray;
 
-  .services h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    color: #C33D4D;
-    margin-bottom: 50px;
+    h2 {
+      @include heading-secondary;
+    }
   }
 
   .service-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
+    @include service-grid;
   }
 
   .service-card {
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s, box-shadow 0.3s, border 0.3s;
-  }
+    @include service-card;
 
-  .service-card:hover {
-    transform: translateY(-5px);
-    border: 2px solid #C33D4D;
-    box-shadow: 0 6px 20px rgba(195, 61, 77, 0.2);
-  }
+    h3 {
+      font-family: $font-heading;
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: $text-primary;
+    }
 
-  .service-card h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: #4F4F4F;
-  }
+    p {
+      font-size: $font-size-small;
+      color: $text-secondary;
+      margin-bottom: $padding-small;
+    }
 
-  .service-card p {
-    font-size: 16px;
-    color: #6E6E6E;
-    margin-bottom: 20px;
-  }
-
-  .service-card button {
-    background-color: #C33D4D;
-    color: #ffffff;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  .service-card button:hover {
-    background-color: #a33040;
+    button {
+      @include button-primary;
+      padding: 10px $padding-small;
+      font-size: $font-size-small;
+      border-radius: $border-radius-small;
+    }
   }
 
   /* About Section */
   .about {
-    background-color: #C33D4D;
-    color: #ffffff;
+    @include section-base;
+    background-color: $brand-primary;
+    color: $text-white;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 100px 20px;
   }
 
   .about-text {
     flex: 1;
     min-width: 300px;
-    padding: 20px;
-  }
+    padding: $padding-small;
 
-  .about-text h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
+    h2 {
+      font-family: $font-heading;
+      font-size: $font-size-large;
+      margin-bottom: $padding-small;
+    }
 
-  .about-text p {
-    font-size: 18px;
-    line-height: 1.6;
+    p {
+      font-size: $font-size-regular;
+      line-height: 1.6;
+    }
   }
 
   .about-image {
     flex: 1;
     min-width: 300px;
     text-align: center;
-    padding: 20px;
-  }
+    padding: $padding-small;
 
-  .about-image img {
-    width: 250px;
-    border-radius: 10%;
-    border: 5px solid #ffffff;
+    img {
+      width: 250px;
+      border-radius: 10%;
+      border: 5px solid $text-white;
+    }
   }
 
   .about button {
-    margin-top: 30px;
-    background-color: #ffffff;
-    color: #C33D4D;
+    @include button-secondary;
+    margin-top: $padding-medium;
     padding: 12px 24px;
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
+    font-size: $font-size-regular;
 
-  .about button:hover {
-    background-color: #f8f9fa;
+    &:hover {
+      background-color: $bg-light-gray;
+    }
   }
 
   /* Testimonials Section */
   .testimonials {
-    background: linear-gradient(to right, #ffe5e9, #f8f9fa);
-    padding: 100px 20px;
-    text-align: center;
-  }
+    @include section-centered;
+    background: linear-gradient(to right, $bg-gradient-start, $bg-gradient-end);
 
-  .testimonials h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    color: #C33D4D;
-    margin-bottom: 50px;
+    h2 {
+      @include heading-secondary;
+    }
   }
 
   .testimonial-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-    max-width: 1000px;
-    margin: 0 auto;
+    @include grid-base($grid-min-width-large, $grid-gap-large);
+    max-width: $container-medium-width;
   }
 
   .testimonial-card {
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    @include card-base;
     font-style: italic;
     position: relative;
-  }
 
-  .testimonial-card::before {
-    content: '“';
-    font-size: 50px;
-    color: #C33D4D;
-    position: absolute;
-    top: -20px;
-    left: 20px;
-  }
+    &::before {
+      content: '"';
+      font-size: 50px;
+      color: $brand-primary;
+      position: absolute;
+      top: -20px;
+      left: $padding-small;
+    }
 
-  .testimonial-card p {
-    font-size: 16px;
-    color: #6E6E6E;
+    p {
+      font-size: $font-size-small;
+      color: $text-secondary;
+    }
   }
 
   /* Contact Section */
   .contact {
-    background-color: #ffffff;
-    text-align: center;
-    padding: 100px 20px;
-  }
+    @include contact-section;
 
-  .contact h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    color: #C33D4D;
-    margin-bottom: 20px;
-  }
+    h2 {
+      @include heading-secondary;
+      margin-bottom: $padding-small;
+    }
 
-  .contact p {
-    font-size: 20px;
-    color: #6E6E6E;
-    margin-bottom: 40px;
-  }
+    p {
+      font-size: 20px;
+      color: $text-secondary;
+      margin-bottom: 40px;
+    }
 
-  .contact a {
-    background-color: #C33D4D;
-    color: #ffffff;
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background-color 0.3s;
-  }
-
-  .contact a:hover {
-    background-color: #a33040;
+    a {
+      @include cta-button;
+    }
   }
 }

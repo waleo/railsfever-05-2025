@@ -1,0 +1,81 @@
+/* Variables for Rails Fever Site */
+
+/* Brand Colors */
+$brand-primary: #C33D4D;
+$brand-primary-hover: #a33040;
+$brand-primary-dark: #84242f;
+$brand-secondary: #a52e3b;
+
+/* Text Colors */
+$text-primary: #4F4F4F;
+$text-secondary: #6E6E6E;
+$text-dark: #111;
+$text-white: #ffffff;
+
+/* Background Colors */
+$bg-white: #ffffff;
+$bg-light-gray: #f8f9fa;
+$bg-medium-gray: #f1f1f1;
+$bg-light-pink: #fff0f2;
+$bg-pink-accent: #ffe5e9;
+$bg-gradient-start: #ffe5e9;
+$bg-gradient-end: #f8f9fa;
+$bg-dark: #2e2e2e;
+
+/* Border Colors */
+$border-light: #e0e0e0;
+$border-medium: #ddd;
+
+/* Typography */
+$font-primary: 'Roboto', sans-serif;
+$font-heading: 'Montserrat', sans-serif;
+
+/* Font Sizes */
+$font-size-hero: 48px;
+$font-size-large: 40px;
+$font-size-medium: 28px;
+$font-size-regular: 18px;
+$font-size-small: 16px;
+$font-size-tiny: 14px;
+
+/* Font Weights */
+$font-weight-normal: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+
+/* Spacing */
+$padding-small: 20px;
+$padding-medium: 30px;
+$padding-large: 60px;
+$padding-xl: 100px;
+$padding-xxl: 150px;
+
+/* Border Radius */
+$border-radius-small: 6px;
+$border-radius-medium: 8px;
+$border-radius-large: 12px;
+$border-radius-circle: 50%;
+
+/* Box Shadow */
+$shadow-light: 0 1px 3px rgba(0,0,0,0.05);
+$shadow-medium: 0 2px 8px rgba(0, 0, 0, 0.05);
+$shadow-strong: 0 6px 20px rgba(195, 61, 77, 0.2);
+$shadow-header: 0 2px 4px rgba(0,0,0,0.05);
+$shadow-nav: 0 8px 24px rgba(0, 0, 0, 0.15);
+
+/* Breakpoints */
+$breakpoint-mobile: 360px;
+$breakpoint-tablet: 640px;
+$breakpoint-desktop: 768px;
+$breakpoint-large: 1024px;
+
+/* Grid */
+$grid-gap-small: 20px;
+$grid-gap-medium: 30px;
+$grid-gap-large: 40px;
+$grid-min-width: 250px;
+$grid-min-width-large: 300px;
+$container-max-width: 1200px;
+$container-medium-width: 1000px;
+$container-small-width: 800px;
+$container-tiny-width: 700px;

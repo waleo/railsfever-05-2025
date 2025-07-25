@@ -1,0 +1,194 @@
+/* Mixins for Rails Fever Site */
+
+/* Button Mixins */
+@mixin button-base {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: $border-radius-medium;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+@mixin button-primary {
+  @include button-base;
+  background-color: $brand-primary;
+  color: $text-white;
+  
+  &:hover, &:focus {
+    background-color: $brand-primary-hover;
+    text-decoration: none;
+  }
+  
+  &:active {
+    background-color: $brand-primary-dark;
+  }
+}
+
+@mixin button-secondary {
+  @include button-base;
+  background-color: $bg-white;
+  color: $brand-primary;
+  
+  &:hover {
+    background-color: $bg-light-gray;
+  }
+}
+
+@mixin cta-button {
+  @include button-primary;
+  padding: 15px 30px;
+  font-size: $font-size-regular;
+  font-weight: $font-weight-bold;
+  letter-spacing: 0.85px;
+  line-height: 1.4;
+}
+
+/* Grid Mixins */
+@mixin grid-base($min-width: $grid-min-width, $gap: $grid-gap-medium) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($min-width, 1fr));
+  gap: $gap;
+  margin: 0 auto;
+}
+
+@mixin service-grid {
+  @include grid-base($grid-min-width-large, $grid-gap-large);
+  max-width: $container-max-width;
+}
+
+@mixin problem-grid {
+  @include grid-base($grid-min-width-large, $grid-gap-small);
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 $padding-small;
+}
+
+@mixin steps-grid {
+  @include grid-base(260px, $grid-gap-medium);
+  max-width: $container-medium-width;
+  margin: 40px auto;
+}
+
+/* Card Mixins */
+@mixin card-base {
+  background: $bg-white;
+  border-radius: $border-radius-large;
+  box-shadow: $shadow-medium;
+  padding: $padding-medium;
+}
+
+@mixin service-card {
+  @include card-base;
+  transition: transform 0.3s, box-shadow 0.3s, border 0.3s;
+  
+  &:hover {
+    transform: translateY(-5px);
+    border: 2px solid $brand-primary;
+    box-shadow: $shadow-strong;
+  }
+}
+
+@mixin problem-card {
+  @include card-base;
+  border: 1px solid $border-light;
+  font-size: $font-size-small;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: $shadow-light;
+  
+  &::before {
+    content: "\2713";
+    color: $brand-primary;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+/* Section Mixins */
+@mixin section-base {
+  padding: $padding-xl $padding-small;
+}
+
+@mixin section-centered {
+  @include section-base;
+  text-align: center;
+}
+
+@mixin hero-section {
+  @include section-centered;
+  padding: $padding-xxl $padding-small;
+  background-color: $bg-white;
+}
+
+@mixin contact-section {
+  @include section-centered;
+  background-color: $bg-white;
+}
+
+/* Typography Mixins */
+@mixin heading-primary {
+  font-family: $font-heading;
+  font-size: $font-size-hero;
+  font-weight: $font-weight-extra-bold;
+  color: $brand-primary;
+  margin-bottom: $padding-small;
+}
+
+@mixin heading-secondary {
+  font-family: $font-heading;
+  font-size: $font-size-large;
+  color: $brand-primary;
+  margin-bottom: 50px;
+}
+
+@mixin heading-tertiary {
+  font-family: $font-heading;
+  font-size: $font-size-medium;
+  color: $brand-primary;
+}
+
+/* Step Number Mixin */
+@mixin step-number($size: 40px) {
+  background: $bg-pink-accent;
+  color: $brand-primary;
+  font-weight: bold;
+  width: $size;
+  height: $size;
+  border-radius: $border-radius-circle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+/* Responsive Mixins */
+@mixin mobile-only {
+  @media (max-width: #{$breakpoint-mobile}) {
+    @content;
+  }
+}
+
+@mixin tablet-up {
+  @media (min-width: #{$breakpoint-tablet}) {
+    @content;
+  }
+}
+
+@mixin desktop-up {
+  @media (min-width: #{$breakpoint-desktop}) {
+    @content;
+  }
+}
+
+@mixin large-up {
+  @media (min-width: #{$breakpoint-large}) {
+    @content;
+  }
+}

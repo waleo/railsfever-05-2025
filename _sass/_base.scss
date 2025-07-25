@@ -1,11 +1,11 @@
-/* Rails Fever Final Styles */
+/* Rails Fever Base Styles */
 
 /* Base Styles */
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background-color: #f8f9fa;
-  color: #4F4F4F;
+  font-family: $font-primary;
+  background-color: $bg-light-gray;
+  color: $text-primary;
 }
 
 /* Header */
@@ -13,9 +13,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding: $padding-small 50px;
+  background-color: $bg-white;
+  box-shadow: $shadow-header;
 }
 
 header img {
@@ -23,48 +23,47 @@ header img {
 }
 
 nav a {
-  margin-left: 30px;
+  margin-left: $padding-medium;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  color: #4F4F4F;
+  font-family: $font-heading;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-small;
+  color: $text-primary;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #C33D4D;
+  color: $brand-primary;
 }
 
 /* Footer */
 footer {
-  background-color: #2e2e2e;
-  color: #ffffff;
+  background-color: $bg-dark;
+  color: $text-white;
   text-align: center;
-  padding: 20px;
-  font-size: 14px;
+  padding: $padding-small;
+  font-size: $font-size-tiny;
 }
 
 footer a {
-  color: #ffffff;
+  color: $text-white;
   margin: 0 10px;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 footer a:hover {
-  color: #C33D4D;
+  color: $brand-primary;
 }
 
-/* Hambuger Menu */
-
+/* Hamburger Menu */
 .menu-toggle {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: $padding-small;
+  right: $padding-small;
   z-index: 999;
-  background: #C33D4D;
-  color: white;
+  background: $brand-primary;
+  color: $text-white;
   font-size: 32px;
   padding: 10px 15px;
   border-radius: 10px;
@@ -73,63 +72,22 @@ footer a:hover {
 }
 
 /* Buttons */
-
 .button-link {
-  display: inline-block;
-  padding: 0.75em 1.5em;
-  background-color: #C33D4D;
-  color: white;
-  text-decoration: none;
+  @include button-primary;
   border-radius: 0.5em;
-  font-weight: bold;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
   transition: background-color 0.2s ease-in-out;
-}
-
-.button-link:hover, .button-link:focus {
-  background-color: #a52e3b; /* Darker red on hover */
-  text-decoration: none;
-}
-
-.button-link:active {
-  background-color: #84242f;
+  
+  &:active {
+    background-color: $brand-primary-dark;
+  }
 }
 
 .cta-button {
-  background-color: #C33D4D;
-  color: #ffffff;
-  padding: 15px 30px;
-  font-size: 18px;
-  font-weight: 700;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  letter-spacing: 0.85px;
-  line-height: 1.4;
-  transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #a33040;
-  text-decoration: none;
+  @include cta-button;
 }
 
 /* Show hamburger only on small screens */
-@media (max-width: 768px) {
-  /*
-  .menu-toggle {
-    display: block;
-    font-size: 42px;
-    cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-  } */
-
+@media (max-width: #{$breakpoint-desktop}) {
   .menu-toggle {
     display: block;
   }
@@ -138,13 +96,13 @@ footer a:hover {
     display: none;
     position: fixed;
     top: 70px; /* below the hamburger */
-    right: 20px;
+    right: $padding-small;
     width: 80%;
     max-width: 300px;
-    background: #fff;
-    border: 1px solid #ddd;
+    background: $bg-white;
+    border: 1px solid $border-medium;
     border-radius: 10px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    box-shadow: $shadow-nav;
     z-index: 998;
     flex-direction: column;
     padding: 10px 0;
@@ -156,7 +114,7 @@ footer a:hover {
 
   nav a {
     padding: 16px 24px;
-    font-size: 18px;
+    font-size: $font-size-regular;
     border-bottom: 1px solid #eee;
   }
 

@@ -1,22 +1,3 @@
 .support-desk-service {
-  .problem-card {
-    background: #fff;
-    border: 1px solid #e0e0e0;
-    padding: 20px;
-    border-radius: 12px;
-    font-size: 16px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .problem-card::before {
-    content: "\2713";
-    color: #C33D4D;
-    font-weight: bold;
-    font-size: 20px;
-  }
-
+  // Uses shared .problem-card from _components.scss
 }

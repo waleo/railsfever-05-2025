@@ -1,81 +1,33 @@
 .rescue_kit_service {
   .service-card {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 12px;
-    font-size: 16px;
+    background: $bg-light-gray;
+    padding: $padding-small;
+    border-radius: $border-radius-large;
+    font-size: $font-size-small;
     text-align: center;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    box-shadow: $shadow-light;
   }
 
   .about {
     text-align: center;
-    padding: 60px 20px 20px;
-    max-width: 800px;
+    padding: $padding-large $padding-small $padding-small;
+    max-width: $container-small-width;
     margin: 0 auto;
   }
 
   .about-text h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
-    color: #C33D4D;
-    margin-bottom: 20px;
+    @include heading-tertiary;
+    margin-bottom: $padding-small;
   }
 
   .about-text p {
-    font-size: 18px;
-    color: #4F4F4F;
+    font-size: $font-size-regular;
+    color: $text-primary;
   }
 
   .how-it-works {
-    padding: 60px 20px;
-    background-color: #ffffff;
-    text-align: center;
-  }
-
-  .steps-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 30px;
-    max-width: 1000px;
-    margin: 40px auto;
-  }
-
-  .step-card {
-    position: relative;
-    padding: 30px 20px 20px;
-    border-radius: 12px;
-    background: #ffffff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    text-align: left;
-  }
-
-  .step-number {
-    background: #ffe5e9;
-    color: #C33D4D;
-    font-weight: bold;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    position: absolute;
-    top: -20px;
-    left: 20px;
-  }
-
-  .step-card strong {
-    display: block;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    color: #111;
-  }
-
-  .step-card p {
-    font-size: 16px;
-    color: #6E6E6E;
+    @include section-centered;
+    padding: $padding-large $padding-small;
+    background-color: $bg-white;
   }
 }
