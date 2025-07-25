@@ -32,7 +32,7 @@ Installs Ruby gems defined in the Gemfile.
 - **Framework**: Jekyll static site generator
 - **Theme**: Minima theme as base
 - **Deployment**: GitHub Pages
-- **Ruby Version**: 3.4.1 (defined in .ruby-version)
+- **Ruby Version**: 3.3.1 (use `rbenv local 3.3.1` - 3.4.1 has commonmarker compatibility issues)
 
 ### Key Configuration Files
 - `_config.yml`: Main Jekyll configuration with site metadata, plugins, and build settings
