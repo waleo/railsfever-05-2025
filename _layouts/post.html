@@ -17,10 +17,12 @@ layout: default
         </div>
       {% endif %}
     </div>
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-    {% if page.subtitle %}
-      <p class="post-subtitle">{{ page.subtitle | escape }}</p>
-    {% endif %}
+    <div class="post-title-container">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+      {% if page.subtitle %}
+        <p class="post-subtitle">{{ page.subtitle | escape }}</p>
+      {% endif %}
+    </div>
     {% if page.featured_image %}
       <div class="post-featured-image">
         <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title | escape }}">
