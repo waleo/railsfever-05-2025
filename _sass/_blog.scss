@@ -313,6 +313,7 @@
   box-sizing: border-box;
 
   @media (max-width: #{$breakpoint-tablet}) {
+    display: block;
     padding: $padding-medium $padding-small;
     max-width: 100%;
     margin-left: 0;
