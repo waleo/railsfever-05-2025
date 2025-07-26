@@ -185,8 +185,9 @@
 .post-preview-footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-top: auto;
+  gap: 15px;
 }
 
 .read-more {
@@ -197,6 +198,8 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
   transition: color 0.2s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
 
   &:hover {
     color: $brand-primary-hover;
@@ -207,6 +210,9 @@
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
+  align-items: flex-start;
+  min-width: 0;
+  flex: 1;
 }
 
 .tag {
