@@ -12,6 +12,7 @@
   padding: $padding-large $padding-small;
   margin-bottom: $padding-large;
   border-bottom: 1px solid #e8e8e8;
+  background-color: $bg-rose-quartz;
 
   h1 {
     font-family: $font-heading;
@@ -293,6 +294,7 @@
 }
 
 .post-header {
+  background-color: $bg-rose-quartz;
   text-align: center;
   margin-bottom: $padding-large;
   padding: $padding-large $padding-small;
