@@ -566,15 +566,25 @@
 
   @media (max-width: #{$breakpoint-tablet}) {
     grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1.5rem 0;
   }
 
   a {
+    display: block;
     padding: 1.5rem;
     text-decoration: none;
     color: $text-primary;
     border: 1px solid #f0f0f0;
     border-radius: 4px;
     transition: all 0.2s ease;
+    overflow: hidden;
+    min-height: 80px;
+    
+    @media (max-width: #{$breakpoint-tablet}) {
+      padding: 1rem;
+      min-height: 60px;
+    }
 
     &:hover {
       border-color: $brand-primary;
@@ -589,6 +599,7 @@
     margin-bottom: 8px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    white-space: nowrap;
   }
 
   .nav-title {
@@ -597,6 +608,9 @@
     font-size: $font-size-small;
     color: $text-dark;
     line-height: 1.4;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 }
 
