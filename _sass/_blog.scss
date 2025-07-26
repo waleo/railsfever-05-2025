@@ -303,9 +303,19 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+  box-sizing: border-box;
 
   @media (max-width: #{$breakpoint-tablet}) {
     padding: $padding-medium $padding-small;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  @media (max-width: #{$breakpoint-mobile}) {
+    padding: $padding-small;
+    margin-bottom: $padding-medium;
   }
 }
 
@@ -352,6 +362,15 @@
   color: $text-dark;
   margin-bottom: 15px;
   line-height: 1.2;
+  
+  @media (max-width: #{$breakpoint-tablet}) {
+    font-size: 32px;
+  }
+  
+  @media (max-width: #{$breakpoint-mobile}) {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
 }
 
 .post-subtitle {
@@ -363,6 +382,17 @@
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  
+  @media (max-width: #{$breakpoint-tablet}) {
+    font-size: 18px;
+    max-width: 100%;
+    padding: 0 $padding-small;
+  }
+  
+  @media (max-width: #{$breakpoint-mobile}) {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 }
 
 .post-featured-image {
