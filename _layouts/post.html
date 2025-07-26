@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<article class="blog-post">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      {% if page.author %}
+        <span class="post-author">by {{ page.author }}</span>
+      {% endif %}
+      {% if page.categories.size > 0 %}
+        <div class="post-categories">
+          {% for category in page.categories %}
+            <span class="category">{{ category }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    {% if page.subtitle %}
+      <p class="post-subtitle">{{ page.subtitle | escape }}</p>
+    {% endif %}
+    {% if page.featured_image %}
+      <div class="post-featured-image">
+        <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title | escape }}">
+      </div>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    {% if page.tags.size > 0 %}
+      <div class="post-tags">
+        <span class="tags-label">Tags:</span>
+        {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+    
+    <div class="post-share">
+      <span class="share-label">Share this post:</span>
+      <div class="share-buttons">
+        <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url }}" target="_blank" class="share-twitter">Twitter</a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" target="_blank" class="share-linkedin">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</article>
+
+<nav class="post-navigation">
+  {% if page.previous.url %}
+    <div class="nav-previous">
+      <a href="{{ page.previous.url | relative_url }}" rel="prev">
+        <span class="nav-label">← Previous Post</span>
+        <span class="nav-title">{{ page.previous.title }}</span>
+      </a>
+    </div>
+  {% endif %}
+  
+  {% if page.next.url %}
+    <div class="nav-next">
+      <a href="{{ page.next.url | relative_url }}" rel="next">
+        <span class="nav-label">Next Post →</span>
+        <span class="nav-title">{{ page.next.title }}</span>
+      </a>
+    </div>
+  {% endif %}
+</nav>
+
+<div class="back-to-blog">
+  <a href="/blog/" class="button-link">← Back to Blog</a>
+</div>
