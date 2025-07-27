@@ -160,3 +160,24 @@
     }
   }
 }
+
+/* Hero Typography Classes - Higher specificity to override .hero h1 */
+.hero .hero-title {
+  font-size: 38px !important;
+  font-family: $font-heading;
+  font-weight: $font-weight-extra-bold;
+  color: $text-dark;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero .hero-subtitle {
+  font-size: 18px !important;
+  color: $text-primary;
+  line-height: 1.6;
+  margin-bottom: 40px;
+
+  @media (max-width: #{$breakpoint-tablet}) {
+    font-size: 16px !important;
+  }
+}
