@@ -6,7 +6,8 @@ date: 2024-10-10 14:15:00 -0500
 author: "Wale Olaleye"
 categories: [Rails, Legacy, Debugging]
 tags: [debugging, legacy-code, troubleshooting, maintenance]
-featured_image: "/assets/images/blog/placeholder-400x300.svg"
+featured_image: "/assets/images/blog/debugging-legacy-rails-800x600.svg"
+preview_image: "/assets/images/blog/debugging-legacy-rails-400x300.svg"
 ---
 
 Working with legacy Rails applications is like being a detective. You're constantly piecing together clues from different eras, deciphering cryptic code comments, and unraveling mysteries left behind by developers who may have moved on years ago.

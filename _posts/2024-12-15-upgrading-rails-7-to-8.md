@@ -6,7 +6,7 @@ date: 2024-12-15 10:00:00 -0500
 author: "Wale Olaleye"
 categories: [Rails, Upgrades]
 tags: [rails8, upgrade, migration, best-practices]
-featured_image: "/assets/images/blog/placeholder-400x300.svg"
+preview_image: "/assets/images/blog/placeholder-400x300.svg"
 ---
 
 Rails 8 brings exciting new features and improvements, but upgrading from Rails 7 requires careful planning and execution. In this comprehensive guide, I'll walk you through the entire upgrade process, common pitfalls, and best practices.

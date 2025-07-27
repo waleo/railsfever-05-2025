@@ -6,7 +6,7 @@ date: 2024-11-28 09:30:00 -0500
 author: "Wale Olaleye"
 categories: [Rails, Performance]
 tags: [optimization, performance, scaling, caching]
-featured_image: "/assets/images/blog/placeholder-400x300.svg"
+preview_image: "/assets/images/blog/placeholder-400x300.svg"
 ---
 
 Performance optimization in Rails goes far beyond adding `includes` to avoid N+1 queries. After working with dozens of Rails applications, I've discovered that the most impactful optimizations often lie in the details that many developers overlook.
