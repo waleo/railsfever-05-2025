@@ -21,10 +21,7 @@
 title: Rails Fever | Application Modernization Consultancy
 email: info@railsfever.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Rails Fever helps SaaS companies fix, upgrade, and maintain legacy
-  Ruby on Rails apps. From one-time audits to ongoing support, we handle
-  your infrastructure, stabilize your stack, and keep your product running
-  smoothly.
+  Rails Fever provides long-term maintenance, support, upgrades, performance and security services for Rails apps.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://railsfever.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
