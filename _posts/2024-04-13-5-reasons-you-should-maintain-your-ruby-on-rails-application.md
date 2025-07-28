@@ -16,13 +16,13 @@ Here are 5 reasons you should definitely include application  maintain in your b
 
 ### 1. Ruby on Rails Maintenance prevents application stoppage
 
-If you do not maintain your software it will eventually stop working, partially then completely. This will happen at a time and date you do not expect. Fixing the issue could be expensive, result in stress and possibly lost customers. Finding someone skilled enough to resolve the issue could take a long time.
+If you do not maintain your software it will eventually stop working, partially then completely. This will happen at a time and date you do not expect. Fixing the issue could be expensive, result in stress and possibly lost customers. Finding someone skilled enough to resolve the issue could take a long time. In emergency situations, you may need a [Rails rescue service](/services/rails_rescue_kit.html) to quickly stabilize your application.
 
-However, if you hire a professional Ruby on Rails consultant to regularly maintain your system every month, you will avoid expensive breakage to your system. In addition, an expert Ruby on Rails consultant who provides ongoing support will understand your system enough to build regular feature requests. They can review code written by other developers in your team to ensure that high-quality work is being delivered - to ensure that your development costs are being wisely used.
+However, if you hire a professional Ruby on Rails consultant to regularly maintain your system every month, you will avoid expensive breakage to your system. In addition, an expert Ruby on Rails consultant who provides [ongoing support](/services/rails_care_plan.html) will understand your system enough to build regular feature requests. They can review code written by other developers in your team to ensure that high-quality work is being delivered - to ensure that your development costs are being wisely used.
 
 ### 2. Ruby on Rails Maintenance makes it easier to hire new developers
 
-When you stay on an old version of Ruby and Rails the talent pool of developers that can work with that version is reduced every year. This is because when new versions are released, most companies upgrade and developers learn new ways of writing Ruby on Rails code.
+When you stay on an old version of Ruby and Rails the talent pool of developers that can work with that version is reduced every year. This is because when new versions are released, most companies [upgrade](/services/rails_upgrade_express.html) and developers learn new ways of writing Ruby on Rails code.
 
 Most developers have little interest in working on very old platforms. Documentation for old platforms could be hard to find. This is a hidden cost of failing to maintain your Ruby on Rails application.
 
@@ -44,7 +44,7 @@ Each version of Ruby on Rails sets new standards for how Rails apps should be bu
 
 According to cybersecurity experts, 30,0000 websites are hacked every day. Security vulnerabilities are regularly found and fixed. To obtain these fixes you must upgrade your Ruby on Rails application.
 
-Failure to upgrade your Ruby on Rails application leaves your website and data vulnerable to hacking schemes. Hackers cost businesses lots of money every day. How much will it cost your business to recover from hackers?
+Failure to [upgrade your Ruby on Rails application](/services/rails_upgrade_express.html) leaves your website and data vulnerable to hacking schemes. Hackers cost businesses lots of money every day. How much will it cost your business to recover from hackers?
 
 ## What is the cost of doing nothing?
 
@@ -64,5 +64,7 @@ Similarly, if you save money by not spending on maintaining your application, wo
 
 ---
 
-Need help maintaining your Ruby on Rails application? [Schedule a Rails Maintenance Audit]({{ site.schedule_meeting_link }}) to get a detailed list of action items that your Rails app needs.
+Need help maintaining your Ruby on Rails application? We offer comprehensive [Rails Care Plans](/services/rails_care_plan.html) for ongoing maintenance, [technical audits](/services/rails_tech_audit.html) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express.html) to keep you current.
+
+[Schedule a Rails Maintenance Audit]({{ site.schedule_meeting_link }}) to get a detailed list of action items that your Rails app needs.
 
