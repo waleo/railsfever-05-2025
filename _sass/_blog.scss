@@ -5,6 +5,11 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 $padding-small;
+  
+  @media (max-width: #{$breakpoint-tablet}) {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
 }
 
 .blog-header {
@@ -68,6 +73,11 @@
   @media (max-width: #{$breakpoint-tablet}) {
     width: 100%;
     height: 200px;
+    max-width: calc(100vw - 40px);
+  }
+  
+  @media (max-width: #{$breakpoint-mobile}) {
+    height: 180px;
   }
 
   img, picture {
