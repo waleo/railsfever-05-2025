@@ -22,7 +22,7 @@ header img {
   height: 50px;
 }
 
-nav a {
+.main-nav a {
   margin-left: $padding-medium;
   text-decoration: none;
   font-family: $font-heading;
@@ -32,7 +32,7 @@ nav a {
   transition: color 0.3s;
 }
 
-nav a:hover {
+.main-nav a:hover {
   color: $brand-primary;
 }
 
@@ -92,7 +92,7 @@ footer a:hover {
     display: block;
   }
 
-  nav {
+  .main-nav {
     display: none;
     position: fixed;
     top: 70px; /* below the hamburger */
@@ -108,17 +108,18 @@ footer a:hover {
     padding: 10px 0;
   }
 
-  nav.active {
+  .main-nav.active {
     display: flex;
   }
 
-  nav a {
+  .main-nav a {
     padding: 16px 24px;
     font-size: $font-size-regular;
     border-bottom: 1px solid #eee;
+    margin-left: 0; /* Override the desktop margin */
   }
 
-  nav a:last-child {
+  .main-nav a:last-child {
     border-bottom: none;
   }
 }

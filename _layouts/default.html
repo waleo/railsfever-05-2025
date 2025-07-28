@@ -34,14 +34,15 @@
 
   <header>
     <a href="/"><img src="/assets/images/logo.png" alt="Rails Fever Logo"></a>
-    <nav>
+    <nav class="main-nav">
       <a href="/">Home</a>
       <a href="/#services">Services</a>
+      <a href="/blog/">Blog</a>
       <a href="/#about">About</a>
       <a href="/#testimonials">Testimonials</a>
       <a href="/#contact">Contact</a>
     </nav>
-    <div class="menu-toggle" onclick="document.querySelector('nav').classList.toggle('active')">
+    <div class="menu-toggle" onclick="document.querySelector('.main-nav').classList.toggle('active')">
       ☰
     </div>
   </header>
@@ -54,7 +55,7 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-      const nav = document.querySelector("nav");
+      const nav = document.querySelector(".main-nav");
       const links = nav.querySelectorAll("a");
 
       links.forEach(link => {

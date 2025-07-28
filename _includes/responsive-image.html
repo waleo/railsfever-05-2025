@@ -1,0 +1,14 @@
+<!-- Responsive image include for blog posts -->
+<!-- Usage: {% include responsive-image.html src="blog/image-name" alt="Alt text" %} -->
+
+{% assign image_path = "/assets/images/" | append: include.src %}
+{% assign webp_path = image_path | append: ".webp" %}
+{% assign jpg_path = image_path | append: ".jpg" %}
+
+<picture>
+  <source srcset="{{ webp_path | relative_url }}" type="image/webp">
+  <img src="{{ jpg_path | relative_url }}" 
+       alt="{{ include.alt | escape }}" 
+       loading="lazy"
+       onerror="this.style.display='none'; this.parentElement.classList.add('image-failed');">
+</picture>
