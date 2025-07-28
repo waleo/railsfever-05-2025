@@ -63,3 +63,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - BLOG-IMAGES-GUIDE.md
+  - _posts/2024-10-10-debugging-legacy-rails-apps.md
+  - _posts/2024-11-28-rails-performance-optimization.md
+  - _posts/2024-12-15-upgrading-rails-7-to-8.md
