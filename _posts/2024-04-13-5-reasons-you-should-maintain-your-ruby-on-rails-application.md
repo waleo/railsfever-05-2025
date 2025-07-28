@@ -4,8 +4,8 @@ title: "5 reasons you should maintain your Ruby on Rails Application"
 subtitle: "Avoid dowtime, security risks, and performance issues by regularly maintaining your Ruby on Rails app"
 slug: ruby-on-rails-maintenance-reasons
 author: "Wale Olaleye"
-categories: ["Maintenance", "Application Mangement", "Security", "Updates"]
-tags: [ruby on rails maintenance, rails application support, rails security updates, rails performance optimization, ruby on rails upgrades, maintaining legacy rails apps, rails bug fixing, rails app monitoring, rails technical debt, rails support services]
+categories: ["Maintenance", "Updates"]
+tags: [application management, technical debt, legacy rails apps, security]
 featured_image: "/assets/images/blog/man-fixing-vehicle-engine-800x600.webp"
 preview_image: "/assets/images/blog/man-fixing-vehicle-engine-400x300.webp"
 ---
