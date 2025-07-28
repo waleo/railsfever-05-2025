@@ -5,7 +5,12 @@ layout: default
 <article class="blog-post">
   <header class="post-header">
     <div class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %d, %Y" }}
+        {% if page.updated and page.updated != page.date %}
+          <span class="updated-label">(Updated {{ page.updated | date: "%B %d, %Y" }})</span>
+        {% endif %}
+      </time>
       {% if page.author %}
         <span class="post-author">by {{ page.author }}</span>
       {% endif %}

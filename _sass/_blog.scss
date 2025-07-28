@@ -1,5 +1,13 @@
 /* Blog Styles for Rails Fever */
 
+/* Updated date styling */
+.updated-label {
+  font-size: 0.9em;
+  color: #666;
+  font-style: italic;
+  margin-left: 5px;
+}
+
 /* Blog Index Page */
 .blog-index {
   max-width: 1200px;
