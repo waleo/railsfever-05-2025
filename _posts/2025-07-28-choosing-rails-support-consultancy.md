@@ -5,8 +5,8 @@ subtitle: "A practical guide for founders and operators of growing Rails apps wh
 author: "Wale Olaleye"
 categories: ["Maintenance"]
 tags: [Application Management, Support, Rails Consultancy]
-featured_image: ""
-preview_image: ""
+featured_image: "/assets/images/blog/developers-looking-at-screen-800x600.webp"
+preview_image: "/assets/images/blog/developers-looking-at-screen-400x300.webp"
 ---
 
 **If your Rails app is the backbone of your business, choosing the right support partner isn’t a technical decision—it’s a strategic one.**
