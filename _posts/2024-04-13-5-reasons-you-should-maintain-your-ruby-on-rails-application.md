@@ -2,6 +2,7 @@
 layout: post
 title: "5 reasons you should maintain your Ruby on Rails Application"
 subtitle: "Avoid dowtime, security risks, and performance issues by regularly maintaining your Ruby on Rails app"
+description: "Learn why regular Rails maintenance prevents downtime, security risks, and costly rewrites. Discover 5 key benefits of maintaining your Ruby on Rails application."
 slug: ruby-on-rails-maintenance-reasons
 author: "Wale Olaleye"
 categories: ["Maintenance", "Updates"]
