@@ -1,0 +1,28 @@
+---
+layout: post
+title: ""
+subtitle: ""
+description: ""
+slug: ""
+author: "Wale Olaleye"
+categories: [""]
+tags: []
+featured_image: ""
+preview_image: ""
+updated: ""
+published: false
+---
+
+<!-- Post content goes here -->
+
+Write your blog post content here. Remember to:
+- Use proper headings (###, ####)
+- Include internal links to relevant services
+- Add a call-to-action at the end
+- Consider SEO keywords in your content
+
+---
+
+Need help with Rails maintenance? We offer comprehensive [Rails Care Plans](/services/rails_care_plan.html) for ongoing support, [technical audits](/services/rails_tech_audit.html) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express.html) to keep you current.
+
+[Schedule a consultation]({{ site.schedule_meeting_link }}) to discuss your Rails needs.
