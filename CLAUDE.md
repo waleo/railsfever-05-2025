@@ -64,5 +64,23 @@ Installs Ruby gems defined in the Gemfile.
 - RSS feed generation via jekyll-feed plugin
 - Professional branding with custom fonts (Montserrat, Roboto)
 
+### Service Page Linking
+When creating content (blog posts, pages), always link to service pages using the correct URL format:
+
+**Correct format**: `/services/service_name/` (with trailing slash, no .html extension)
+
+**Available service pages**:
+- Rails Rescue Kit: `/services/rails_rescue_kit/`
+- Rails Upgrade Express: `/services/rails_upgrade_express/`
+- Rails Tech Audit: `/services/rails_tech_audit/`
+- Rails Care Plan: `/services/rails_care_plan/`
+- Rails Support Desk: `/services/rails_support_desk/`
+- Fractional CTO Service: `/services/fractional_cto/`
+
+**Examples**:
+- ✅ `[Rails Care Plan](/services/rails_care_plan/)`
+- ❌ `[Rails Care Plan](/services/rails_care_plan.html)`
+- ❌ `[Rails Care Plan](/services/rails-care-plan/)`
+
 ### Business Context
 Rails Fever is a consultancy specializing in Rails application modernization, upgrades, and maintenance. The site serves as a marketing platform showcasing expertise in legacy Rails app rescue, upgrades, audits, ongoing support, and fractional CTO services.
