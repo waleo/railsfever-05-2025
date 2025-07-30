@@ -20,7 +20,7 @@ Here’s what to look for when evaluating a Rails support consultancy.
 
 ### 1. They Offer More Than "Dev Help"
 
-Support means more than answering tickets or fixing bugs. A good consultancy provides proactive monitoring, routine maintenance, [Rails upgrades](/services/rails_upgrade_express.html), dependency management, and performance tuning.
+Support means more than answering tickets or fixing bugs. A good consultancy provides proactive monitoring, routine maintenance, [Rails upgrades](/services/rails_upgrade_express/), dependency management, and performance tuning.
 
 If you're getting billed hourly for quick fixes, that's not support—it's reaction.
 
@@ -28,7 +28,7 @@ If you're getting billed hourly for quick fixes, that's not support—it's react
 
 * Fixed-fee plans with clear SLAs
 
-* Services that include [audits](/services/rails_tech_audit.html), patching, upgrades, and security
+* Services that include [audits](/services/rails_tech_audit/), patching, upgrades, and security
 
 * Regular communication and visibility into app health
 
@@ -64,7 +64,7 @@ Many consultants vanish after the initial project. You need a team or individual
 
 #### Look for:
 
-* Long-term retainers or [care plans](/services/rails_care_plan.html)
+* Long-term retainers or [care plans](/services/rails_care_plan/)
 
 * A track record of multi-year client relationships
 
@@ -90,6 +90,6 @@ Your Rails app doesn't need a savior—it needs a steward. Someone to care for i
 
 At Rails Fever, we specialize in long-term Rails application management. We don't just parachute in and fix bugs—we take over the daily care of your codebase like it's our own.
 
-Whether you need a comprehensive [technical audit](/services/rails_tech_audit.html) to understand your current state, ongoing [maintenance and monitoring](/services/rails_care_plan.html), or a critical [Rails upgrade](/services/rails_upgrade_express.html), we're here to help.
+Whether you need a comprehensive [technical audit](/services/rails_tech_audit/) to understand your current state, ongoing [maintenance and monitoring](/services/rails_care_plan/), or a critical [Rails upgrade](/services/rails_upgrade_express/), we're here to help.
 
 If you're looking for a support partner who stays ahead of the curve, [let's schedule a consultation]({{ site.schedule_meeting_link }}) to discuss your specific needs.

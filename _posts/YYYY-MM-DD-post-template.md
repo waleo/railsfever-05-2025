@@ -23,6 +23,6 @@ Write your blog post content here. Remember to:
 
 ---
 
-Need help with Rails maintenance? We offer comprehensive [Rails Care Plans](/services/rails_care_plan.html) for ongoing support, [technical audits](/services/rails_tech_audit.html) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express.html) to keep you current.
+Need help with Rails maintenance? We offer comprehensive [Rails Care Plans](/services/rails_care_plan/) for ongoing support, [technical audits](/services/rails_tech_audit/) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express/) to keep you current.
 
 [Schedule a consultation]({{ site.schedule_meeting_link }}) to discuss your Rails needs.
