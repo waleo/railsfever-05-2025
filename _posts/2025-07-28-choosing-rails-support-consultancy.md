@@ -4,8 +4,8 @@ title: "How to Choose the Right Rails Support Consultancy for Your Business"
 subtitle: "A practical guide for founders and operators of growing Rails apps who want peace of mind—not just another contractor."
 description: "Discover how to choose the right Rails support consultancy for your business. Key factors to evaluate when selecting a strategic Rails partner for ongoing maintenance and growth."
 author: "Wale Olaleye"
-categories: ["Maintenance"]
-tags: [Application Management, Support, Rails Consultancy]
+categories: ["Rails Maintenance"]
+tags: [Ruby on Rails, Application Management, Support, DevOps, SaaS Infrastructure, Rails Consultancy]
 featured_image: "/assets/images/blog/developers-looking-at-screen-800x600.webp"
 preview_image: "/assets/images/blog/developers-looking-at-screen-400x300.webp"
 ---
