@@ -4,10 +4,10 @@ title: "What to Expect When You Hire a Rails Support Consultancy"
 subtitle: "A practical guide for SaaS founders exploring long-term Ruby on Rails support and maintenance services."
 description: "Thinking of hiring a Rails support consultancy? Learn what to expect—from onboarding and maintenance planning to incident response and long-term value. A clear guide for SaaS founders managing Ruby on Rails apps."
 author: "Wale Olaleye"
-categories: [""]
-tags: []
-featured_image: ""
-preview_image: ""
+categories: ["Rails Maintenance"]
+tags: [rails support consultancy, ruby on rails support, rails maintenance services, long-term application management, technical due diligence, production support]
+featured_image: "/assets/images/blog/black-smartphone-near-person-800x600.webp"
+preview_image: "/assets/images/blog/black-smartphone-near-person-400x300.webp"
 ---
 
 If you’re running a profitable SaaS company built on Ruby on Rails, but you don’t have an in-house development team, hiring a Rails support consultancy can feel like a leap of faith. What exactly are they responsible for? How will you know if the work is being done? What happens when something breaks?
