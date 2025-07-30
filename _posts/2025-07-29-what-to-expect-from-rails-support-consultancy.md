@@ -12,13 +12,13 @@ preview_image: "/assets/images/blog/black-smartphone-near-person-400x300.webp"
 
 If you’re running a profitable SaaS company built on Ruby on Rails, but you don’t have an in-house development team, hiring a Rails support consultancy can feel like a leap of faith. What exactly are they responsible for? How will you know if the work is being done? What happens when something breaks?
 
-In this post, we’ll walk through what you should expect from a professional _Rails maintenance service_—so you can make an informed decision and avoid surprises down the line.
+In this post, we’ll walk through what you should expect from a professional *Rails maintenance service*—so you can make an informed decision and avoid surprises down the line.
 
 ### 1. Initial Assessment and Onboarding
 
 Before any code is touched, a solid Rails support team will start with a comprehensive onboarding process. Expect three key activities here:
 
-* **Codebase Review:** A thorough review of your app’s architecture, dependencies, and known issues. This helps identify technical debt, risky patterns, and upgrade blockers.
+* **Codebase Review:** A thorough review of your app's architecture, dependencies, and known issues. This helps identify technical debt, risky patterns, and upgrade blockers. Our [Rails Tech Audit](/services/rails_tech_audit.html) service provides exactly this type of comprehensive assessment.
 
 * **Infrastructure Check:** Your hosting setup, CI/CD pipeline, backups, and monitoring tools are reviewed to ensure nothing critical is missing.
 
@@ -34,7 +34,7 @@ After onboarding, your consultancy should present a maintenance plan tailored to
 
 * **Monitoring & Alerts:** Tools like AppSignal, Rollbar, or Datadog should be configured to watch performance, exceptions, and availability.
 
-* **Upgrade Planning:** Based on your current Rails version and dependency health, the team should propose a safe, phased plan to stay current—especially if you’re several versions behind.
+* **Upgrade Planning:** Based on your current Rails version and dependency health, the team should propose a safe, phased plan to stay current—especially if you're several versions behind. For apps needing immediate upgrades, consider a dedicated [Rails Upgrade Express](/services/rails_upgrade_express.html) service.
 
 This plan should be documented, reviewed with you, and adjusted over time as your product or usage evolves.
 
@@ -52,7 +52,7 @@ Reliable communication is what separates a real consultancy from a loose group o
 
 ### 4. Handling Urgent Issues
 
-When production is down or payments are failing, you need to know someone has your back. Your consultancy should:
+When production is down or payments are failing, you need to know someone has your back. This is where a [Rails Support Desk](/services/rails_support_desk.html) becomes invaluable. Your consultancy should:
 
 * **Define Response Times:** What’s the expected turnaround for critical vs. non-critical issues? This should be part of your service agreement.
 
@@ -64,7 +64,7 @@ If a support provider can’t commit to timely responses and clear resolution pr
 
 ### 5. Ongoing Value Beyond the Basics
 
-A long-term Rails maintenance service is more than just bug fixes and patches. Over time, the right partner will help you:
+A long-term Rails maintenance service like our [Rails Care Plan](/services/rails_care_plan.html) is more than just bug fixes and patches. Over time, the right partner will help you:
 
 * **Improve Performance:** From background job tuning to database indexing, there’s always room for speed improvements.
 
