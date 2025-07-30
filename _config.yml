@@ -37,7 +37,7 @@ plugins:
 # Blog settings
 paginate: 6
 paginate_path: "/blog/page/:num/"
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title/
 
 schedule_meeting_link: https://calendly.com/wale/30-minute-consultation
 
@@ -45,7 +45,7 @@ schedule_meeting_link: https://calendly.com/wale/30-minute-consultation
 collections:
   posts:
     output: true
-    permalink: /blog/:year/:month/:day/:title/
+    permalink: /blog/:title/
 
 # Exclude from processing.
 exclude:
