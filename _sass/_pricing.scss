@@ -254,6 +254,129 @@
     }
   }
 
+  .why-rails-fever {
+    padding: 4rem 0;
+    background: white;
+
+    h2 {
+      font-size: 2.2rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    .section-intro {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 3rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .differentiators {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .differentiator {
+      padding: 2rem;
+      border-radius: 12px;
+      background: #f8f9fa;
+      border-left: 4px solid #5977ff;
+
+      .diff-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      h3 {
+        font-size: 1.4rem;
+        color: #333;
+        margin-bottom: 1rem;
+        font-weight: 600;
+      }
+
+      p {
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        &.highlight {
+          background: linear-gradient(135deg, #D61A32 0%, #C3703D 100%);
+          color: white;
+          padding: 1rem;
+          border-radius: 8px;
+          font-weight: 500;
+          margin-top: 1.5rem;
+        }
+      }
+
+      ul {
+        margin: 1rem 0;
+        padding-left: 1.5rem;
+
+        li {
+          color: #555;
+          margin-bottom: 0.5rem;
+          line-height: 1.5;
+        }
+      }
+
+      code {
+        background: #e9ecef;
+        padding: 0.2rem 0.4rem;
+        border-radius: 4px;
+        font-family: 'Courier New', monospace;
+        color: #d63384;
+      }
+    }
+  }
+
+  .plan-matcher {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #D61A32 0%, #C3703D 100%);
+    color: white;
+    text-align: center;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: white;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      opacity: 0.9;
+    }
+
+    .matcher-cta {
+      margin-top: 2rem;
+
+      .btn-large {
+        font-size: 1.2rem;
+        padding: 1.2rem 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .matcher-note {
+        font-size: 0.9rem;
+        font-style: italic;
+        opacity: 0.8;
+        margin-top: 1rem;
+      }
+    }
+  }
+
   .pricing-faq {
     padding: 3rem 0;
     background: white;
