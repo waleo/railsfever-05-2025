@@ -10,6 +10,8 @@ tags: [software maintenance strategy, ruby on rails, rails support, application 
 featured_image: "/assets/images/blog/man-fixing-vehicle-engine-800x600.webp"
 preview_image: "/assets/images/blog/man-fixing-vehicle-engine-400x300.webp"
 updated: 2025-07-28
+# for sitemap generation
+last_modified_at: 2025-07-28
 ---
 
 As a founder of a business running on Ruby on Rails, you may wonder, if you have a working Ruby on Rails application, why is there a need to continue maintaining it? Is it really necessary? Isn't it cheaper to do nothing?
