@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Rails Fever | Blog
+description: Expert insights on Ruby on Rails maintenance, support, security, upgrades, and application modernization from seasoned Rails consultants. Learn best practices for keeping your Rails apps healthy and secure.
 pagination:
   enabled: true
   per_page: 6
@@ -23,7 +24,7 @@ pagination:
             </a>
           </div>
         {% endif %}
-        
+
         <div class="post-preview-content">
           <div class="post-preview-meta">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
@@ -35,19 +36,19 @@ pagination:
               </div>
             {% endif %}
           </div>
-          
+
           <h2 class="post-preview-title">
             <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h2>
-          
+
           {% if post.subtitle %}
             <p class="post-preview-subtitle">{{ post.subtitle | escape }}</p>
           {% endif %}
-          
+
           <div class="post-preview-excerpt">
             {{ post.excerpt | strip_html | truncatewords: 35 }}
           </div>
-          
+
           <div class="post-preview-footer">
             <a href="{{ post.url | relative_url }}" class="read-more">Read Article</a>
             {% if post.tags.size > 0 %}
@@ -74,7 +75,7 @@ pagination:
             ← Newer Posts
           </a>
         {% endif %}
-        
+
         <div class="pagination-pages">
           {% for page in (1..paginator.total_pages) %}
             {% if page == paginator.page %}
@@ -86,16 +87,16 @@ pagination:
             {% endif %}
           {% endfor %}
         </div>
-        
+
         {% if paginator.next_page %}
           <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-link pagination-next">
             Older Posts →
           </a>
         {% endif %}
       </div>
-      
+
       <div class="pagination-info">
-        Page {{ paginator.page }} of {{ paginator.total_pages }} 
+        Page {{ paginator.page }} of {{ paginator.total_pages }}
         ({{ paginator.total_posts }} posts total)
       </div>
     </nav>
