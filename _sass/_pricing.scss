@@ -1,0 +1,411 @@
+// Pricing Page Styles
+
+.pricing-page {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    @media (max-width: 768px) {
+      padding: 0 0.5rem;
+    }
+  }
+  .pricing-hero {
+    background: linear-gradient(135deg, #D61A32 0%, #C3703D 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: white;
+
+      @media (max-width: 768px) {
+        font-size: 2rem;
+      }
+    }
+
+    .hero-subtitle {
+      font-size: 1.25rem;
+      margin-bottom: 1.5rem;
+      opacity: 0.9;
+    }
+
+    .trial-info {
+      font-size: 1.1rem;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      display: inline-block;
+      backdrop-filter: blur(10px);
+
+      strong {
+        color: #df0;
+      }
+    }
+  }
+
+  .pricing-plans {
+    padding: 4rem 0;
+    background: #f8f9fa;
+
+    .plans-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+
+      @media (max-width: 1024px) {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+    }
+
+    .plan-card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+      }
+
+      &.featured {
+        border: 3px solid #5977ff;
+        transform: scale(1.02);
+
+        .popular-badge {
+          position: absolute;
+          top: -12px;
+          left: 50%;
+          transform: translateX(-50%);
+          background: #5977ff;
+          color: white;
+          padding: 0.5rem 1.5rem;
+          border-radius: 20px;
+          font-size: 0.9rem;
+          font-weight: 600;
+        }
+      }
+
+      .plan-header {
+        text-align: center;
+        margin-bottom: 2rem;
+
+        .plan-icon {
+          font-size: 3rem;
+          margin-bottom: 1rem;
+        }
+
+        h2 {
+          font-size: 1.8rem;
+          font-weight: 700;
+          margin-bottom: 0.5rem;
+          color: #333;
+        }
+
+        .plan-price {
+          font-size: 2.5rem;
+          font-weight: 700;
+          color: #667eea;
+          margin-bottom: 1rem;
+
+          span {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #666;
+          }
+        }
+
+        .plan-description {
+          font-style: italic;
+          color: #666;
+          font-size: 1.1rem;
+        }
+      }
+
+      .plan-specs {
+        margin-bottom: 2rem;
+
+        .spec-item {
+          display: flex;
+          align-items: flex-start;
+          margin-bottom: 0.75rem;
+          font-size: 1rem;
+
+          .checkmark {
+            margin-right: 0.75rem;
+            flex-shrink: 0;
+            font-size: 1.1rem;
+          }
+
+          strong {
+            color: #667eea;
+          }
+        }
+      }
+
+      .plan-features {
+        margin-bottom: 2rem;
+
+        h3 {
+          font-size: 1.1rem;
+          font-weight: 600;
+          margin-bottom: 1rem;
+          color: #333;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin-bottom: 1.5rem;
+
+          li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+
+            &::before {
+              content: "•";
+              color: #667eea;
+              font-weight: bold;
+              position: absolute;
+              left: 0;
+            }
+          }
+
+          &.not-included li::before {
+            content: "×";
+            color: #dc3545;
+          }
+        }
+
+        .add-on {
+          background: #f8f9fa;
+          padding: 1rem;
+          border-radius: 8px;
+          border-left: 4px solid #ffc107;
+          font-size: 0.95rem;
+        }
+      }
+
+      .plan-ideal {
+        background: linear-gradient(135deg, #D61A32 0%, #C3703D 100%);
+        color: white;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+        text-align: center;
+
+        p {
+          margin: 0;
+          font-style: italic;
+        }
+      }
+
+      .plan-cta {
+        text-align: center;
+
+        .btn {
+          width: 100%;
+          padding: 1rem 2rem;
+          font-size: 1.1rem;
+          font-weight: 600;
+        }
+      }
+    }
+
+    // Plan-specific colors
+    .plan-card.foundation {
+      .plan-header h2 {
+        color: #e74c3c;
+      }
+      .plan-price {
+        color: #e74c3c !important;
+      }
+      .plan-features ul li::before {
+        color: #e74c3c;
+      }
+    }
+
+    .plan-card.growth {
+      .plan-header h2 {
+        color: #667eea;
+      }
+      // Default colors already match
+    }
+
+    .plan-card.partner {
+      .plan-header h2 {
+        color: #f39c12;
+      }
+      .plan-price {
+        color: #f39c12 !important;
+      }
+      .plan-features ul li::before {
+        color: #f39c12;
+      }
+    }
+  }
+
+  .why-rails-fever {
+    padding: 4rem 0;
+    background: white;
+
+    h2 {
+      font-size: 2.2rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    .section-intro {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 3rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .differentiators {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .differentiator {
+      padding: 2rem;
+      border-radius: 12px;
+      background: #f8f9fa;
+      border-left: 4px solid #5977ff;
+
+      .diff-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      h3 {
+        font-size: 1.4rem;
+        color: #333;
+        margin-bottom: 1rem;
+        font-weight: 600;
+      }
+
+      p {
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 1rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        &.highlight {
+          background: linear-gradient(135deg, #D61A32 0%, #C3703D 100%);
+          color: white;
+          padding: 1rem;
+          border-radius: 8px;
+          font-weight: 500;
+          margin-top: 1.5rem;
+        }
+      }
+
+      ul {
+        margin: 1rem 0;
+        padding-left: 1.5rem;
+
+        li {
+          color: #555;
+          margin-bottom: 0.5rem;
+          line-height: 1.5;
+        }
+      }
+
+      code {
+        background: #e9ecef;
+        padding: 0.2rem 0.4rem;
+        border-radius: 4px;
+        font-family: 'Courier New', monospace;
+        color: #d63384;
+      }
+    }
+  }
+
+  .plan-matcher {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #D61A32 0%, #C3703D 100%);
+    color: white;
+    text-align: center;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: white;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      opacity: 0.9;
+    }
+
+    .matcher-cta {
+      margin-top: 2rem;
+
+      .btn-large {
+        font-size: 1.2rem;
+        padding: 1.2rem 2.5rem;
+        margin-bottom: 1rem;
+        color: #fdf902;
+
+        &:hover {
+          color: #000;
+        }
+      }
+
+      .matcher-note {
+        font-size: 0.9rem;
+        font-style: italic;
+        opacity: 0.8;
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .pricing-faq {
+    padding: 3rem 0;
+    background: white;
+    text-align: center;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #666;
+
+      a {
+        color: #667eea;
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
