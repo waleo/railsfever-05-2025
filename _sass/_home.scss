@@ -53,6 +53,69 @@
     }
   }
 
+  /* Pricing CTA Section */
+  .pricing-cta {
+    @include section-base;
+    background: #C33D4D;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+
+    .pricing-cta-content {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 $padding-small;
+    }
+
+    h2 {
+      font-family: $font-heading;
+      font-size: 2.2rem;
+      font-weight: $font-weight-bold;
+      margin-bottom: 1rem;
+      color: white;
+
+      @media (max-width: #{$breakpoint-tablet}) {
+        font-size: 1.8rem;
+      }
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+      opacity: 0.95;
+
+      @media (max-width: #{$breakpoint-tablet}) {
+        font-size: 1.1rem;
+      }
+    }
+
+    .btn {
+      background: white;
+      color: $brand-primary;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease;
+      border: 2px solid white;
+
+      &:hover {
+        background: transparent;
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      }
+
+      @media (max-width: #{$breakpoint-mobile}) {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+      }
+    }
+  }
+
   /* About Section */
   .about {
     @include section-base;
