@@ -172,12 +172,25 @@
 }
 
 .hero .hero-subtitle {
-  font-size: 18px !important;
+  font-size: 22px !important;
   color: $text-primary;
-  line-height: 1.6;
-  margin-bottom: 40px;
+  line-height: 1.7;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  text-align: center;
 
   @media (max-width: #{$breakpoint-tablet}) {
-    font-size: 16px !important;
+    font-size: 20px !important;
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: #{$breakpoint-mobile}) {
+    font-size: 18px !important;
+    line-height: 1.6;
+    margin-bottom: 30px;
   }
 }
