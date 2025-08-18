@@ -27,7 +27,6 @@ pagination:
 
         <div class="post-preview-content">
           <div class="post-preview-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
             {% if post.categories.size > 0 %}
               <div class="post-preview-categories">
                 {% for category in post.categories %}
@@ -51,16 +50,6 @@ pagination:
 
           <div class="post-preview-footer">
             <a href="{{ post.url | relative_url }}" class="read-more">Read Article</a>
-            {% if post.tags.size > 0 %}
-              <div class="post-preview-tags">
-                {% for tag in post.tags limit: 3 %}
-                  <span class="tag">{{ tag }}</span>
-                {% endfor %}
-                {% if post.tags.size > 3 %}
-                  <span class="tag-more">+{{ post.tags.size | minus: 3 }}</span>
-                {% endif %}
-              </div>
-            {% endif %}
           </div>
         </div>
       </article>
