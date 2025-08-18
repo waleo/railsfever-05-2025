@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruby on Rails Maintenance Cost: Stop Burning Money on Big-Bang Upgrades"
-subtitle: 'Why predictable monthly care beats surprise six-figure "Rails emergencies"'
+subtitle: "Why predictable monthly care beats surprise six-figure Rails emergencies"
 description: "Worried about Ruby on Rails maintenance costs? Avoid burning money on risky big-bang upgrades. Learn why monthly incremental upgrades with Rails Fever’s Care Plan save money and reduce risk."
 author: "Wale Olaleye"
 categories: ["Rails Maintenance", "Pricing"]
@@ -32,9 +32,9 @@ Let's put some numbers behind this.
 
 * Rails version skipped: 3 major releases (e.g. Rails 5 → Rails 8)
 
-* Dev time: 900–1200 hours
+* Dev time: 900-1200 hours
 
-* Contractor rates: $200–$250/hr
+* Contractor rates: $200-$250/hr
 
 * **Estimated cost:** $180,000–$300,000
 
@@ -50,7 +50,7 @@ Basically, it’s setting your Q4 budget on fire.
 
 * Slow, unpredictable response times
 
-* **Annual cost:** $30,000–$60,000 (and no real progress on upgrades)
+* **Annual cost:** $30,000-$60,000 (and no real progress on upgrades)
 
 It feels cheaper at first, until you realize you’re paying more for less.
 
@@ -74,13 +74,13 @@ At Rails Fever, we got tired of watching companies burn money on surprise upgrad
 
 Here’s how it breaks down:
 
-* **Foundation – $5,000/month**
+* **Foundation - $5,000/month**
     For small apps (up to 20k LOC) on Heroku, Render, or Hatchbox. Includes monthly patches, one major Rails upgrade per year, monitoring, and reports. Think of it as your Rails dental cleaning plan.
 
-* **Growth – $10,000/month (Most Popular)**
+* **Growth - $10,000/month (Most Popular)**
     For mid-sized apps with custom infra on AWS/GCP/DO (up to 60k LOC). Adds roadmap tracking, pipeline support, and strategy calls. Optional weekend emergency support if you like living dangerously.
 
-* **Partner – $20,000/month**
+* **Partner - $20,000/month**
     For apps so mission-critical that downtime isn’t just expensive—it’s unthinkable. Includes full DevOps, CTO-level advisory, and premium SLAs. Basically “Rails maintenance on steroids.”
 
 And every plan starts with a 3-month trial. Because unlike that shady car mechanic, we actually want you to trust us before signing a long-term deal.
