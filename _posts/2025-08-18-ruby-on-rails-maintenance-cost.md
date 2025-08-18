@@ -16,13 +16,57 @@ If you've ever asked "how much does it cost to maintain my Rails app?" you've pr
 
 The cost of a giant, once-every-5-years upgrade is like planning a family vacation by spinning a globe and booking the first flight you see. It's expensive, unpredictable, and usually comes with a headache.
 
-We've seen companies burn six figures trying to jump from Rails 5 to Rails 7 in one go. By the time they’re done, they could have funded an in-house developer… or bought a Tesla.
+We've seen companies burn six figures trying to jump from Rails 5 to Rails 8 in one go. By the time they’re done, they could have funded an in-house developer… or bought a new home.
 
 ### Why Incremental Upgrades Are the Better Bet
 
 Here's the thing: Rails, like your teeth, is easier to maintain if you don't wait five years to see the dentist. Small, regular checkups prevent the giant bill and the painful root canal.
 
-That's why incremental upgrades are the best practice. Move from Rails 6.0 to 6.1, not 6.0 to 7.1 in a panic. Smaller steps mean fewer broken gems, less downtime, and no all-nighters for your dev team.
+That's why incremental upgrades are the best practice. Move from Rails 5.0 to 5.1, not 5.0 to 8.2 in a panic. Smaller steps mean fewer broken gems, less downtime, and no all-nighters for your dev team.
+
+### Rails Maintenance Cost Breakdown: Big-Bang vs. Incremental Care
+
+Let's put some numbers behind this.
+
+#### Scenario 1: The Big-Bang Upgrade
+
+* Rails version skipped: 3 major releases (e.g. Rails 5 → Rails 8)
+
+* Dev time: 900–1200 hours
+
+* Contractor rates: $200–$250/hr
+
+* **Estimated cost:** $180,000–$300,000
+
+* Plus: downtime risk, broken gems, delayed roadmap, unexpected costs, months of bug fixes
+
+Basically, it’s setting your Q4 budget on fire.
+
+#### Scenario 2: The "Cheap" Ad-Hoc Fixes
+
+* Wait until something breaks, then scramble
+
+* Frequent contractor bills at premium emergency rates
+
+* Slow, unpredictable response times
+
+* **Annual cost:** $30,000–$60,000 (and no real progress on upgrades)
+
+It feels cheaper at first, until you realize you’re paying more for less.
+
+#### Scenario 3: Rails Fever Care Plan (Incremental Upgrades)
+
+* Foundation: $5k/month → $60k/year
+
+* Growth: $10k/month → $120k/year
+
+* Partner: $20k/month → $240k/year
+
+* Includes: proactive upgrades, monitoring, strategy, and predictable SLAs
+
+* **Outcome:** no six-figure surprise projects, no downtime roulette
+
+Instead of gambling on your tech debt, you’re buying predictable maintenance that keeps your app modern and stable.
 
 ### Rails Fever’s Rails Care Plan: Transparent, Not Scary
 
@@ -43,9 +87,9 @@ And every plan starts with a 3-month trial. Because unlike that shady car mechan
 
 ### The Bottom Line
 
-Rails maintenance cost is about more than dollars—it’s about predictability. You can either:
+Rails maintenance cost is about more than dollars—it's about predictability. You can either:
 
-1. Wait 5 years, roll the dice, and pray your upgrade doesn’t explode your budget.
+1. Wait 5 years, roll the dice, and pray your upgrade doesn't explode your budget.
 
 1. Or sign up for a [Rails Care Plan](/services/rails_care_plan/), spend a predictable monthly fee, and never worry about surprise six-figure upgrades again.
 
