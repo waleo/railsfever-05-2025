@@ -6,8 +6,8 @@ description: "Learn how Rails Fever helped a SaaS company cut fraudulent transac
 author: "Wale Olaleye"
 categories: ["Rails Security", "Case Study"]
 tags: [bot traffic, rails security, fraud prevention, SaaS security, WAF, Rails Care Plan, AWS Cloudfront]
-featured_image: ""
-preview_image: ""
+featured_image: "/assets/images/blog/man-in-starwars-costume-mandalorian-800x600.webp"
+preview_image: "/assets/images/blog/man-in-starwars-costume-mandalorian-400x300.webp"
 ---
 
 At Rails Fever, we work with SaaS companies that don’t have in-house engineering teams. A recurring issue we see is the rise of automated bot traffic, which has spiked with the adoption of AI tooling by bots. This isn't just "noise on the server." Bot traffic has real costs, both human and financial, that can put an entire business at risk.
