@@ -4,10 +4,10 @@ title: "Ruby on Rails Maintenance Cost: Stop Burning Money on Big-Bang Upgrades"
 subtitle: 'Why predictable monthly care beats surprise six-figure "Rails emergencies"'
 description: "Worried about Ruby on Rails maintenance costs? Avoid burning money on risky big-bang upgrades. Learn why monthly incremental upgrades with Rails Fever’s Care Plan save money and reduce risk."
 author: "Wale Olaleye"
-categories: ["Ruby on Rails", "Application Maintenance"]
+categories: ["Rails Maintenance", "Pricing"]
 tags: [Rails upgrades, Ruby on Rails maintenance cost, SaaS maintenance, Rails Care Plan]
-featured_image: ""
-preview_image: ""
+featured_image: "/assets/images/blog/person-holding-burning-money-800x600.webp"
+preview_image: "/assets/images/blog/person-holding-burning-money-400x300.webp"
 ---
 
 ### Ruby on Rails Maintenance Cost: The Money-Burning Problem
@@ -49,6 +49,6 @@ Rails maintenance cost is about more than dollars—it’s about predictability.
 
 1. Or sign up for a [Rails Care Plan](/services/rails_care_plan/), spend a predictable monthly fee, and never worry about surprise six-figure upgrades again.
 
-Your call. But we recommend keeping your budget out of the bonfire.
+Your call. But we recommend _keeping your budget out of the bonfire_ ™.
 
 [See Rails Fever Pricing](/pricing/) or [schedule a consultation]({{ site.schedule_meeting_link }}) to discuss your Rails needs.
