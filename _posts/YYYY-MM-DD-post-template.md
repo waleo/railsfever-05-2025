@@ -7,8 +7,8 @@ slug: ""
 author: "Wale Olaleye"
 categories: [""]
 tags: []
-featured_image: ""
-preview_image: ""
+featured_image: "/assets/images/blog/foo-800x600.webp"
+preview_image: "/assets/images/blog/foo-400x300.webp"
 updated: ""
 published: false
 ---
@@ -23,6 +23,6 @@ Write your blog post content here. Remember to:
 
 ---
 
-Need help with Rails maintenance? We offer comprehensive [Rails Care Plans](/services/rails_care_plan/) for ongoing support, [technical audits](/services/rails_tech_audit/) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express/) to keep you current.
+Need help with Rails maintenance? We offer comprehensive [Rails Care Plans](/services/rails_care_plan/) for ongoing support, [technical audits](/services/rails_tech_audit/) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express/) to keep you current. View our [pricing plans](/pricing/) to find the right fit for your needs.
 
 [Schedule a consultation]({{ site.schedule_meeting_link }}) to discuss your Rails needs.
