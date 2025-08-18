@@ -27,7 +27,6 @@ pagination:
 
         <div class="post-preview-content">
           <div class="post-preview-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
             {% if post.categories.size > 0 %}
               <div class="post-preview-categories">
                 {% for category in post.categories %}
