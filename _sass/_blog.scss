@@ -103,7 +103,7 @@
     transform: scale(1.02);
   }
 
-  // Placeholder for missing images
+  // Placeholder for missing images - only show when no img element exists
   &:before {
     content: '📄';
     position: absolute;
@@ -113,6 +113,13 @@
     font-size: 24px;
     z-index: 1;
     opacity: 0.5;
+  }
+  
+  // Hide placeholder when image is present
+  &:has(img) {
+    &:before {
+      display: none;
+    }
   }
 
   &.image-failed:before {
