@@ -10,7 +10,7 @@ featured_image: "/assets/images/blog/foo-800x600.webp"
 preview_image: "/assets/images/blog/foo-400x300.webp"
 ---
 
-The recent [exploit](https://research.kudelskisecurity.com/2025/08/19/how-we-exploited-coderabbit-from-a-simple-pr-to-rce-and-write-access-on-1m-repositories/) of CodeRabbit—a popular AI code review tool—is a reminder that security problems don't always start with a smoking gun. Sometimes they begin with application configuration that seems harmless until they snowballs into remote code execution that affects millions of repositories.
+The recent [exploit](https://research.kudelskisecurity.com/2025/08/19/how-we-exploited-coderabbit-from-a-simple-pr-to-rce-and-write-access-on-1m-repositories/) of CodeRabbit—a popular AI code review tool—is a reminder that security problems don't always start with a smoking gun. Sometimes they begin with application configuration that seems harmless until it snowballs into remote code execution that affects millions of repositories.
 
 For SaaS founders and app managers, the message is clear: small oversights in security can cascade into massive failures. Here are a few lessons you can apply today.
 
