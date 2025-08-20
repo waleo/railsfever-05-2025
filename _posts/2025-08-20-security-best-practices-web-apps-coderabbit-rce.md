@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Security Best Practices for Web Applications: Lessons from CodeRabbit RCE"
+subtitle: "Practical lessons for SaaS founders and app managers who don’t want their next outage to come from their own misconfigurations."
+description: "Security best practices for SaaS founders and web app managers inspired by CodeRabbit RCE exploit. Learn how to secure secrets, control outbound traffic, remove risky tools, and monitor logs."
+author: "Wale Olaleye"
+categories: ["Security", "SaaS Management"]
+tags: [Rails, SaaS Security, Founders, Infrastructure, DevOps]
+featured_image: "/assets/images/blog/foo-800x600.webp"
+preview_image: "/assets/images/blog/foo-400x300.webp"
+---
+
+The recent [exploit](https://research.kudelskisecurity.com/2025/08/19/how-we-exploited-coderabbit-from-a-simple-pr-to-rce-and-write-access-on-1m-repositories/) of CodeRabbit—a popular AI code review tool—is a reminder that security problems don't always start with a smoking gun. Sometimes they begin with application configuration that seems harmless until they snowballs into remote code execution that affects millions of repositories.
+
+For SaaS founders and app managers, the message is clear: small oversights in security can cascade into massive failures. Here are a few lessons you can apply today.
+
+### 1. Secrets Don’t Belong in Environment Variables
+
+If an attacker gets remote code execution on your server and you're storing API keys in environment variables, congratulations—you've just gifted them admin rights to your kingdom. Use a secrets manager (AWS Secrets Manager, HashiCorp Vault, Doppler). These tools make rotation painless and limit exposure when—not if—something leaks.
+
+### 2. Outbound Traffic Isn't "Unlimited Buffet"
+
+Your servers do not need to talk to the entire internet. Limit outbound access with security groups. If your app only needs Stripe, your load balancer, and maybe an email service—block everything else. A compromised server with full internet access is a hacker's dream vacation.
+
+### 3. Keep Development Toys Out of Production
+
+The CodeRabbit exploit showed how dev tooling in production can be abused. Tools like Rubocop, linters, or test runners don’t belong in production. They chew up resources and open up unnecessary attack surfaces. Keep production boring, predictable, and locked down.
+
+### 4. Watch the Logs Like a Hawk (or Train One)
+
+Attackers often leave strange patterns in logs. Use anomaly detection, machine learning, or at least robust alerting to spot unusual spikes or odd requests. Logs aren't just for compliance—they're your early warning system.
+
+### 5. Least Privilege Isn't Optional
+
+One reason the CodeRabbit exploit caused such wide damage was overbroad permissions. Apply least privilege everywhere—servers, CI/CD pipelines, third-party integrations. If it doesn't need write access, don't give it.
+
+## Takeaway
+
+The CodeRabbit incident proves that attackers don't need zero-days to wreak havoc—they just need you to overlook the basics.
+
+Start with secrets, outbound access, dev-tool hygiene, log monitoring, and least privilege. It's not everything, but it's a strong line of defense against being tomorrow's headline.
+
+Security isn't about being perfect. It's about making it hard for small mistakes to turn into big disasters. That's what we focus on with our [Rails Care Plan](/services/rails_care_plan/): proactive maintenance, ongoing security, and peace of mind.
+
