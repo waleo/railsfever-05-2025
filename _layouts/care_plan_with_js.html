@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // FAQ Accordion functionality
+  const faqQuestions = document.querySelectorAll('.faq-question');
+  
+  faqQuestions.forEach(function(question) {
+    question.addEventListener('click', function() {
+      const faqItem = this.parentElement;
+      const isActive = faqItem.classList.contains('active');
+      
+      // Close all FAQ items
+      document.querySelectorAll('.faq-item').forEach(function(item) {
+        item.classList.remove('active');
+      });
+      
+      // If clicked item wasn't active, open it
+      if (!isActive) {
+        faqItem.classList.add('active');
+      }
+    });
+  });
+});
+</script>
