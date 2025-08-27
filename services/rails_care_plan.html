@@ -1,46 +1,228 @@
 ---
-layout: default
+layout: care_plan_with_js
 title: Services | Rails Care Plan
 description: Ongoing Rails maintenance, updates, security patches, and 24/7 monitoring. The Rails Care Plan keeps your app healthy without an in-house dev team.
 ---
 
 <div class="care-plan-service service-container">
+  <!-- Hero Section -->
   <section class="hero">
-    <h1>Keep Your Rails App Healthy — Without Lifting a Finger.</h1>
-    <p>Ongoing updates, patches, and proactive monitoring to protect your SaaS investment — so you can focus on growing, not fixing.</p>
-    <a href="{{ site.schedule_meeting_link }}" target="_blank" class="cta-button">Protect My App</a>
-  </section>
-
-  <section>
-    <h2>Without Maintenance, Small Problems Become Disasters</h2>
-    <div class="problem-grid">
-      <div class="problem-card">Missed security patches expose your threats</div>
-      <div class="problem-card">Fragile systems without users start leaving</div>
-      <div class="problem-card">Outdated dependencies create critical vulnerabilities</div>
-      <div class="problem-card">Technical dependencies slows down innovation</div>
-      <div class="problem-card">Bugs pile up until users start leaving</div>
-      <div class="problem-card">Stressful emergencies steal focus from growth</div>
+    <h1>Keep Your Rails App Healthy — Without Breaking a Sweat</h1>
+    <p>We'll handle the updates, patches, and monitoring so you never have to play weekend sysadmin again.</p>
+    <div class="hero-buttons">
+      <a href="{{ site.schedule_meeting_link }}" target="_blank" class="cta-button primary">Protect My App</a>
+      <a href="#pricing" class="cta-button secondary">See Pricing</a>
     </div>
   </section>
 
+  <!-- Pain Section -->
+  <section class="pain-section">
+    <h2>Without Maintenance, Small Problems Become Expensive Headaches</h2>
+    <div class="pain-grid">
+      <div class="pain-item">
+        <div class="pain-icon">🛡️</div>
+        <div class="pain-content">
+          <h3>Security holes</h3>
+          <p>"Hackers Welcome mat"</p>
+        </div>
+      </div>
+      <div class="pain-item">
+        <div class="pain-icon">🥛</div>
+        <div class="pain-content">
+          <h3>Outdated gems</h3>
+          <p>"Expired milk"</p>
+        </div>
+      </div>
+      <div class="pain-item">
+        <div class="pain-icon">🐛</div>
+        <div class="pain-content">
+          <h3>Bugs piling up</h3>
+          <p>"Termites in your codebase"</p>
+        </div>
+      </div>
+      <div class="pain-item">
+        <div class="pain-icon">📞</div>
+        <div class="pain-content">
+          <h3>Emergencies</h3>
+          <p>"3 AM wake-up calls"</p>
+        </div>
+      </div>
+    </div>
+    <p class="pain-description">Skipping maintenance doesn't save money. It's like never brushing your teeth and then wondering why the dentist is buying a new boat.</p>
+  </section>
+
+  <!-- Solution Section -->
   <section class="solution-section">
-    <h2>Rails Care Plan: Peace of Mind for Your SaaS</h2>
-    <p>Rails apps thrive with consistent care. We keep your system patched, updated, monitored, and ready — preventing small issues from becoming costly disasters. You'll stay secure, fast, and worry-free — without hiring a full-time team.</p>
-  </section>
-
-  <section class="care-plan-section">
-    <h3>Your Rails Care Plan Covers:</h3>
-    <div class="care-plan-grid">
-      <div class="care-plan-item"><p>Monthly security patches and updates</p></div>
-      <div class="care-plan-item"><p>Emergency hotfixes and issue triage</p></div>
-      <div class="care-plan-item"><p>Dependency and Gem upgrades</p></div>
-      <div class="care-plan-item"><p>Quarterly infrastructure health reports</p></div>
+    <h2>Rails Care Plan: The Boring (and Profitable) Superpower</h2>
+    <p>Great companies win because they're boringly consistent. Their app doesn't break. Their engineers ship faster. That's what Rails Care Plan gives you.</p>
+    <div class="solution-benefits">
+      <div class="benefit-item">
+        <div class="benefit-icon">🔒</div>
+        <span>Secure</span>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-icon">⚡</div>
+        <span>Fast</span>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-icon">😌</div>
+        <span>Worry-free</span>
+      </div>
+      <div class="benefit-item">
+        <div class="benefit-icon">📈</div>
+        <span>Focused on growth</span>
+      </div>
+    </div>
+    <div class="solution-cta">
+      <a href="{{ site.schedule_meeting_link }}" target="_blank" class="cta-button">Get Started with Rails Care Plan</a>
     </div>
   </section>
 
-  <section id="contact" class="contact">
-    <h2>Stay Secure. Stay Fast. Stay Focused.</h2>
-    <p>Need immediate help? Get <a href="/services/rails_support_desk">on-demand support</a> for urgent issues. Want a complete assessment first? Start with a <a href="/services/rails_tech_audit">technical audit</a>.</p>
-    <a href="{{ site.schedule_meeting_link }}" target="_blank">Get Started with Rails Care Plan</a>
+  <!-- What's Included Section -->
+  <section class="features-section">
+    <h2>Your Rails Care Plan Covers Everything You're Avoiding</h2>
+    <div class="features-grid">
+      <div class="feature-item">
+        <div class="feature-icon">🔐</div>
+        <h3>Monthly security patches & updates</h3>
+        <p>Keep your app protected from the latest vulnerabilities</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">⬆️</div>
+        <h3>Dependency & gem upgrades</h3>
+        <p>Stay current without breaking changes</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🚨</div>
+        <h3>Emergency hotfixes & triage</h3>
+        <p>Fast response when critical issues arise</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">📊</div>
+        <h3>Quarterly infrastructure health reports</h3>
+        <p>Detailed insights into your app's performance</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">👁️</div>
+        <h3>Monitoring & alerting</h3>
+        <p>Proactive detection before users notice</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Rails Fever Section -->
+  <section class="why-section">
+    <h2>Why Choose Rails Fever?</h2>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="why-icon">💎</div>
+        <h3>We specialize in Rails</h3>
+        <p>No need to explain rake assets:precompile</p>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">💰</div>
+        <h3>Transparent pricing</h3>
+        <p>Based on app size, not mystery quotes</p>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">🤝</div>
+        <h3>We align with your business</h3>
+        <p>Fewer emergencies = better for everyone</p>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">⭐</div>
+        <h3>Real experience</h3>
+        <p>10+ years of Rails SaaS, e-learning, high-traffic apps</p>
+      </div>
+    </div>
+    <div class="why-cta">
+      <a href="#pricing" class="cta-button">See Pricing Tiers</a>
+    </div>
+  </section>
+
+  <!-- Proof/Stories Section -->
+  <section class="stories-section">
+    <h2>Founder Problems We've Already Solved</h2>
+    <div class="stories-grid">
+      <div class="story-card">
+        <div class="story-before">
+          <h4>Before</h4>
+          <p>Founder losing weekends to bugs</p>
+        </div>
+        <div class="story-arrow">→</div>
+        <div class="story-after">
+          <h4>After</h4>
+          <p>Zero emergency deploys in 6 months</p>
+        </div>
+      </div>
+      <div class="story-card">
+        <div class="story-before">
+          <h4>Before</h4>
+          <p>E-learning platform Rails 5.2</p>
+        </div>
+        <div class="story-arrow">→</div>
+        <div class="story-after">
+          <h4>After</h4>
+          <p>Upgraded & stable without downtime</p>
+        </div>
+      </div>
+      <div class="story-card">
+        <div class="story-before">
+          <h4>Before</h4>
+          <p>SaaS checkout bot attacks</p>
+        </div>
+        <div class="story-arrow">→</div>
+        <div class="story-after">
+          <h4>After</h4>
+          <p>WAF tuned, fraudulent traffic cut 98%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <h2>Your Questions, Answered</h2>
+    <div class="faq-container">
+      <div class="faq-item">
+        <button class="faq-question">
+          Can't I just hire a freelancer?
+          <span class="faq-toggle">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Sure, if uptime depends on their kid's soccer game.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          Why not just wait for a big upgrade?
+          <span class="faq-toggle">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Like waiting to floss until dentist day. Painful, expensive, regretful.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          Is this overkill?
+          <span class="faq-toggle">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>If your customers care about uptime, security, or performance, it's insurance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section id="pricing" class="final-cta">
+    <div class="final-cta-content">
+      <h2>Ready for a Rails App That Doesn't Keep You Up at Night?</h2>
+      <div class="final-cta-buttons">
+        <a href="{{ site.schedule_meeting_link }}" target="_blank" class="cta-button primary">Get Started with Rails Care Plan</a>
+        <a href="#pricing" class="cta-button secondary">See Pricing Tiers</a>
+      </div>
+      <p class="final-cta-subtext">Peace of mind costs less than your next outage.</p>
+    </div>
   </section>
 </div>
