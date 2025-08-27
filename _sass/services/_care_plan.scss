@@ -50,9 +50,9 @@
     text-align: center;
 
     &.primary {
-      background-color: #CC0000;
+      background-color: #5C0A0A;
       color: white;
-      
+
       &:hover {
         background-color: #a30000;
         transform: translateY(-2px);
@@ -64,7 +64,7 @@
       background-color: white;
       color: #CC0000;
       border: 2px solid #CC0000;
-      
+
       &:hover {
         background-color: #CC0000;
         color: white;
@@ -374,7 +374,7 @@
       @media (max-width: 600px) {
         flex-direction: column;
         gap: 20px;
-        
+
         .story-arrow {
           transform: rotate(90deg);
         }
@@ -441,7 +441,7 @@
       max-height: 0;
       overflow: hidden;
       transition: all 0.3s ease;
-      
+
       p {
         font-size: 18px;
         color: #7A7A7A;
