@@ -549,4 +549,6 @@ Remember: every legacy Rails app has its quirks, but with systematic investigati
 
 ---
 
-*Struggling with a legacy Rails application? [Contact Rails Fever]({{ site.schedule_meeting_link }}) for expert help in debugging, modernizing, and maintaining your Rails codebase.*
+Need help with Rails maintenance? We offer comprehensive [Rails Care Plans](/services/rails_care_plan/) for ongoing support, [technical audits](/services/rails_tech_audit/) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express/) to keep you current. View our [pricing plans](/pricing/) to find the right fit for your needs.
+
+[Schedule a consultation]({{ site.schedule_meeting_link }}) or email <a href="mailto:hello@railsfever.com" class="email-link">hello@railsfever.com</a> to discuss your Rails needs.

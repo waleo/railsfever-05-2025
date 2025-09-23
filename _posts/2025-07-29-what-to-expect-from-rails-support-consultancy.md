@@ -80,6 +80,6 @@ Hiring a Rails support consultancy shouldn’t feel like a gamble. With the righ
 
 ---
 
-At Rails Fever, we specialize in long-term maintenance for Rails applications. If you’re running a profitable SaaS business and want to offload the technical stress, we’d love to talk. We offer comprehensive [Rails Care Plans](/services/rails_care_plan/) for ongoing support, [technical audits](/services/rails_tech_audit/) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express/) to keep you current.
+Need help with Rails maintenance? We offer comprehensive [Rails Care Plans](/services/rails_care_plan/) for ongoing support, [technical audits](/services/rails_tech_audit/) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express/) to keep you current. View our [pricing plans](/pricing/) to find the right fit for your needs.
 
-[Schedule a consultation]({{ site.schedule_meeting_link }}) to discuss your Rails needs.
+[Schedule a consultation]({{ site.schedule_meeting_link }}) or email <a href="mailto:hello@railsfever.com" class="email-link">hello@railsfever.com</a> to discuss your Rails needs.

@@ -248,8 +248,24 @@
       }
 
       .email-address {
-        color: $brand-primary;
+        color: $brand-primary !important;
         font-weight: 700;
+        text-decoration: none !important;
+        background: none !important;
+        border: none !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+        display: inline !important;
+        width: auto !important;
+        max-width: none !important;
+        margin: 0 !important;
+
+        &:hover {
+          color: $brand-primary-hover !important;
+          text-decoration: none !important;
+          background: none !important;
+          border: none !important;
+        }
       }
     }
 

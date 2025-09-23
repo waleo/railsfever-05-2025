@@ -68,7 +68,6 @@ Similarly, if you save money by not spending on maintaining your application, wo
 
 ---
 
-Need help maintaining your Ruby on Rails application? At Rails Fever we offer comprehensive [Rails Care Plans](/services/rails_care_plan/) for ongoing maintenance, [technical audits](/services/rails_tech_audit/) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express/) to keep you current.
+Need help with Rails maintenance? We offer comprehensive [Rails Care Plans](/services/rails_care_plan/) for ongoing support, [technical audits](/services/rails_tech_audit/) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express/) to keep you current. View our [pricing plans](/pricing/) to find the right fit for your needs.
 
-[Schedule a Rails Maintenance Audit]({{ site.schedule_meeting_link }}) to get a detailed list of action items that your Rails app needs.
-
+[Schedule a consultation]({{ site.schedule_meeting_link }}) or email <a href="mailto:hello@railsfever.com" class="email-link">hello@railsfever.com</a> to discuss your Rails needs.

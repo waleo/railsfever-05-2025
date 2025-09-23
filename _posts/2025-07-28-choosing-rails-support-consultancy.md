@@ -90,6 +90,8 @@ Your Rails app doesn't need a savior—it needs a steward. Someone to care for i
 
 At Rails Fever, we specialize in long-term Rails application management. We don't just parachute in and fix bugs—we take over the daily care of your codebase like it's our own.
 
-Whether you need a comprehensive [technical audit](/services/rails_tech_audit/) to understand your current state, ongoing [maintenance and monitoring](/services/rails_care_plan/), or a critical [Rails upgrade](/services/rails_upgrade_express/), we're here to help.
+---
 
-If you're looking for a support partner who stays ahead of the curve, [let's schedule a consultation]({{ site.schedule_meeting_link }}) to discuss your specific needs.
+Need help with Rails maintenance? We offer comprehensive [Rails Care Plans](/services/rails_care_plan/) for ongoing support, [technical audits](/services/rails_tech_audit/) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express/) to keep you current. View our [pricing plans](/pricing/) to find the right fit for your needs.
+
+[Schedule a consultation]({{ site.schedule_meeting_link }}) or email <a href="mailto:hello@railsfever.com" class="email-link">hello@railsfever.com</a> to discuss your Rails needs.
