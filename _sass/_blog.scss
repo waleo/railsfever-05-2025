@@ -730,3 +730,13 @@
     }
   }
 }
+
+/* Email styling */
+.email-link {
+  color: $brand-primary !important;
+  text-decoration: none !important;
+
+  &:hover {
+    color: $brand-primary-hover !important;
+  }
+}
