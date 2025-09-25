@@ -309,4 +309,61 @@
       transform: rotate(45deg);
     }
   }
+
+  // Contact Section - Email styling fix and responsive layout
+  .contact {
+    .contact-methods {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      font-size: 20px;
+
+      @media (min-width: 769px) {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+        font-size: 22px;
+      }
+    }
+
+    .contact-divider {
+      color: $text-secondary;
+      font-weight: 500;
+      margin: 0 5px;
+
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    .email-info {
+      font-family: $font-heading;
+      font-weight: 600;
+      color: $text-primary;
+      font-size: 18px;
+
+      @media (min-width: 769px) {
+        font-size: 20px;
+      }
+    }
+
+    .email-address {
+      color: $brand-primary !important;
+      font-weight: 700;
+      text-decoration: none !important;
+      background: none !important;
+      border: none !important;
+      padding: 0 !important;
+      display: inline !important;
+      width: auto !important;
+      max-width: none !important;
+      margin: 0 !important;
+
+      &:hover {
+        text-decoration: underline !important;
+        background: none !important;
+      }
+    }
+  }
 }
