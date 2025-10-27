@@ -7,8 +7,8 @@ description: "A calm, step-by-step guide for non-technical SaaS founders on hand
 author: "Wale Olaleye"
 categories: ["Operations", "Ruby on Rails"]
 tags: ["rails emergency help", "production error", "rails rescue", "monitoring", "error tracking", "incident response"]
-featured_image: "/assets/images/blog/foo-800x600.webp"
-preview_image: "/assets/images/blog/foo-400x300.webp"
+featured_image: "/assets/images/blog/car-accident-800x600.webp"
+preview_image: "/assets/images/blog/car-accident-400x300.webp"
 ---
 
 _When production breaks, your job is to slow things down, gather facts, and bring in the right help. This simple plan keeps you calm, limits damage, and speeds up recovery. Share it with your team._
