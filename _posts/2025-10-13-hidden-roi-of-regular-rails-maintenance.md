@@ -87,7 +87,7 @@ In short: you’re buying **peace of mind**.
 
 Let’s put real numbers on this.
 
-| Scenario | Regular Maintenance | Major Rebuild |
+|  | Regular Maintenance | Major Rebuild |
 |-----------|--------------------|----------------|
 | Annual Cost | $10,000 (monthly upkeep, minor updates, monitoring) | $0 (until failure) |
 | Eventual Upgrade | Small version bump each year | Full rebuild every 4 years |
