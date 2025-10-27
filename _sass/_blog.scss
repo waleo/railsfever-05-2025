@@ -573,6 +573,91 @@
       margin: 0;
     }
   }
+
+  // Table styling
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2.5em 0;
+    background: $text-white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+    font-size: 16px;
+
+    @media (max-width: #{$breakpoint-tablet}) {
+      font-size: 14px;
+    }
+
+    thead {
+      background: linear-gradient(135deg, #2c3e50, #34495e);
+      color: $text-white;
+
+      th {
+        padding: 1em 1.2em;
+        text-align: left;
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-size: 0.85em;
+
+        @media (max-width: #{$breakpoint-tablet}) {
+          padding: 0.8em 0.8em;
+          font-size: 0.8em;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        border-bottom: 1px solid #e8e8e8;
+        transition: background-color 0.2s ease;
+
+        &:nth-child(even) {
+          background-color: #f8f9fa;
+        }
+
+        &:hover {
+          background-color: #f0f2f5;
+        }
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+
+      td {
+        padding: 1em 1.2em;
+        line-height: 1.6;
+        vertical-align: top;
+
+        @media (max-width: #{$breakpoint-tablet}) {
+          padding: 0.8em 0.8em;
+        }
+      }
+    }
+
+    // Make tables responsive with horizontal scroll on small screens
+    @media (max-width: #{$breakpoint-tablet}) {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      white-space: nowrap;
+    }
+  }
+
+  // Wrapper for tables to add scroll shadow on mobile
+  .table-wrapper {
+    overflow-x: auto;
+    margin: 2.5em 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+
+    table {
+      margin: 0;
+      box-shadow: none;
+    }
+  }
 }
 
 /* Post Footer */
