@@ -125,14 +125,8 @@ Keep Rails and gems current. Do a monthly patch window. Outdated libraries cause
 
 ---
 
-## Need rails emergency help now?
+Need help with Rails maintenance? We offer comprehensive [Rails Care Plans](/services/rails_care_plan/) for ongoing support, [technical audits](/services/rails_tech_audit/) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express/) to keep you current. View our [pricing plans](/pricing/) to find the right fit for your needs.
 
-If you are searching for **rails emergency help**, **production error**, or **rails rescue**, you do not need to go it alone. Rails Fever stabilizes first, then removes the cause, and gives you a simple roadmap so the issue does not return.
+[Schedule a consultation]({{ site.schedule_meeting_link }}) or email <a href="mailto:hello@railsfever.com" class="email-link">hello@railsfever.com</a> to discuss your Rails needs.
 
----
-
-### Suggested cover images (Unsplash)
-- “server room” by Taylor Vick  
-- “monitoring dashboard” by Lukas Blazek  
-- “city at night” by Anders Jildén (uptime metaphor)
 
