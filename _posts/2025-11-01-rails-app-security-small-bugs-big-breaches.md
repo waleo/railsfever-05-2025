@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Rails App Security: How Small Bugs Become Big Breaches"
-
 subtitle: "Why ignoring tiny Rails issues can quietly open the door to attackers"
 description: "Small Rails bugs can turn into big security breaches if left unchecked. Learn how outdated gems, unsafe defaults, and missing patches put your app at risk—and how to prevent it."
 author: "Wale Olaleye"
