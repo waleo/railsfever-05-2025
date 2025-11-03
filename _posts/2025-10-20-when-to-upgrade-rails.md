@@ -20,14 +20,14 @@ Let’s break down when upgrading makes sense, when waiting is smarter, and how 
 
 ## 1. Why Rails Upgrades Matter
 
-Rails isn’t just another library—it’s the foundation your entire product runs on.  
+Rails isn’t just another library—it’s the foundation your entire product runs on.
 An outdated Rails version can quietly erode your app’s stability and security.
 
 Here’s what’s at stake when you stay behind:
 
-- **Security patches stop coming.** Each major Rails version is supported for roughly three years with regular security and bug fixes. After that, you’re on your own.  
-- **Dependencies stop working.** Gems that power your background jobs, payments, or analytics may drop support for old Rails versions.  
-- **Developers lose motivation.** It’s harder to attract and retain engineers who have to work around legacy quirks every day.  
+- **Security patches stop coming.** Each major Rails version is supported for roughly three years with regular security and bug fixes. After that, you’re on your own.
+- **Dependencies stop working.** Gems that power your background jobs, payments, or analytics may drop support for old Rails versions.
+- **Developers lose motivation.** It’s harder to attract and retain engineers who have to work around legacy quirks every day.
 - **Performance stalls.** Each new version of Rails (and Ruby) typically brings performance gains—sometimes double-digit improvements in response time or memory efficiency.
 
 Upgrading isn’t just maintenance. It’s future-proofing your business.
@@ -81,22 +81,22 @@ This pattern keeps your app close to modern Rails without living on the bleeding
 
 ## 5. Understanding Rails Support Windows
 
-Each major Rails release gets:
+Each minor Rails release (7.2, 8.0) gets:
 
-- **18 months of bug fixes**
-- **18 additional months of security patches**
+- **12 months of bug fixes**
+- **12 additional months of security patches**
 
-That’s roughly **3 years of full support.**
+That’s roughly **2 years of full support.**
 
 When the window closes, your app becomes exposed to new vulnerabilities—and if your infrastructure handles payments or user data, compliance risk goes up fast.
 
 Here’s what that looks like for recent versions:
 
-| Rails Version | Released | End of Security Support |
+| Rails Version | Released | End of Bug fixes| End of Security Support |
 |----------------|-----------|--------------------------|
-| Rails 6.1 | Dec 2020 | June 2024 |
-| Rails 7.0 | Dec 2021 | Mid 2025 (expected) |
-| Rails 8.0 | Expected 2025 | Mid 2028 (projected) |
+| Rails 7.2 | Aug 2024 | Aug 2025 | Aug 2026 |
+| Rails 8.0 | Nov 2024 | Nov 2025 | Nov 2026  |
+| Rails 8.1 | Oct 2025 | Oct 2026 | Oct 2027 |
 
 If your app runs on Rails 6.0 or older, the clock has already run out.
 
@@ -104,20 +104,20 @@ If your app runs on Rails 6.0 or older, the clock has already run out.
 
 ## 6. How to Assess Upgrade Readiness
 
-Before deciding, you need a snapshot of your app’s health.  
+Before deciding, you need a snapshot of your app’s health.
 
 Run through these checks:
 
-1. **Dependencies:**  
-   Run `bundle outdated` to see which gems will block your upgrade. Outdated libraries are the #1 source of friction.
+1. **Dependencies:**
+   Run `bundle outdated` to see how far behind your installed gems are. Outdated libraries are the #1 source of friction.
 
-2. **Custom code:**  
+2. **Custom code:**
    Check for monkey patches, deprecated Rails APIs, or old patterns like Sprockets-only asset pipelines.
 
-3. **Testing coverage:**  
+3. **Testing coverage:**
    You’ll need a reliable test suite. No coverage means higher risk. (If you don’t have one, start by writing smoke tests before upgrading.)
 
-4. **Infrastructure:**  
+4. **Infrastructure:**
    Check if your Ruby version, database driver, and CI/CD pipelines support the new Rails release.
 
 This assessment usually takes a day or two but can save weeks of surprises later.
@@ -131,12 +131,11 @@ Let’s boil this down into a quick decision matrix:
 | Question | Yes | No | Action |
 |-----------|-----|----|--------|
 | Are you still within Rails’ official support window? | ✅ | ❌ | If “No,” plan an upgrade soon. |
-| Do your key gems support the new version? | ✅ | ❌ | If “No,” wait for updates or replacements. |
+| Do your key gems support the new version? | ✅ | ❌ | If “No,” find replacements. |
 | Do you have strong test coverage? | ✅ | ❌ | If “No,” build minimal coverage first. |
-| Is your app under active development? | ✅ | ❌ | If “No,” weigh cost vs business value. |
-| Can you afford 2–4 weeks of dev time? | ✅ | ❌ | If “No,” budget and schedule accordingly. |
+| Can you afford 2–4 weeks of dev time? | ✅ | ❌ | If “No,” budget and schedule accordingly or seek external help. |
 
-If most answers are “Yes,” you’re ready.  
+If most answers are “Yes,” you’re ready.
 If half are “No,” plan first—don’t rush.
 
 ---
@@ -147,9 +146,9 @@ From a business point of view, Rails upgrades are like oil changes—cheap when 
 
 Here’s why consistent maintenance pays off:
 
-- **Predictable costs:** Incremental upgrades take weeks, not months.  
-- **Less downtime:** Smaller code changes mean fewer surprises.  
-- **Security and trust:** Staying updated signals maturity to partners and investors.  
+- **Predictable costs:** Incremental upgrades take weeks, not months.
+- **Less downtime:** Smaller code changes mean fewer surprises.
+- **Security and trust:** Staying updated signals maturity to partners and investors.
 - **Developer velocity:** Your team spends less time fighting old patterns.
 
 In short, frequent upgrades keep your product nimble and your team sane.
@@ -160,12 +159,12 @@ In short, frequent upgrades keep your product nimble and your team sane.
 
 Sometimes, waiting is strategic. Here are valid reasons to defer:
 
-- You’re **mid-launch** and can’t risk a production freeze.  
-- A **critical gem** isn’t yet compatible with the next Rails version.  
-- You’re preparing to **rewrite or refactor** large parts of the codebase anyway.  
+- You’re **mid-launch** and can’t risk a production freeze.
+- A **critical gem** isn’t yet compatible with the next Rails version.
+- You’re preparing to **rewrite or refactor** large parts of the codebase anyway.
 - You lack **testing or deployment automation**, which would make the upgrade fragile.
 
-If that’s you, create a **maintenance hold plan**:  
+If that’s you, create a **maintenance hold plan**:
 Keep your dependencies updated, patch Ruby, and revisit the upgrade in 3–6 months.
 
 ---
@@ -174,11 +173,10 @@ Keep your dependencies updated, patch Ruby, and revisit the upgrade in 3–6 mon
 
 When you’re ready to move forward, break the upgrade into steps:
 
-1. **Audit:** Use `rails app:update` to identify configuration changes.  
-2. **Upgrade Ruby first:** Rails upgrades usually depend on a newer Ruby version.  
-3. **Update gems:** Replace or remove incompatible ones.  
-4. **Run tests early:** Catch regressions in CI before they hit production.  
-5. **Deploy to staging:** Always test under production-like conditions.  
+2. **Upgrade Ruby first:** Rails upgrades usually depend on a newer Ruby version.
+3. **Update gems:** Replace or remove incompatible ones.
+4. **Run tests early:** Catch regressions in CI before they hit production.
+5. **Deploy to staging:** Always test under production-like conditions.
 6. **Roll out gradually:** Use feature flags or phased deployments to reduce risk.
 
 For large apps, this process can take 2–4 weeks. For smaller ones, often less than a week.
@@ -201,7 +199,7 @@ You don’t need a huge dev team—just structure and consistency.
 
 ## 12. What Happens If You Skip a Version
 
-Sometimes founders say, “Let’s jump from Rails 6 to Rails 8 directly.”  
+Sometimes founders say, “Let’s jump from Rails 6 to Rails 8 directly.”
 That’s technically possible but rarely safe.
 
 Each version introduces deprecations and removals that compound. Skipping steps means missing transitional changes and facing **multiple breaking points at once.**
@@ -212,9 +210,9 @@ Unless you have deep Rails expertise, it’s smarter to **upgrade sequentially.*
 
 ## 13. Common Upgrade Traps
 
-- **Not testing background jobs:** Many break silently after an upgrade.  
-- **Forgetting about Sidekiq or Redis:** Version mismatches cause background errors.  
-- **Ignoring production logs:** Performance issues often show up days later.  
+- **Not testing background jobs:** Many break silently after an upgrade.
+- **Forgetting about Sidekiq or Redis:** Version mismatches cause background errors.
+- **Ignoring production logs:** Performance issues often show up days later.
 - **No rollback plan:** Always keep a backup branch or snapshot.
 
 An experienced Rails consultant can catch these pitfalls quickly—especially if your app has unique configurations.
@@ -225,7 +223,7 @@ An experienced Rails consultant can catch these pitfalls quickly—especially if
 
 If your Rails app earns real revenue, it deserves a modern foundation.
 
-> **Upgrade every 18–24 months.**  
+> **Upgrade every 6-12 months.**
 > It’s cheaper, safer, and keeps your stack healthy.
 
 If you’re more than two major versions behind, it’s time to act now—not after the next outage.
@@ -236,11 +234,11 @@ If you’re more than two major versions behind, it’s time to act now—not af
 
 If your app has complex integrations, old gems, or minimal tests, it’s often faster and safer to bring in help.
 
-A consultancy like **Rails Fever** can:
+A consultancy like [Rails Fever](/) can:
 
-- Assess your codebase and dependencies  
-- Plan and execute multi-step upgrades  
-- Ensure zero downtime during deployment  
+- Assess your codebase and dependencies
+- Plan and execute multi-step upgrades
+- Ensure zero downtime during deployment
 - Add monitoring to catch regressions early
 
 This is especially useful for SaaS founders who don’t have in-house Rails expertise.
@@ -253,7 +251,7 @@ Upgrading Rails isn’t just about “keeping up.” It’s a strategic move tha
 
 But timing matters. Upgrade **too late**, and you’ll pay in stress and downtime. Upgrade **too early**, and you might get stuck debugging dependencies.
 
-The best approach?  
+The best approach?
 Upgrade with intention. Track Rails releases. Budget for upgrades every couple of years. And never let your business run on unsupported software.
 
 That’s how you turn Rails from a risk into a strength.
