@@ -61,6 +61,7 @@ exclude:
   - vendor/ruby/
   - BLOG-IMAGES-GUIDE.md
   - CLAUDE.md
+  - spec.md
   - assets/images/blog/README.md
   - _posts/2024-10-10-debugging-legacy-rails-apps.md
   - _posts/2024-11-28-rails-performance-optimization.md
