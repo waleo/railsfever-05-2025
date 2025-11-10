@@ -7,8 +7,8 @@ description: "Learn how to detect and stop bot traffic in Ruby on Rails apps. Un
 author: "Wale Olaleye"
 categories: ["Rails Security"]
 tags: [bot traffic, rails security, waf protection, fraud prevention, cloudflare]
-featured_image: "/assets/images/blog/foo-800x600.webp"
-preview_image: "/assets/images/blog/foo-400x300.webp"
+featured_image: "/assets/images/blog/stop-bot-800x600.webp"
+preview_image: "/assets/images/blog/stop-bot-400x300.webp"
 ---
 Every founder loves seeing spikes in traffic—until it’s fake. Bot traffic can quietly wreck a Rails app’s performance and your bottom line. Whether it’s fake signups flooding your database, card testing bots hammering your checkout, or credential-stuffing attacks draining your support team, bots are a real business risk.  
 
