@@ -2,7 +2,6 @@
 layout: post
 title: "How to Detect and Stop Bot Traffic in Rails Apps"
 subtitle: "Protect your Rails app from fake signups, chargebacks, and fraud before they drain your revenue"
-slug: detect-and-stop-bot-traffic-in-rails-apps"
 description: "Learn how to detect and stop bot traffic in Ruby on Rails apps. Understand the business risks of fraudulent bots and discover detection strategies and tools like Cloudflare WAF to protect your SaaS."
 author: "Wale Olaleye"
 categories: ["Rails Security"]
