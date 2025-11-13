@@ -54,20 +54,23 @@ Use Rack::Attack to limit requests by IP, endpoint, or user ID.
 Rack::Attack.throttle('req/ip', limit: 100, period: 5.minutes) do |req|
   req.ip
 end
+```
 
 This stops rapid-fire requests and slows brute-force attacks.
 
-2. Behavioral checks
+### 2. Behavioral checks
 
 Measure time between form renders and submissions. Real users take a few seconds; bots submit instantly.
-3. Hidden form fields or honeypots
+
+### 3. Hidden form fields or honeypots
 
 Add invisible inputs that only bots fill out. If a value appears, reject the submission silently.
-4. User-agent filtering
+
+### 4. User-agent filtering
 
 Many bots use outdated or generic user-agent strings. Log them and block repeat offenders.
 
-Step 3: Leverage Edge Protection Tools
+## Step 3: Leverage Edge Protection Tools
 
 Application-level filters are good, but your best defense happens before traffic even hits Rails.
 Use a Web Application Firewall (WAF)
@@ -88,7 +91,8 @@ For small Rails apps, Cloudflare’s “Bot Fight Mode” adds lightweight JavaS
 Use CAPTCHA selectively
 
 Avoid adding CAPTCHAs to every form; reserve them for suspicious users or new devices. Tools like Cloudflare Turnstile or hCaptcha are privacy-friendly and easier to integrate than old-school reCAPTCHA.
-Step 4: Secure Payment and Authentication Flows
+
+## Step 4: Secure Payment and Authentication Flows
 
 Bot attacks often hit your checkout or login forms. Add these hardening steps:
 
@@ -100,7 +104,7 @@ Bot attacks often hit your checkout or login forms. Add these hardening steps:
 
     Rotate API keys regularly to prevent abused endpoints from being exploited.
 
-Step 5: Monitor, Report, and Iterate
+## Step 5: Monitor, Report, and Iterate
 
 Bot traffic evolves. What worked last month may fail next quarter. Schedule a monthly security review that covers:
 
