@@ -6,8 +6,8 @@ description: "Learn the five warning signs your Rails app needs urgent help—be
 author: "Wale Olaleye"
 categories: ["Rails Maintenance", "Troubleshooting"]
 tags: [rails rescue, rails troubleshooting, rails emergency, rails performance, ruby on rails]
-featured_image: "/assets/images/blog/help-button-800x600.webp"
-preview_image: "/assets/images/blog/help-button-400x300.webp"
+featured_image: "/assets/images/blog/ask-for-help-800x600.webp"
+preview_image: "/assets/images/blog/ask-for-help-400x300.webp"
 ---
 
 If your Rails app runs a business, it deserves more than “hope it doesn’t crash today” maintenance.  
