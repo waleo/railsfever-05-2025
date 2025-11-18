@@ -72,7 +72,7 @@ If you’ve been paying for one-off upgrades, it’s time to change course. The 
 
 Stop wasting money on reactive upgrades.  
 Start investing in reliability.  
-Learn more about the [Rails Care Plan](https://railsfever.com/services/rails-care-plan) today.
+Learn more about the [Rails Care Plan](/services/rails_care_plan/) today.
 
 ---
 
