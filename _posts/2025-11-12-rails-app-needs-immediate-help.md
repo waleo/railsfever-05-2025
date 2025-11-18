@@ -76,24 +76,6 @@ Whether you need a one-time **Rails Rescue Kit** or an ongoing **Rails Care Plan
 
 ---
 
-### LinkedIn Condensed Version
-
-**5 Signs Your Rails App Needs Immediate Help**
-
-If deploys are slow, gems keep breaking, or your app goes down for “mystery reasons,” it’s time for help.  
-Here are the red flags we see most often in rescue projects:
-
-1. Deploys are getting slower (and scarier)  
-2. Gem updates always break something  
-3. Random downtime or background job failures  
-4. Pages take seconds, not milliseconds, to load  
-5. Every new dev says “it’s hard to set up locally”
-
-If that sounds familiar, your Rails app isn’t fine—it’s overdue for a checkup.  
-🚑 [railsfever.com/services/rails_rescue_kit](https://railsfever.com/services/rails_rescue_kit)
-
----
-
 Need help with Rails maintenance? We offer comprehensive [Rails Care Plans](/services/rails_care_plan/) for ongoing support, [technical audits](/services/rails_tech_audit/) to assess your current state, and [Rails upgrades](/services/rails_upgrade_express/) to keep you current. View our [pricing plans](/pricing/) to find the right fit for your needs.
 
 [Schedule a consultation]({{ site.schedule_meeting_link }}) or email <a href="mailto:hello@railsfever.com" class="email-link">hello@railsfever.com</a> to discuss your Rails needs.
