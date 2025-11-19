@@ -122,8 +122,8 @@ That is how we keep apps stable and founders sane.
 If your Rails app feels like it is one deploy away from disaster, you do not need to rebuild.  
 You need a steady hand, a maintenance partner who understands SaaS stability from the inside out.
 
-Start with a **[Rails Care Plan](https://railsfever.com/maintenance)** for ongoing support,  
-or use our **[Rails Rescue Hotline](https://railsfever.com/emergency)** if you are in the middle of an outage.
+Start with a [Rails Care Plan](/services/rails_care_plan/)
+or use our [Rails Rescue Hotline](/services/rails_rescue_kit/) if you are in the middle of an outage.
 
 That is what we do at Rails Fever.  
 We keep your SaaS app stable, so you can keep your business growing.
