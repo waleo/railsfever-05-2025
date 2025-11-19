@@ -62,7 +62,7 @@ Founder B’s business keeps running while Founder A’s app crashes during a la
 
 Continuous maintenance is not a luxury—it’s insurance for uptime and developer sanity. It protects your customer experience, your data, and your future revenue.
 
-At Rails Fever, we call it the [Rails Care Plan](/services/rails-care-plan). It’s how we keep our clients’ apps stable month after month, no matter what version of Rails or Ruby comes next.
+At Rails Fever, we call it the [Rails Care Plan](/services/rails_care_plan). It’s how we keep our clients’ apps stable month after month, no matter what version of Rails or Ruby comes next.
 
 If you’ve been paying for one-off upgrades, it’s time to change course. The apps that thrive in the long run aren’t the ones that get rescued—they’re the ones that stay healthy.
 
