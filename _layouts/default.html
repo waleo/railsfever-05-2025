@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NNGV5B6R');</script>
+    <!-- End Google Tag Manager -->
 
     <!-- Google tag (gtag.js) -->
     <script
@@ -31,41 +38,44 @@
   </head>
 
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NNGV5B6R"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-  <header>
-    <a href="/"><img src="/assets/images/logo.png" alt="Rails Fever Logo"></a>
-    <nav class="main-nav">
-      <a href="/">Home</a>
-      <a href="/#services">Services</a>
-      <a href="/pricing/">Pricing</a>
-      <a href="/blog/">Blog</a>
-      <a href="/#about">About</a>
-      <a href="/#testimonials">Testimonials</a>
-      <a href="/#contact">Contact</a>
-    </nav>
-    <div class="menu-toggle" onclick="document.querySelector('.main-nav').classList.toggle('active')">
-      ☰
-    </div>
-  </header>
+    <header>
+      <a href="/"><img src="/assets/images/logo.png" alt="Rails Fever Logo"></a>
+      <nav class="main-nav">
+        <a href="/">Home</a>
+        <a href="/#services">Services</a>
+        <a href="/pricing/">Pricing</a>
+        <a href="/blog/">Blog</a>
+        <a href="/#about">About</a>
+        <a href="/#testimonials">Testimonials</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+      <div class="menu-toggle" onclick="document.querySelector('.main-nav').classList.toggle('active')">
+        ☰
+      </div>
+    </header>
 
-  {{ content }}
+    {{ content }}
 
-  <footer>
-    &copy; 2025 Rails Fever — <a href="https://www.linkedin.com/company/railsfever">LinkedIn</a>
-  </footer>
+    <footer>
+      &copy; 2025 Rails Fever — <a href="https://www.linkedin.com/company/railsfever">LinkedIn</a>
+    </footer>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const nav = document.querySelector(".main-nav");
-      const links = nav.querySelectorAll("a");
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const nav = document.querySelector(".main-nav");
+        const links = nav.querySelectorAll("a");
 
-      links.forEach(link => {
-        link.addEventListener("click", () => {
-          nav.classList.remove("active");
+        links.forEach(link => {
+          link.addEventListener("click", () => {
+            nav.classList.remove("active");
+          });
         });
       });
-    });
-  </script>
-
+    </script>
   </body>
 </html>
