@@ -561,11 +561,14 @@
       color: rgba(255, 255, 255, 0.8);
 
       a {
-        color: white;
+        color: white !important;
         text-decoration: underline;
+        font-weight: 600;
 
         &:hover {
+          color: white !important;
           text-decoration: none;
+          opacity: 0.9;
         }
       }
     }
