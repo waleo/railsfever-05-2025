@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why-saas-founders-need-a-fractional-CTO"
+title: "Why SaaS Founders Need a Fractional CTO"
 subtitle: "The strategic edge most founders overlook until it’s too late"
 description: "Hiring a fractional CTO early helps SaaS founders avoid technical debt, align product decisions with business goals, and grow sustainably. Learn when and why to bring one in—and what difference it makes."
 author: "Wale Olaleye"
@@ -179,7 +179,7 @@ The founders who win are the ones who seek help *before* they think they need it
 ---
 
 **Ready to add a fractional CTO to your SaaS?**  
-Rails Fever’s [Fractional CTO Service](https://railsfever.com/services/fractional_cto) gives you senior-level strategy and technical oversight—without a full-time hire.  
+Rails Fever’s [Fractional CTO Service](/services/fractional_cto/) gives you senior-level strategy and technical oversight—without a full-time hire.  
 Let’s make sure your Rails app scales cleanly and your roadmap matches your goals.
 
 
