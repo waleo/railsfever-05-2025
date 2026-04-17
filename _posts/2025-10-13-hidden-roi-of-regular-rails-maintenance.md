@@ -316,7 +316,7 @@ Your app stays secure. Your team stays productive. Your customers stay happy.
 
 If you want to understand how regular maintenance could reduce your costs and increase uptime, explore the **Rails Care Plan** today.
 
-[**Learn more about the Rails Care Plan →**](/services/rails_care_plan)
+[**Learn more about the Rails Care Plan →**](/services/rails_care_plan/)
 
 
 
