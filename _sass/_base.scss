@@ -45,6 +45,11 @@ footer {
   font-size: $font-size-tiny;
 }
 
+footer .footer-address {
+  display: block;
+  margin-bottom: 5px;
+}
+
 footer a {
   color: $text-white;
   margin: 0 10px;
