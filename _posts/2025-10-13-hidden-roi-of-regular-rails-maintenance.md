@@ -6,7 +6,7 @@ description: "Regular Rails maintenance is the secret weapon for SaaS founders. 
 author: "Wale Olaleye"
 categories: ["Rails Support", "SaaS Strategy"]
 tags: [rails maintenance, rails support, saas roi, technical debt, rails care plan]
-featured_image: "/assets/images/blog/cost-over-ten-dollar-bills-800x600.webp"
+image: "/assets/images/blog/cost-over-ten-dollar-bills-800x600.webp"
 preview_image: "/assets/images/blog/cost-over-ten-dollar-bills-400x300.webp"
 ---
 
@@ -316,7 +316,7 @@ Your app stays secure. Your team stays productive. Your customers stay happy.
 
 If you want to understand how regular maintenance could reduce your costs and increase uptime, explore the **Rails Care Plan** today.
 
-[**Learn more about the Rails Care Plan →**](/services/rails_care_plan)
+[**Learn more about the Rails Care Plan →**](/services/rails_care_plan/)
 
 
 

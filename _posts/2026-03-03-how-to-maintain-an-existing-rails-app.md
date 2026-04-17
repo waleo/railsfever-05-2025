@@ -6,7 +6,7 @@ description: "A hands-on guide to maintaining an existing Rails app. Covers depe
 author: "Wale Olaleye"
 categories: ["Rails Maintenance", "Developer Guide"]
 tags: [maintain existing rails app, rails maintenance, dependency management, rails upgrades, technical debt]
-featured_image: "/assets/images/blog/maintenance-800x600.webp"
+image: "/assets/images/blog/maintenance-800x600.webp"
 preview_image: "/assets/images/blog/maintenance-400x300.webp"
 ---
 

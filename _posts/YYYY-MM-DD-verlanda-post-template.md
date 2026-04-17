@@ -6,7 +6,7 @@ description: ""
 author: "Wale Olaleye"
 categories: [""]
 tags: []
-featured_image: "/assets/images/blog/foo-800x600.webp"
+image: "/assets/images/blog/foo-800x600.webp"
 preview_image: "/assets/images/blog/foo-400x300.webp"
 ---
 

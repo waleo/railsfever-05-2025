@@ -6,7 +6,7 @@ description: "Upgrading Ruby on Rails is essential for security, performance, an
 author: "Wale Olaleye"
 categories: ["Rails Maintenance", "Technical Strategy"]
 tags: [rails upgrade, rails 7, rails 8, ruby on rails, legacy apps, rails maintenance, saas founders]
-featured_image: "/assets/images/blog/upgrade-on-chalk-board-800x600.webp"
+image: "/assets/images/blog/upgrade-on-chalk-board-800x600.webp"
 preview_image: "/assets/images/blog/upgrade-on-chalk-board-400x300.webp"
 ---
 
@@ -93,7 +93,7 @@ When the window closes, your app becomes exposed to new vulnerabilities—and if
 Here’s what that looks like for recent versions:
 
 | Rails Version | Released | End of Bug fixes| End of Security Support |
-|----------------|-----------|--------------------------|
+|----------------|-----------|--------------------------|--------------------------|
 | Rails 7.2 | Aug 2024 | Aug 2025 | Aug 2026 |
 | Rails 8.0 | Nov 2024 | Nov 2025 | Nov 2026  |
 | Rails 8.1 | Oct 2025 | Oct 2026 | Oct 2027 |
@@ -173,11 +173,11 @@ Keep your dependencies updated, patch Ruby, and revisit the upgrade in 3–6 mon
 
 When you’re ready to move forward, break the upgrade into steps:
 
-2. **Upgrade Ruby first:** Rails upgrades usually depend on a newer Ruby version.
-3. **Update gems:** Replace or remove incompatible ones.
-4. **Run tests early:** Catch regressions in CI before they hit production.
-5. **Deploy to staging:** Always test under production-like conditions.
-6. **Roll out gradually:** Use feature flags or phased deployments to reduce risk.
+1. **Upgrade Ruby first:** Rails upgrades usually depend on a newer Ruby version.
+2. **Update gems:** Replace or remove incompatible ones.
+3. **Run tests early:** Catch regressions in CI before they hit production.
+4. **Deploy to staging:** Always test under production-like conditions.
+5. **Roll out gradually:** Use feature flags or phased deployments to reduce risk.
 
 For large apps, this process can take 2–4 weeks. For smaller ones, often less than a week.
 

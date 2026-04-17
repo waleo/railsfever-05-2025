@@ -6,7 +6,7 @@ description: "A founder-friendly guide to maintaining Ruby on Rails apps. Learn 
 author: "Wale Olaleye"
 categories: ["Rails Maintenance", "Founders"]
 tags: [maintain ruby on rails, rails maintenance, saas, technical debt, founder guide]
-featured_image: "/assets/images/blog/man-fixing-vehicle-engine-800x600.webp"
+image: "/assets/images/blog/man-fixing-vehicle-engine-800x600.webp"
 preview_image: "/assets/images/blog/man-fixing-vehicle-engine-400x300.webp"
 ---
 

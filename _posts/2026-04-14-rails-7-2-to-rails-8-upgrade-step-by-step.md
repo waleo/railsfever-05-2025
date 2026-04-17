@@ -6,7 +6,7 @@ description: "A focused step-by-step guide to upgrading from Rails 7.2 to Rails 
 author: "Wale Olaleye"
 categories: ["Rails Upgrades", "Developer Guide"]
 tags: [rails 7.2 to 8 upgrade, rails 8, rails upgrade, propshaft, solid queue]
-featured_image: "/assets/images/blog/fast-train-800x600.webp"
+image: "/assets/images/blog/fast-train-800x600.webp"
 preview_image: "/assets/images/blog/fast-train-400x300.webp"
 ---
 

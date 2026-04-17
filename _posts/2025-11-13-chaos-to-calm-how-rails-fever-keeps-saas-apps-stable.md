@@ -6,7 +6,7 @@ description: "Learn how Rails Fever helps SaaS companies move from constant fire
 author: "Wale Olaleye"
 categories: ["Rails Maintenance"]
 tags: [rails maintenance partner, saas stability, rails monitoring, rails upgrades, rails care plan]
-featured_image: "/assets/images/blog/calm-lake-800x600.webp"
+image: "/assets/images/blog/calm-lake-800x600.webp"
 preview_image: "/assets/images/blog/calm-lake-400x300.webp"
 ---
 

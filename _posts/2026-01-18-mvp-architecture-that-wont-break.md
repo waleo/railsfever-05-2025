@@ -6,7 +6,7 @@ description: "A founder-friendly guide to MVP architecture that supports early t
 author: "Wale Olaleye"
 categories: ["Founders", "Product Develoment"]
 tags: [MVP architecture, startup scalability, software design, early-stage SaaS, technical foundations]
-featured_image: "/assets/images/blog/jenga-stack-800x600.webp"
+image: "/assets/images/blog/jenga-stack-800x600.webp"
 preview_image: "/assets/images/blog/jenga-stack-400x300.webp"
 ---
 

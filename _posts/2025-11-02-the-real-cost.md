@@ -6,7 +6,7 @@ description: "Ignoring Rails maintenance may look like saving money, but it ofte
 author: "Wale Olaleye"
 categories: ["Rails Maintenance", "SaaS Operations"]
 tags: ["technical debt", "rails maintenance", "rails support cost", "downtime", "developer turnover", "security incidents"]
-featured_image: "/assets/images/blog/neglect-800x600.webp"
+image: "/assets/images/blog/neglect-800x600.webp"
 preview_image: "/assets/images/blog/neglect-400x300.webp"
 ---
 
