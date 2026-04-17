@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Blog settings
 paginate: 6
