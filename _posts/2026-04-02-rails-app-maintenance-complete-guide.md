@@ -46,7 +46,7 @@ A healthy maintenance practice patches critical CVEs within days of disclosure a
 
 ### 3. Framework and Runtime Upgrades
 
-Rails ships a new minor version roughly annually and a new major version every 2-3 years. Ruby follows a similar cadence, with a new minor every Christmas and approximately three years of support per version. (For a detailed breakdown of Ruby's support lifecycle, see [understanding Ruby versioning](/2026/04/17/understanding-ruby-versioning-for-founders.html).)
+Rails ships a new minor version roughly annually and a new major version every 2-3 years. Ruby follows a similar cadence, with a new minor every Christmas and approximately three years of support per version. (For a detailed breakdown of Ruby's support lifecycle, see [understanding Ruby versioning](/blog/understanding-ruby-versioning-for-founders/).)
 
 Maintenance means staying within the supported window for both:
 - **Ruby**: currently 3.3 (security maintenance) and 3.4 / 4.0 (normal maintenance). Ruby 3.2 is end-of-life.

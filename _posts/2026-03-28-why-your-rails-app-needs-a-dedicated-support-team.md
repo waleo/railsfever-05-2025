@@ -73,7 +73,7 @@ Any two of these together is a strong signal. Three or more is urgent.
 
 ## What to Look For in a Support Team
 
-The same principles from [choosing a Rails support consultancy](/2026/04/17/rails-support-consultancy-what-to-look-for.html) apply, plus:
+The same principles from [choosing a Rails support consultancy](/blog/rails-support-consultancy-what-to-look-for/) apply, plus:
 
 - **Consistency.** The same engineers work on your app every month. Not a rotating pool.
 - **Proactive communication.** You hear from the team when things are fine, not just when things are broken.
