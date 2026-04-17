@@ -6,7 +6,7 @@ description: "A hands-on technical guide to Rails 7 LTS. Understand the Rails ma
 author: "Wale Olaleye"
 categories: ["Rails Upgrades", "Developer Guide"]
 tags: [rails 7 lts, long term support, rails security, cve, rails maintenance]
-featured_image: "/assets/images/blog/padlock-on-keyboard-800x600.webp"
+image: "/assets/images/blog/padlock-on-keyboard-800x600.webp"
 preview_image: "/assets/images/blog/padlock-on-keyboard-400x300.webp"
 ---
 

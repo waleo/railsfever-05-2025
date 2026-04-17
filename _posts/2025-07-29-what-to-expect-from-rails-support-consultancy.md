@@ -6,7 +6,7 @@ description: "Thinking of hiring a Rails support consultancy? Learn what to expe
 author: "Wale Olaleye"
 categories: ["Rails Maintenance"]
 tags: [rails support consultancy, ruby on rails support, rails maintenance services, long-term application management, technical due diligence, production support]
-featured_image: "/assets/images/blog/black-smartphone-near-person-800x600.webp"
+image: "/assets/images/blog/black-smartphone-near-person-800x600.webp"
 preview_image: "/assets/images/blog/black-smartphone-near-person-400x300.webp"
 ---
 

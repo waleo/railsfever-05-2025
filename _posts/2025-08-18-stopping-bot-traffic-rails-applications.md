@@ -6,7 +6,7 @@ description: "Learn how Rails Fever helped a SaaS company cut fraudulent transac
 author: "Wale Olaleye"
 categories: ["Rails Security", "Case Study"]
 tags: [bot traffic, rails security, fraud prevention, SaaS security, WAF, Rails Care Plan, AWS Cloudfront]
-featured_image: "/assets/images/blog/laptop-displaying-pirate-flag-800x600.webp"
+image: "/assets/images/blog/laptop-displaying-pirate-flag-800x600.webp"
 preview_image: "/assets/images/blog/laptop-displaying-pirate-flag-400x300.webp"
 ---
 

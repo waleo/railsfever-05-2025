@@ -6,7 +6,7 @@ description: "Upgrading Ruby on Rails is essential for security, performance, an
 author: "Wale Olaleye"
 categories: ["Rails Maintenance", "Technical Strategy"]
 tags: [rails upgrade, rails 7, rails 8, ruby on rails, legacy apps, rails maintenance, saas founders]
-featured_image: "/assets/images/blog/upgrade-on-chalk-board-800x600.webp"
+image: "/assets/images/blog/upgrade-on-chalk-board-800x600.webp"
 preview_image: "/assets/images/blog/upgrade-on-chalk-board-400x300.webp"
 ---
 

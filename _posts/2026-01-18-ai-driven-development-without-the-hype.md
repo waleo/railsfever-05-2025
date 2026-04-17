@@ -6,7 +6,7 @@ description: "A 2026 founder-friendly deep dive into AI-driven software developm
 author: "Wale Olaleye"
 categories: ["Founders", "Founder Development"]
 tags: [AI-driven development, MVP development, startup engineering, software strategy, SaaS founders]
-featured_image: "/assets/images/blog/ai-on-whiteboard-800x600.webp"
+image: "/assets/images/blog/ai-on-whiteboard-800x600.webp"
 preview_image: "/assets/images/blog/ai-on-whiteboard-400x300.webp"
 ---
 

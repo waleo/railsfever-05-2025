@@ -6,7 +6,7 @@ description: "A practical, field-tested 2026 guide to the Rails 7 to Rails 8 upg
 author: "Wale Olaleye"
 categories: ["Rails Upgrades", "Developer Guide"]
 tags: [rails 7 to rails 8 upgrade, rails 8, propshaft, solid queue, solid cache, rails upgrade]
-featured_image: "/assets/images/blog/upgrade-on-chalk-board-800x600.webp"
+image: "/assets/images/blog/upgrade-on-chalk-board-800x600.webp"
 preview_image: "/assets/images/blog/upgrade-on-chalk-board-400x300.webp"
 ---
 

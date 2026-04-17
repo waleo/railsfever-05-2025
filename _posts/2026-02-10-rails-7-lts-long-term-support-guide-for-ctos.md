@@ -6,7 +6,7 @@ description: "A practical CTO guide to Rails 7 LTS (long-term support). Learn wh
 author: "Wale Olaleye"
 categories: ["Rails Upgrades", "CTO Guide"]
 tags: [rails 7 lts, long term support, rails security, rails upgrades, cto guide]
-featured_image: "/assets/images/blog/calm-lake-800x600.webp"
+image: "/assets/images/blog/calm-lake-800x600.webp"
 preview_image: "/assets/images/blog/calm-lake-400x300.webp"
 ---
 

@@ -6,7 +6,7 @@ description: "Learn how Rails Fever safely upgrades legacy Ruby on Rails apps us
 author: "Wale Olaleye"
 categories: ["Rails Maintenance", "Case studies"]
 tags: [rails upgrade, legacy rails apps, rails 7 migration, rails modernization, rails consulting]
-featured_image: "/assets/images/blog/fast-train-800x600.webp"
+image: "/assets/images/blog/fast-train-800x600.webp"
 preview_image: "/assets/images/blog/fast-train-400x300.webp"
 ---
 

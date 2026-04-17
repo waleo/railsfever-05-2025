@@ -6,7 +6,7 @@ description: "Is your Ruby on Rails app down in production? Here’s a step-by-s
 author: "Wale Olaleye"
 categories: ["Ruby on Rails", "SaaS Operations"]
 tags: [rails support, rails maintenance, production emergency, rails downtime, rails consulting, rails care plan]
-featured_image: "/assets/images/blog/rails-fever-emergency-clinic-800x600.webp"
+image: "/assets/images/blog/rails-fever-emergency-clinic-800x600.webp"
 preview_image: "/assets/images/blog/rails-fever-emergency-clinic-400x300.webp"
 ---
 

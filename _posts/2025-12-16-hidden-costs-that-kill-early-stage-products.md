@@ -6,7 +6,7 @@ description: "Early-stage products often fail due to hidden technical costs. Lea
 author: "Wale Olaleye"
 categories: ["Startups","Product Development"]
 tags: ["mvp", "technical debt", "startup mistakes", "early stage saas", "Product Development"]
-featured_image: "/assets/images/blog/blossom-800x600.webp"
+image: "/assets/images/blog/blossom-800x600.webp"
 preview_image: "/assets/images/blog/blossom-400x300.webp"
 ---
 

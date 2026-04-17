@@ -6,7 +6,7 @@ description: "Most SaaS founders wait until their Rails app breaks before upgrad
 author: "Wale Olaleye"
 categories: ["Rails Maintenance", "SaaS Operations"]
 tags: [rails maintenance, rails upgrade, technical debt, saas support, rails care plan]
-featured_image: "/assets/images/blog/maintenance-800x600.webp"
+image: "/assets/images/blog/maintenance-800x600.webp"
 preview_image: "/assets/images/blog/maintenance-400x300.webp"
 ---
 

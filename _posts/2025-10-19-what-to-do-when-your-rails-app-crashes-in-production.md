@@ -7,7 +7,7 @@ description: "A calm, step-by-step guide for non-technical SaaS founders on hand
 author: "Wale Olaleye"
 categories: ["Operations", "Ruby on Rails"]
 tags: ["rails emergency help", "production error", "rails rescue", "monitoring", "error tracking", "incident response"]
-featured_image: "/assets/images/blog/car-accident-800x600.webp"
+image: "/assets/images/blog/car-accident-800x600.webp"
 preview_image: "/assets/images/blog/car-accident-400x300.webp"
 ---
 

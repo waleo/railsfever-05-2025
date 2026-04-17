@@ -6,7 +6,7 @@ description: "Founders in 2026 must build MVPs with both speed and safety. Learn
 author: "Wale Olaleye"
 categories: ["Product Development", "Startup Strategy"]
 tags: ["mvp", "startup execution", "ai development", "software safety", "2026 product strategy"]
-featured_image: "/assets/images/blog/racing-motorbike-800x600.webp"
+image: "/assets/images/blog/racing-motorbike-800x600.webp"
 preview_image: "/assets/images/blog/racing-motorbike-400x300.webp"
 ---
 

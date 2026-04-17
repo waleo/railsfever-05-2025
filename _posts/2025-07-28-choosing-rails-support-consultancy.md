@@ -6,7 +6,7 @@ description: "Discover how to choose the right Rails support consultancy for you
 author: "Wale Olaleye"
 categories: ["Rails Maintenance"]
 tags: [Ruby on Rails, Application Management, Support, DevOps, SaaS Infrastructure, Rails Consultancy]
-featured_image: "/assets/images/blog/developers-looking-at-screen-800x600.webp"
+image: "/assets/images/blog/developers-looking-at-screen-800x600.webp"
 preview_image: "/assets/images/blog/developers-looking-at-screen-400x300.webp"
 ---
 

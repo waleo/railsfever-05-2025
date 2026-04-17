@@ -7,7 +7,7 @@ slug: ruby-on-rails-maintenance-reasons
 author: "Wale Olaleye"
 categories: ["Rails Maintenance", "Technical Leadership"]
 tags: [software maintenance strategy, ruby on rails, rails support, application maintenance, technical debt, rails consulting,  legacy rails apps, rails security]
-featured_image: "/assets/images/blog/man-fixing-vehicle-engine-800x600.webp"
+image: "/assets/images/blog/man-fixing-vehicle-engine-800x600.webp"
 preview_image: "/assets/images/blog/man-fixing-vehicle-engine-400x300.webp"
 updated: 2025-07-28
 # for sitemap generation

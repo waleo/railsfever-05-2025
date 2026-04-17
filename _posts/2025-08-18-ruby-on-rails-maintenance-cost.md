@@ -6,7 +6,7 @@ description: "Worried about Ruby on Rails maintenance costs? Avoid burning money
 author: "Wale Olaleye"
 categories: ["Rails Maintenance", "Pricing"]
 tags: [Rails upgrades, Ruby on Rails maintenance cost, SaaS maintenance, Rails Care Plan]
-featured_image: "/assets/images/blog/person-holding-burning-money-800x600.webp"
+image: "/assets/images/blog/person-holding-burning-money-800x600.webp"
 preview_image: "/assets/images/blog/person-holding-burning-money-400x300.webp"
 ---
 

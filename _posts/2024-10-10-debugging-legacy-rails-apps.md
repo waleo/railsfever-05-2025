@@ -6,7 +6,7 @@ date: 2024-10-10 14:15:00 -0500
 author: "Wale Olaleye"
 categories: [Rails, Legacy, Debugging]
 tags: [debugging, legacy-code, troubleshooting, maintenance]
-featured_image: "/assets/images/blog/debugging-legacy-rails-800x600.svg"
+image: "/assets/images/blog/debugging-legacy-rails-800x600.svg"
 preview_image: "/assets/images/blog/debugging-legacy-rails-400x300.svg"
 ---
 

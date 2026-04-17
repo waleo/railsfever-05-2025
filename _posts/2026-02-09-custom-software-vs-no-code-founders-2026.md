@@ -7,7 +7,7 @@ slug: "custom-software-vs-no-code-founders-2026"
 author: "Wale Olaleye"
 categories: ["Software Strategy", "Founder Guides"]
 tags: ["custom software", "no-code", "SaaS founders", "software development", "Rails development", "startup strategy", "build vs buy", "no-code limitations", "tech decisions"]
-featured_image: "/assets/images/blog/custom-software-vs-no-code-founders-2026-800x600.webp"
+image: "/assets/images/blog/custom-software-vs-no-code-founders-2026-800x600.webp"
 preview_image: "/assets/images/blog/custom-software-vs-no-code-founders-2026-400x300.webp"
 updated: 2026-02-09
 published: true

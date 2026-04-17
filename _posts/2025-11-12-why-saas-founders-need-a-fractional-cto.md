@@ -6,7 +6,7 @@ description: "Hiring a fractional CTO early helps SaaS founders avoid technical 
 author: "Wale Olaleye"
 categories: ["Leadership","Startup Strategy"]
 tags: [fractional CTO, SaaS founders, Rails CTO, startup tech strategy, technical debt, scaling startups]
-featured_image: "/assets/images/blog/thinking-man-800x600.webp"
+image: "/assets/images/blog/thinking-man-800x600.webp"
 preview_image: "/assets/images/blog/thinking-man-400x300.webp"
 ---
 
