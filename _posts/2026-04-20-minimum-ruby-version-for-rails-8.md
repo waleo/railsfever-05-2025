@@ -6,6 +6,8 @@ description: "The official Ruby version requirements for Rails 8 — minimum and
 author: "Wale Olaleye"
 categories: ["Rails Upgrades", "Developer Guide"]
 tags: [rails 8, ruby version rails 8, ruby 3.2, ruby 3.3, rails 8 requirements]
+image: "/assets/images/blog/numbers-one-to-six-on-a-orange-colored-wall-800x600.webp"
+preview_image: "/assets/images/blog/numbers-one-to-six-on-a-orange-colored-wall-400x300.webp"
 ---
 
 Every time a new Rails major ships, the same question churns through blog posts, Stack Overflow answers, and internal Slack channels: what is the minimum Ruby version? And the internet, being the internet, produces several confident but contradictory answers.

@@ -6,6 +6,8 @@ description: "A practical guide to building Claude skills for Ruby on Rails deve
 author: "Wale Olaleye"
 categories: ["AI Development", "Developer Guide"]
 tags: [claude skills, claude code, ai rails development, rails automation, ai pair programming]
+image: "/assets/images/blog/colored-leg-building-blocks-800x600.webp"
+preview_image: "/assets/images/blog/colored-leg-building-blocks-400x300.webp"
 ---
 
 If you use Claude Code on Rails work regularly, you end up typing the same prompts over and over. "Audit this gem for known CVEs and suggest replacements." "Find every controller action missing a before_action authentication check." "Walk the app and list hardcoded strings that should be in i18n." Useful, but tedious to re-articulate every time.

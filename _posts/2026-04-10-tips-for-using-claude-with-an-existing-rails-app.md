@@ -6,6 +6,8 @@ description: "A practical guide to using Claude and Claude Code with an establis
 author: "Wale Olaleye"
 categories: ["AI Development", "Developer Guide"]
 tags: [claude code, ai rails development, claude rails, ai pair programming, rails ai tools]
+image: "/assets/images/blog/close-up-of-computer-screen-with-code-and-menu-options-800x600.webp"
+preview_image: "/assets/images/blog/close-up-of-computer-screen-with-code-and-menu-options-400x300.webp"
 ---
 
 Using Claude on a greenfield Rails app is easy. The codebase is small, the conventions are Claude's defaults, and there is almost no prior art to conflict with. Using Claude on a six-year-old Rails monolith with 40 models, 200 controllers, and a decade of team-specific conventions is a different exercise.

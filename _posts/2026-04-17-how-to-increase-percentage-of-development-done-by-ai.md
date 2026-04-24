@@ -6,6 +6,8 @@ description: "A practical playbook for increasing the share of development work 
 author: "Wale Olaleye"
 categories: ["AI Development", "Engineering Leadership"]
 tags: [ai coding productivity, claude code, ai software development, rails ai tools, engineering leadership]
+image: "/assets/images/blog/ai-on-whiteboard-800x600.webp"
+preview_image: "/assets/images/blog/ai-on-whiteboard-400x300.webp"
 ---
 
 "We are using AI" has become the software version of "we are doing Agile." Technically true at most companies. Not actually changing the output at most of them.

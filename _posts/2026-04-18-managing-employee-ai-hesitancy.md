@@ -6,6 +6,8 @@ description: "A practical guide for founders and CTOs on addressing employee hes
 author: "Wale Olaleye"
 categories: ["Engineering Leadership", "AI Development"]
 tags: [ai adoption, ai hesitancy, employee ai, ai change management, cto leadership]
+image: "/assets/images/blog/team-meeting-presentation-in-modern-office-setting-800x600.webp"
+preview_image: "/assets/images/blog/team-meeting-presentation-in-modern-office-setting-400x300.webp"
 ---
 
 Most leadership conversations about AI adoption focus on the tools. Which LLM. Which subscription. Which integrations. A much smaller share of conversation goes to the question that actually determines whether the rollout succeeds: will your employees actually use the tools, seriously, every day?
