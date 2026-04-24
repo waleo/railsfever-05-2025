@@ -6,6 +6,8 @@ description: "A practical compatibility matrix for Ruby versions and Ubuntu rele
 author: "Wale Olaleye"
 categories: ["Rails Maintenance", "Developer Guide"]
 tags: [ruby ubuntu compatibility, ruby openssl, ruby install ubuntu, ruby 2.7 ubuntu 22, ruby version matrix]
+image: "/assets/images/blog/black-metal-padlock-blurred-background-800x600.webp"
+preview_image: "/assets/images/blog/black-metal-padlock-blurred-background-400x300.webp"
 ---
 
 Every Rails team hits this eventually. You provision a new Ubuntu server. You try to install Ruby — usually an older version, because that is what the app uses. It fails somewhere deep in the build with a cryptic OpenSSL error. An hour later you are deep in StackOverflow reading about `OPENSSL_ROOT_DIR`, libssl1.1 PPAs, and people recommending you just "switch to Docker."
@@ -96,7 +98,7 @@ Three paths, in order of preference:
 
 If you can, this is the right move. Getting onto Ruby 3.1+ removes the OpenSSL problem entirely and unblocks future Rails upgrades. For most apps, the Ruby jump from 2.7 or 3.0 to 3.1+ is modest — harder than a patch, easier than a Rails minor.
 
-If your Rails version supports it (Rails 6.1+ runs on Ruby 3.1), upgrade Ruby first, *then* provision the new Ubuntu box. See our [Rails 6 to Rails 8 upgrade guide](/2026/04/22/rails-6-to-rails-8-upgrade-guide.html) for the surrounding context.
+If your Rails version supports it (Rails 6.1+ runs on Ruby 3.1), upgrade Ruby first, *then* provision the new Ubuntu box. See our [Rails 6 to Rails 8 upgrade guide](/blog/rails-6-to-rails-8-upgrade-guide/) for the surrounding context.
 
 ### Option B: Build Ruby Against OpenSSL 1.1
 
@@ -154,8 +156,8 @@ If the answer is no, you have found the issue. The fix is one of the three optio
 ## Further Reading
 
 - [OpenSSL versions supported by Ruby](https://www.rubyonmac.dev/openssl-versions-supported-by-ruby) — the authoritative matrix
-- [Understanding Ruby versioning for founders](/2026/04/07/understanding-ruby-versioning-for-founders.html) — the business-side view of Ruby versions
-- [Minimum Ruby version for Rails 8](/2026/04/20/minimum-ruby-version-for-rails-8.html) — the forward-looking Ruby target
+- [Understanding Ruby versioning for founders](/blog/understanding-ruby-versioning-for-founders/) — the business-side view of Ruby versions
+- [Minimum Ruby version for Rails 8](/blog/minimum-ruby-version-for-rails-8/) — the forward-looking Ruby target
 
 ---
 

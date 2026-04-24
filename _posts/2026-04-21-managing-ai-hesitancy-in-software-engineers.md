@@ -6,13 +6,15 @@ description: "A guide for engineering leaders on addressing AI hesitancy among s
 author: "Wale Olaleye"
 categories: ["Engineering Leadership", "AI Development"]
 tags: [ai adoption engineers, software engineer ai hesitancy, claude code adoption, engineering leadership, ai pair programming]
+image: "/assets/images/blog/robot-on-wooden-floor-besides-a-chalk-board-with-the-words-my-favorite-robot-800x600.webp"
+preview_image: "/assets/images/blog/robot-on-wooden-floor-besides-a-chalk-board-with-the-words-my-favorite-robot-400x300.webp"
 ---
 
 Software engineers are a special case in AI adoption. On one hand, they are the function where AI has the most immediate and measurable leverage — code generation, test writing, refactoring, and debugging are all workflows where modern LLMs demonstrably help. On the other hand, engineers tend to push back on AI harder and more articulately than most employees.
 
 That combination — highest potential value, strongest resistance — makes engineering adoption both the most important and the hardest part of an AI rollout. Generic "change management" playbooks do not land. The standard talking points ("AI will make you more productive") get reverse-engineered and rebutted inside thirty seconds of a team meeting.
 
-This post is specifically for engineering leaders — CTOs, VPs, staff engineers — who need to bring a senior engineering team along on AI adoption. The general dynamics of employee hesitancy are covered in our post on [managing employee AI hesitancy](/2026/04/18/managing-employee-ai-hesitancy.html); this post goes deeper into what is specific to engineers.
+This post is specifically for engineering leaders — CTOs, VPs, staff engineers — who need to bring a senior engineering team along on AI adoption. The general dynamics of employee hesitancy are covered in our post on [managing employee AI hesitancy](/blog/managing-employee-ai-hesitancy/); this post goes deeper into what is specific to engineers.
 
 ## Why Engineers Push Back Harder
 
@@ -78,7 +80,7 @@ The "code quality" concern is legitimate. The answer is not to dismiss it but to
 
 - **Require thorough code review on AI-generated PRs.** Same standard as human-written code, or stricter. No rubber-stamping.
 - **Invest in the test suite and CI.** AI-assisted development works well when tests are comprehensive and fast, because the AI can close the loop. It works badly when tests are sparse and slow.
-- **Set up pattern libraries** (see the [creating Claude skills for Rails apps](/2026/04/13/creating-claude-skills-for-rails-apps.html) post). AI that imitates your team's patterns produces code that fits the codebase; AI that follows its own defaults produces code that doesn't.
+- **Set up pattern libraries** (see the [creating Claude skills for Rails apps](/blog/creating-claude-skills-for-rails-apps/) post). AI that imitates your team's patterns produces code that fits the codebase; AI that follows its own defaults produces code that doesn't.
 - **Adopt a code ownership model** where the human who merges the PR is responsible for the code, not the AI.
 
 When engineers see that leadership is as serious about quality as they are, they engage differently. When leadership's posture is "just ship more," engineers resist — and they are right to.
@@ -181,6 +183,6 @@ Leadership that tries to shortcut the valley with mandates produces a team that 
 
 ---
 
-Leading an engineering team through AI adoption and looking for outside perspective? Our [Fractional CTO service](/services/fractional_cto/) includes engineering-culture and tooling guidance, often with direct hands-on work on AI integration. For teams on Rails specifically, see also our posts on [tips for using Claude with an existing Rails app](/2026/04/10/tips-for-using-claude-with-an-existing-rails-app.html) and [how to increase the percentage of development done by AI](/2026/04/17/how-to-increase-percentage-of-development-done-by-ai.html).
+Leading an engineering team through AI adoption and looking for outside perspective? Our [Fractional CTO service](/services/fractional_cto/) includes engineering-culture and tooling guidance, often with direct hands-on work on AI integration. For teams on Rails specifically, see also our posts on [tips for using Claude with an existing Rails app](/blog/tips-for-using-claude-with-an-existing-rails-app/) and [how to increase the percentage of development done by AI](/blog/how-to-increase-percentage-of-development-done-by-ai/).
 
 [Schedule a consultation]({{ site.schedule_meeting_link }}) or email <a href="mailto:hello@railsfever.com" class="email-link">hello@railsfever.com</a> to talk about AI adoption on your engineering team.
