@@ -14,7 +14,7 @@ Rails 8 has been out long enough now that "we're planning our Rails 7 to Rails 8
 
 This is a 2026 field guide to the Rails 7 to Rails 8 upgrade, written from the perspective of someone who has shepherded this migration through many codebases. Not a marketing brochure for Rails 8's new features - a practical walkthrough of what to plan, what to sequence, and what actually breaks.
 
-If you want an even more specific focus on Rails 7.2 only, see [Rails 7.2 to Rails 8 upgrade: step-by-step](/2026/04/14/rails-7-2-to-rails-8-upgrade-step-by-step.html).
+If you want an even more specific focus on Rails 7.2 only, see [Rails 7.2 to Rails 8 upgrade: step-by-step](/blog/rails-7-2-to-rails-8-upgrade-step-by-step/).
 
 ## Before You Touch Anything: Scope the Work
 
@@ -247,10 +247,10 @@ If anyone quotes you under a week for the full project, they are underscoping. I
 
 ## Related Reading
 
-- [Rails 7.2 to Rails 8 upgrade: step-by-step](/2026/04/14/rails-7-2-to-rails-8-upgrade-step-by-step.html)
-- [When to upgrade Rails](/2025/10/20/when-to-upgrade-rails.html)
-- [Stop wasting money on one-off Rails upgrades](/2025/11/02/stop-wasting-money-one-off-rails-upgrades.html)
-- [How to maintain an existing Rails app](/2026/03/03/how-to-maintain-an-existing-rails-app.html)
+- [Rails 7.2 to Rails 8 upgrade: step-by-step](/blog/rails-7-2-to-rails-8-upgrade-step-by-step/)
+- [When to upgrade Rails](/blog/when-to-upgrade-rails/)
+- [Stop wasting money on one-off Rails upgrades](/blog/stop-wasting-money-one-off-rails-upgrades/)
+- [How to maintain an existing Rails app](/blog/how-to-maintain-an-existing-rails-app/)
 
 ---
 

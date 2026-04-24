@@ -91,7 +91,7 @@ Ruby and Rails are separate projects with separate version numbers and separate 
 - When you upgrade Rails, you often need to upgrade Ruby first.
 - When Ruby hits end of life, you need to upgrade Ruby regardless of your Rails version.
 
-The practical advice: keep both current. Upgrade Ruby annually (small, boring). Upgrade Rails on its own cadence (see [when to upgrade Rails](/2025/10/20/when-to-upgrade-rails.html)). Never let either fall more than one version behind.
+The practical advice: keep both current. Upgrade Ruby annually (small, boring). Upgrade Rails on its own cadence (see [when to upgrade Rails](/blog/when-to-upgrade-rails/)). Never let either fall more than one version behind.
 
 ## What to Do Right Now
 
@@ -104,8 +104,8 @@ The practical advice: keep both current. Upgrade Ruby annually (small, boring). 
 ## Further Reading
 
 - [Ruby maintainer's guide to the release cycle](https://dev.to/hsbt/is-your-ruby-version-still-supported-a-maintainers-guide-to-rubys-release-cycle-799) — the original technical source
-- [Rails 7 LTS: A CTO's guide](/2026/02/10/rails-7-lts-long-term-support-guide-for-ctos.html) — what long-term support means on the Rails side
-- [How to maintain Ruby on Rails: a founder's guide](/2026/03/17/maintain-ruby-on-rails-founder-guide.html) — the bigger maintenance picture
+- [Rails 7 LTS: A CTO's guide](/blog/rails-7-lts-long-term-support-guide-for-ctos/) — what long-term support means on the Rails side
+- [How to maintain Ruby on Rails: a founder's guide](/blog/maintain-ruby-on-rails-founder-guide/) — the bigger maintenance picture
 
 ---
 

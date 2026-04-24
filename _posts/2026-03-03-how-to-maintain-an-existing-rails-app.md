@@ -14,7 +14,7 @@ Most Rails apps in production are not new. They are 3, 5, 8 years old. They carr
 
 This is a playbook for maintaining an existing Rails app. Not greenfield advice. Not "rewrite in Hotwire." Practical habits that keep a real codebase shippable and upgradable.
 
-If you are feeling the pain of an app that has been neglected for years, start with [what to do when your Rails app crashes in production](/2025/10/19/what-to-do-when-your-rails-app-crashes-in-production.html) first. This post assumes you are not currently on fire.
+If you are feeling the pain of an app that has been neglected for years, start with [what to do when your Rails app crashes in production](/blog/what-to-do-when-your-rails-app-crashes-in-production/) first. This post assumes you are not currently on fire.
 
 ## What "Maintenance" Actually Means
 
@@ -26,7 +26,7 @@ Maintenance is not "keep the lights on." Keeping the lights on is operations. Ma
 - **Observable**: you find out about problems from your monitors, not your customers.
 - **Changeable**: a new engineer can ship a feature this week.
 
-If any one of those is broken, you are accumulating technical debt faster than you are paying it down. That debt has compound interest - see [the hidden ROI of regular Rails maintenance](/2025/10/13/hidden-roi-of-regular-rails-maintenance.html).
+If any one of those is broken, you are accumulating technical debt faster than you are paying it down. That debt has compound interest - see [the hidden ROI of regular Rails maintenance](/blog/hidden-roi-of-regular-rails-maintenance/).
 
 ## The Four Layers of a Rails App You Have to Maintain
 
@@ -156,7 +156,7 @@ A maintainable Rails app has:
 
 This is not optional. The cost of *not* having this is your next production outage.
 
-See [what to do when your Rails app crashes in production](/2025/10/19/what-to-do-when-your-rails-app-crashes-in-production.html) for the incident side.
+See [what to do when your Rails app crashes in production](/blog/what-to-do-when-your-rails-app-crashes-in-production/) for the incident side.
 
 ## The Initializer Graveyard
 
@@ -192,7 +192,7 @@ Some baseline habits that catch 80% of real Rails security incidents:
 - Credentials in `config/credentials.yml.enc` or a secret manager, not ENV files in Git.
 - Force SSL, strict CSP, secure cookie flags in production.
 
-If you handle customer data you should also read [security best practices for web apps](/2025/08/20/security-best-practices-web-apps-lessons-coderabbit-exploit.html).
+If you handle customer data you should also read [security best practices for web apps](/blog/security-best-practices-web-apps-lessons-coderabbit-exploit/).
 
 ## When Maintenance Cannot Fix It Alone
 

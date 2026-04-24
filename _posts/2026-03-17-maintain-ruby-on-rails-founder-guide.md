@@ -16,7 +16,7 @@ The question: *"are we maintaining this app properly?"*
 
 Most founders cannot answer it confidently. Not because they are bad founders - because nobody ever told them what "maintaining Ruby on Rails" actually involves, what it costs, or what it looks like when it is going right. This guide is that explanation, in business terms.
 
-If you want the deep developer playbook, see [how to maintain an existing Rails app](/2026/03/03/how-to-maintain-an-existing-rails-app.html). This post is for the person who signs the check.
+If you want the deep developer playbook, see [how to maintain an existing Rails app](/blog/how-to-maintain-an-existing-rails-app/). This post is for the person who signs the check.
 
 ## What "Maintain Ruby on Rails" Really Means
 
@@ -66,7 +66,7 @@ Symptoms:
 - `bundle install` fails on new engineers' laptops.
 - Every production incident surprises somebody.
 
-Cost profile: flat line for 2-3 years, then one enormous project - often $150K-$300K of emergency upgrade work. See [Ruby on Rails maintenance cost](/2025/08/18/ruby-on-rails-maintenance-cost.html) for the numbers.
+Cost profile: flat line for 2-3 years, then one enormous project - often $150K-$300K of emergency upgrade work. See [Ruby on Rails maintenance cost](/blog/ruby-on-rails-maintenance-cost/) for the numbers.
 
 ### Mode B: Big-bang periodic upgrades
 
@@ -135,7 +135,7 @@ Compare that to:
 
 The math isn't subtle. Continuous maintenance is one of the highest-ROI engineering investments a SaaS business can make.
 
-For a longer take on the economics, see [stop wasting money on one-off Rails upgrades](/2025/11/02/stop-wasting-money-one-off-rails-upgrades.html).
+For a longer take on the economics, see [stop wasting money on one-off Rails upgrades](/blog/stop-wasting-money-one-off-rails-upgrades/).
 
 ## Who Should Do the Maintenance
 

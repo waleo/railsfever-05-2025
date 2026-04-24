@@ -94,11 +94,11 @@ The answers tell you more than the sales pitch.
 
 ## When to Upgrade vs. When to Maintain
 
-Not every Rails app needs an upgrade right now. If you are on a supported Rails version (currently 7.2 or 8.0) with a current Ruby, your priority is [ongoing maintenance](/2026/03/03/how-to-maintain-an-existing-rails-app.html) — keeping gems patched, monitoring for CVEs, and staying current incrementally.
+Not every Rails app needs an upgrade right now. If you are on a supported Rails version (currently 7.2 or 8.0) with a current Ruby, your priority is [ongoing maintenance](/blog/how-to-maintain-an-existing-rails-app/) — keeping gems patched, monitoring for CVEs, and staying current incrementally.
 
 If you are on an unsupported version, the upgrade is not optional — it is a security and compliance requirement. The question is not whether to upgrade but who does it and how fast.
 
-For a deeper look at the Rails 7 to 8 path specifically, see our [Rails 7 to Rails 8 upgrade guide](/2026/03/31/rails-7-to-rails-8-upgrade-2026-guide.html).
+For a deeper look at the Rails 7 to 8 path specifically, see our [Rails 7 to Rails 8 upgrade guide](/blog/rails-7-to-rails-8-upgrade-2026-guide/).
 
 ---
 

@@ -14,7 +14,7 @@ If you are on Rails 7.2 and staring at Rails 8, you are in the happiest version 
 
 So Rails 7.2 to 8 is usually a short, boring upgrade. *If* you sequence it right and do not try to also adopt every Rails 8 feature in the same PR.
 
-This is the focused step-by-step. If you are on Rails 7.0 or 7.1, start with the broader [Rails 7 to Rails 8 upgrade guide](/2026/03/31/rails-7-to-rails-8-upgrade-2026-guide.html) and come back to this when you are on 7.2.
+This is the focused step-by-step. If you are on Rails 7.0 or 7.1, start with the broader [Rails 7 to Rails 8 upgrade guide](/blog/rails-7-to-rails-8-upgrade-2026-guide/) and come back to this when you are on 7.2.
 
 ## Pre-Flight Checklist
 
@@ -260,10 +260,10 @@ If you are hitting weeks of pain on the upgrade PR itself, stop. Something in th
 
 ## Related Reading
 
-- [Rails 7 to Rails 8 upgrade: 2026 technical guide](/2026/03/31/rails-7-to-rails-8-upgrade-2026-guide.html) - if you are on 7.0 or 7.1, start there.
-- [Rails 7 LTS: A developer's technical guide](/2026/02/17/rails-7-lts-technical-guide-for-developers.html) - if you are not upgrading yet.
-- [When to upgrade Rails](/2025/10/20/when-to-upgrade-rails.html)
-- [Stop wasting money on one-off Rails upgrades](/2025/11/02/stop-wasting-money-one-off-rails-upgrades.html)
+- [Rails 7 to Rails 8 upgrade: 2026 technical guide](/blog/rails-7-to-rails-8-upgrade-2026-guide/) - if you are on 7.0 or 7.1, start there.
+- [Rails 7 LTS: A developer's technical guide](/blog/rails-7-lts-technical-guide-for-developers/) - if you are not upgrading yet.
+- [When to upgrade Rails](/blog/when-to-upgrade-rails/)
+- [Stop wasting money on one-off Rails upgrades](/blog/stop-wasting-money-one-off-rails-upgrades/)
 
 ---
 

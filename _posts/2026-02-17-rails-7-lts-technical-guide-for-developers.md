@@ -12,7 +12,7 @@ preview_image: "/assets/images/blog/padlock-on-keyboard-400x300.webp"
 
 If you work on a Rails 7 codebase in 2026, you have probably started thinking about the end of its supported life. Rails 8 is out. Rails 8.1 is on the horizon. The core team's attention is moving. Your app is not.
 
-This post is the developer-facing answer to "what does Rails 7 LTS mean, and what do I actually need to do to keep this app patchable?". If you are looking for the CTO / business framing, I covered that in [Rails 7 LTS: A CTO's Guide](/2026/02/10/rails-7-lts-long-term-support-guide-for-ctos.html). This one is about code, gems, and CVEs.
+This post is the developer-facing answer to "what does Rails 7 LTS mean, and what do I actually need to do to keep this app patchable?". If you are looking for the CTO / business framing, I covered that in [Rails 7 LTS: A CTO's Guide](/blog/rails-7-lts-long-term-support-guide-for-ctos/). This one is about code, gems, and CVEs.
 
 ## The Rails Maintenance Policy, In Plain English
 
@@ -170,9 +170,9 @@ When any two of those are true, it is time to stop maintaining the bridge and wa
 
 ## Related Reading
 
-- [When to upgrade Rails](/2025/10/20/when-to-upgrade-rails.html)
-- [Stop wasting money on one-off Rails upgrades](/2025/11/02/stop-wasting-money-one-off-rails-upgrades.html)
-- [Ruby on Rails maintenance cost](/2025/08/18/ruby-on-rails-maintenance-cost.html)
+- [When to upgrade Rails](/blog/when-to-upgrade-rails/)
+- [Stop wasting money on one-off Rails upgrades](/blog/stop-wasting-money-one-off-rails-upgrades/)
+- [Ruby on Rails maintenance cost](/blog/ruby-on-rails-maintenance-cost/)
 
 ---
 
