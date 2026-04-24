@@ -101,7 +101,7 @@ If I were stepping into a Rails 7 app today as a fractional CTO, here is what th
 4. **Months 5-8**: Either execute the Rails 8 upgrade in stages, or stabilize on a supported Rails 7 line with LTS coverage.
 5. **Months 9-12**: Lock in ongoing maintenance so you never end up in the "it has been four years since we touched Rails" situation again.
 
-That last point is the whole game. Apps that get rescued usually got rescued because nobody owned maintenance. See [the hidden ROI of regular Rails maintenance](/2025/10/13/hidden-roi-of-regular-rails-maintenance.html) for why this compounds.
+That last point is the whole game. Apps that get rescued usually got rescued because nobody owned maintenance. See [the hidden ROI of regular Rails maintenance](/blog/hidden-roi-of-regular-rails-maintenance/) for why this compounds.
 
 ## When to Call for Help
 

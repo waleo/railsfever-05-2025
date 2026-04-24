@@ -58,7 +58,7 @@ Every convention that lives only in review becomes a convention the AI will get 
 
 ## Build a Library of Skills
 
-If you are writing the same prompt three times, it should be a skill. (See our [guide to creating Claude skills for Rails apps](/2026/04/13/creating-claude-skills-for-rails-apps.html).)
+If you are writing the same prompt three times, it should be a skill. (See our [guide to creating Claude skills for Rails apps](/blog/creating-claude-skills-for-rails-apps/).)
 
 Skills to build first, in order of payoff:
 
@@ -148,6 +148,6 @@ Getting there takes deliberate investment, not enthusiasm.
 
 ---
 
-Working on raising AI share on a Rails team and not sure where the biggest blockers are? Our [technical audit](/services/rails_tech_audit/) now includes an assessment of AI-readiness — test suite friction, convention documentation, skill library — alongside the usual Rails health check. See also our post on [AI-assisted development on a large legacy Rails app](/2026/04/15/ai-assisted-development-on-large-legacy-rails-app.html).
+Working on raising AI share on a Rails team and not sure where the biggest blockers are? Our [technical audit](/services/rails_tech_audit/) now includes an assessment of AI-readiness — test suite friction, convention documentation, skill library — alongside the usual Rails health check. See also our post on [AI-assisted development on a large legacy Rails app](/blog/ai-assisted-development-on-large-legacy-rails-app/).
 
 [Schedule a consultation]({{ site.schedule_meeting_link }}) or email <a href="mailto:hello@railsfever.com" class="email-link">hello@railsfever.com</a> to talk about AI strategy on your Rails team.

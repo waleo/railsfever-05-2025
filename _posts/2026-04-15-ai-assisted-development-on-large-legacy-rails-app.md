@@ -110,6 +110,6 @@ The teams getting the most value are not the ones using the fanciest tools. They
 
 ---
 
-Running a large legacy Rails app and wondering how to realistically integrate AI into your workflow? Our [Rails Care Plan](/services/rails_care_plan/) and [technical audit](/services/rails_tech_audit/) engagements increasingly include the codebase-mapping and AI-tooling work that make this possible — so you get velocity without the cleanup costs. See also our posts on [tips for using Claude with an existing Rails app](/2026/04/10/tips-for-using-claude-with-an-existing-rails-app.html) and [creating Claude skills for Rails apps](/2026/04/13/creating-claude-skills-for-rails-apps.html).
+Running a large legacy Rails app and wondering how to realistically integrate AI into your workflow? Our [Rails Care Plan](/services/rails_care_plan/) and [technical audit](/services/rails_tech_audit/) engagements increasingly include the codebase-mapping and AI-tooling work that make this possible — so you get velocity without the cleanup costs. See also our posts on [tips for using Claude with an existing Rails app](/blog/tips-for-using-claude-with-an-existing-rails-app/) and [creating Claude skills for Rails apps](/blog/creating-claude-skills-for-rails-apps/).
 
 [Schedule a consultation]({{ site.schedule_meeting_link }}) or email <a href="mailto:hello@railsfever.com" class="email-link">hello@railsfever.com</a> to talk about AI on your legacy Rails codebase.

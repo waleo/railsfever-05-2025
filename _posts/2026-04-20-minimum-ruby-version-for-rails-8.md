@@ -82,7 +82,7 @@ Ruby ships a new minor version every December. Each version gets roughly three y
 
 Rails 8 supports all three, but the cost of being on the lowest version climbs over time. Today's "minimum" is next year's "deprecated." A Ruby that is comfortable today is at end-of-life in 18 months.
 
-For a fuller treatment of Ruby versioning from a business perspective, see our post on [understanding Ruby versioning for founders](/2026/04/07/understanding-ruby-versioning-for-founders.html).
+For a fuller treatment of Ruby versioning from a business perspective, see our post on [understanding Ruby versioning for founders](/blog/understanding-ruby-versioning-for-founders/).
 
 ## The Rails-Ruby Compatibility Table
 

@@ -14,7 +14,7 @@ Rails app maintenance is the work that keeps a production application secure, pe
 
 If you are responsible for a Rails app in production — as a developer, CTO, or founder — this guide covers what maintenance actually involves, how often each task should happen, and how to build a sustainable practice around it.
 
-For the developer-focused playbook, see [how to maintain an existing Rails app](/2026/03/03/how-to-maintain-an-existing-rails-app.html). For the business case, see [the hidden ROI of regular Rails maintenance](/2025/10/13/hidden-roi-of-regular-rails-maintenance.html). This post sits between the two — practical enough to act on, strategic enough to justify.
+For the developer-focused playbook, see [how to maintain an existing Rails app](/blog/how-to-maintain-an-existing-rails-app/). For the business case, see [the hidden ROI of regular Rails maintenance](/blog/hidden-roi-of-regular-rails-maintenance/). This post sits between the two — practical enough to act on, strategic enough to justify.
 
 ## The Five Pillars of Rails App Maintenance
 
@@ -42,7 +42,7 @@ For a Rails app, the security surface includes:
 - Your operating system and Docker base image.
 - Your JavaScript dependencies, if any.
 
-A healthy maintenance practice patches critical CVEs within days of disclosure and reviews lower-severity issues on a monthly cadence. For more on this, see [security best practices for web apps](/2025/08/20/security-best-practices-web-apps-lessons-coderabbit-exploit.html).
+A healthy maintenance practice patches critical CVEs within days of disclosure and reviews lower-severity issues on a monthly cadence. For more on this, see [security best practices for web apps](/blog/security-best-practices-web-apps-lessons-coderabbit-exploit/).
 
 ### 3. Framework and Runtime Upgrades
 
@@ -115,7 +115,7 @@ The cost of skipping maintenance is not the eventual upgrade bill — though tha
 
 Apps on regular maintenance do not have that slowdown. They ship faster in year five than apps that "saved time" by skipping maintenance in year two.
 
-For the full cost breakdown, see [Ruby on Rails maintenance cost](/2025/08/18/ruby-on-rails-maintenance-cost.html).
+For the full cost breakdown, see [Ruby on Rails maintenance cost](/blog/ruby-on-rails-maintenance-cost/).
 
 ## DIY vs. Outsourced Maintenance
 

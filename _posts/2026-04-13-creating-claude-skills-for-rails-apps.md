@@ -151,6 +151,6 @@ By the third skill, the pattern is obvious. By the tenth, your team has a meanin
 
 ---
 
-Looking to integrate AI tooling into a Rails team in a durable way? Our [Rails Care Plan](/services/rails_care_plan/) increasingly includes skill libraries tuned to each client's codebase — so the AI leverage compounds instead of dissipating between sessions. See also our post on [tips for using Claude with an existing Rails app](/2026/04/10/tips-for-using-claude-with-an-existing-rails-app.html) for the broader setup.
+Looking to integrate AI tooling into a Rails team in a durable way? Our [Rails Care Plan](/services/rails_care_plan/) increasingly includes skill libraries tuned to each client's codebase — so the AI leverage compounds instead of dissipating between sessions. See also our post on [tips for using Claude with an existing Rails app](/blog/tips-for-using-claude-with-an-existing-rails-app/) for the broader setup.
 
 [Schedule a consultation]({{ site.schedule_meeting_link }}) or email <a href="mailto:hello@railsfever.com" class="email-link">hello@railsfever.com</a> to talk about AI-assisted Rails development.

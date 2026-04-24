@@ -128,7 +128,7 @@ This is a short stage on most apps. A day or two.
 
 ## Stage 4: Ruby Upgrade Before Rails 8
 
-Rails 8 requires Ruby 3.2.0 minimum, and recommends Ruby 3.3 or newer. (See our post on [the minimum Ruby version for Rails 8](/2026/04/20/minimum-ruby-version-for-rails-8.html) for the source citations.)
+Rails 8 requires Ruby 3.2.0 minimum, and recommends Ruby 3.3 or newer. (See our post on [the minimum Ruby version for Rails 8](/blog/minimum-ruby-version-for-rails-8/) for the source citations.)
 
 Before attempting the Rails 8 bump, upgrade Ruby:
 
@@ -159,7 +159,7 @@ If you have been disciplined through the previous stages, this is usually the sh
 - The Docker generator assumes Kamal; if you deploy to Heroku or another PaaS, override.
 - Minor behavior changes in ActiveRecord transaction callbacks.
 
-For the detailed step-by-step of this specific stage, see our [Rails 7.2 to Rails 8 upgrade guide](/2026/04/14/rails-7-2-to-rails-8-upgrade-step-by-step.html).
+For the detailed step-by-step of this specific stage, see our [Rails 7.2 to Rails 8 upgrade guide](/blog/rails-7-2-to-rails-8-upgrade-step-by-step/).
 
 ## Gem Ecosystem: Audit at Every Stage
 
@@ -207,6 +207,6 @@ If none of those are true, the upgrade tends to stall out at Stage 1 or Stage 2,
 
 ---
 
-Looking at a Rails 6 to Rails 8 upgrade and want a partner who has done it repeatedly? Our [Rails Upgrade Express](/services/rails_upgrade_express/) handles the full path on a fixed timeline, including the intermediate Ruby bumps. For apps that need a structural assessment first, the [Rails Tech Audit](/services/rails_tech_audit/) produces a stage-by-stage plan you can execute internally or hand to us. See also our [Rails 7.2 to Rails 8 step-by-step guide](/2026/04/14/rails-7-2-to-rails-8-upgrade-step-by-step.html) for the last leg of the journey.
+Looking at a Rails 6 to Rails 8 upgrade and want a partner who has done it repeatedly? Our [Rails Upgrade Express](/services/rails_upgrade_express/) handles the full path on a fixed timeline, including the intermediate Ruby bumps. For apps that need a structural assessment first, the [Rails Tech Audit](/services/rails_tech_audit/) produces a stage-by-stage plan you can execute internally or hand to us. See also our [Rails 7.2 to Rails 8 step-by-step guide](/blog/rails-7-2-to-rails-8-upgrade-step-by-step/) for the last leg of the journey.
 
 [Schedule a consultation]({{ site.schedule_meeting_link }}) or email <a href="mailto:hello@railsfever.com" class="email-link">hello@railsfever.com</a> to plan your Rails 6 to Rails 8 upgrade.

@@ -115,7 +115,7 @@ Rails support pricing varies widely, but rough ranges for managed maintenance:
 
 The right tier depends on your app's complexity, your internal team size, and how much of the maintenance burden you want to offload.
 
-For a longer take on the economics, see [Ruby on Rails maintenance cost](/2025/08/18/ruby-on-rails-maintenance-cost.html).
+For a longer take on the economics, see [Ruby on Rails maintenance cost](/blog/ruby-on-rails-maintenance-cost/).
 
 ---
 
