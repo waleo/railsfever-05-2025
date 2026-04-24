@@ -130,7 +130,7 @@ This is the pragmatic answer for teams with infrastructure already leaning on co
 
 ## Ubuntu 18.04 Is EOL; Don't Build New Infrastructure There
 
-Ubuntu 18.04 LTS reached end of standard support in May 2023 and extended security maintenance in April 2028. Do not provision new servers on it. If you have old infrastructure still on 18.04 and your Rails app only runs there because of Ruby/OpenSSL alignment, you are carrying compounding debt on both axes. Plan a joint Ruby + Ubuntu upgrade rather than extending the life of either.
+Ubuntu 18.04 LTS reached end of standard support in May 2023 and will reach end of extended security maintenance in April 2028. Do not provision new servers on it. If you have old infrastructure still on 18.04 and your Rails app only runs there because of Ruby/OpenSSL alignment, you are carrying compounding debt on both axes. Plan a joint Ruby + Ubuntu upgrade rather than extending the life of either.
 
 ## The Right Target Today
 
