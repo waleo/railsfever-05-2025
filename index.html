@@ -84,7 +84,7 @@ description: "Ruby on Rails consultancy specializing in Rails upgrades, ongoing 
           <p>Rails Fever consults with us to manage software development for our custom Ruby on Rails e-commerce platform. Given that we sell over 100,000 rugs on the site, the architecture and data management is complex and demanding. Rails Fever combines technical know-how with excellent organizational skills, completing complicated tasks quickly with minimal oversight, which is excellent for our small team. Trustworthy and pleasant to work with &mdash; highly recommended.</p>
         </div>
         <button class="testimonial-toggle" type="button" aria-expanded="false">Read more</button>
-        <p class="testimonial-attribution">Yis Tigay, Synema</p>
+        <p class="testimonial-attribution">Yis Tigay, Founder, Synema</p>
       </div>
 
       <div class="testimonial-card">
@@ -93,7 +93,7 @@ description: "Ruby on Rails consultancy specializing in Rails upgrades, ongoing 
           <p>I had the honor to work with Rails Fever, taking the lead on project management while simultaneously contributing as Rails developers. Critical thinkers who ask the important questions. During their tenure, our team greatly improved its capacity for deliveries, established a reliable process for story-point estimating, underwent a site-wide redesign, migrated to an entirely new database schema, and shipped countless other features. Would recommend for any engineering team.</p>
         </div>
         <button class="testimonial-toggle" type="button" aria-expanded="false">Read more</button>
-        <p class="testimonial-attribution">John Madison, Chewy</p>
+        <p class="testimonial-attribution">John Madison, Software Engineer, Chewy</p>
       </div>
 
       <div class="testimonial-card">
@@ -102,7 +102,7 @@ description: "Ruby on Rails consultancy specializing in Rails upgrades, ongoing 
           <p>I worked with Wale (founder of Rails Fever) for several months managing software for a large client. Strong technical and business sense applied to software design problems. Full stack &mdash; from fixing server issues on AWS, to writing great Ruby code, to dealing with front-end issues. A trustworthy technical partner.</p>
         </div>
         <button class="testimonial-toggle" type="button" aria-expanded="false">Read more</button>
-        <p class="testimonial-attribution">Ben Greenberg, T-Mobile</p>
+        <p class="testimonial-attribution">Ben Greenberg, Product Owner, T-Mobile</p>
       </div>
 
       <div class="testimonial-card">
@@ -111,7 +111,7 @@ description: "Ruby on Rails consultancy specializing in Rails upgrades, ongoing 
           <p>Rails Fever took our software production process to a level that might never have been reached without them. They provided a constant open stream of communication between product owners and the development team that pushed our productivity forward and eliminated considerable prep work. At our small startup they balanced managing our sprint and release flow with contributing as a Rails developer and improving our company strategy. The complete package.</p>
         </div>
         <button class="testimonial-toggle" type="button" aria-expanded="false">Read more</button>
-        <p class="testimonial-attribution">Lindsay Obar, Blake Hill Preserves</p>
+        <p class="testimonial-attribution">Lindsay Obar, Product Manager, Subtext Media</p>
       </div>
     </div>
 
@@ -120,10 +120,12 @@ description: "Ruby on Rails consultancy specializing in Rails upgrades, ongoing 
         document.querySelectorAll(".testimonial-toggle").forEach(btn => {
           btn.addEventListener("click", () => {
             const card = btn.closest(".testimonial-card");
+            const excerpt = card.querySelector(".testimonial-excerpt");
             const full = card.querySelector(".testimonial-full");
             const expanded = btn.getAttribute("aria-expanded") === "true";
             btn.setAttribute("aria-expanded", String(!expanded));
             full.hidden = expanded;
+            excerpt.hidden = !expanded;
             btn.textContent = expanded ? "Read more" : "Show less";
           });
         });
