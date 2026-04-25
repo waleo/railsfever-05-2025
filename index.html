@@ -61,15 +61,84 @@ description: "Ruby on Rails consultancy specializing in Rails upgrades, ongoing 
     <h2>What Our Clients Say</h2>
     <div class="testimonial-grid">
       <div class="testimonial-card">
-        <p>"Rails Fever helped us stabilize our legacy Rails app and scale with confidence. Truly a game-changer!" - CTO Supercat Solutions</p>
+        <p class="testimonial-excerpt">Rails Fever came at a time we needed an immediate intervention. They delivered &mdash; prompt, competent, professional, accurate. I would hire them again.</p>
+        <div id="testimonial-full-bogart" class="testimonial-full">
+          <p>Rails Fever came at a time we needed an immediate intervention due to a connectivity failure in our custom-designed platform. We needed a swift diagnosis and solution. Rails Fever delivered! They were prompt, competent, professional, accurate in their assessment and effective in their strategy, as well as reasonably priced. I would hire them again!</p>
+        </div>
+        <button class="testimonial-toggle" type="button" aria-expanded="true" aria-controls="testimonial-full-bogart" hidden>Read more</button>
+        <p class="testimonial-attribution">Julie Bogart, Founder, Brave Writer</p>
       </div>
+
       <div class="testimonial-card">
-        <p>"Wale's Fractional CTO services gave us a clear technical direction and improved our Rails infrastructure immensely." - Founder Stealth Startup</p>
+        <p class="testimonial-excerpt">Rails Fever has been a game-changer for our online classroom platform. They joined at a time of crisis and have kept us running smoothly since 2023.</p>
+        <div id="testimonial-full-merryman" class="testimonial-full">
+          <p>Working with Rails Fever has been an absolute game-changer for our online classroom platform. They joined our team at a time of crisis, when our platform was broken and no one could solve the problem. Not only did they get us up and running quickly, but their ability to manage the complex systems of our classroom with precision and efficiency has kept us running smoothly since 2023. What truly sets them apart are excellent communication and project management &mdash; keeping us informed, listening to our needs, and translating feedback into actionable improvements. Highly recommended.</p>
+        </div>
+        <button class="testimonial-toggle" type="button" aria-expanded="true" aria-controls="testimonial-full-merryman" hidden>Read more</button>
+        <p class="testimonial-attribution">Kirsten Merryman, Director of Online Instruction, Brave Writer</p>
       </div>
+
       <div class="testimonial-card">
-        <p>"We moved through three Rails versions without downtime thanks to Rails Fever. Highly recommended!" - CEO Bravewriter</p>
+        <p class="testimonial-excerpt">Rails Fever manages software development for our custom Rails e-commerce platform &mdash; 100,000+ products, complex architecture, complicated tasks completed quickly with minimal oversight.</p>
+        <div id="testimonial-full-tigay" class="testimonial-full">
+          <p>Rails Fever consults with us to manage software development for our custom Ruby on Rails e-commerce platform. Given that we sell over 100,000 rugs on the site, the architecture and data management is complex and demanding. Rails Fever combines technical know-how with excellent organizational skills, completing complicated tasks quickly with minimal oversight, which is excellent for our small team. Trustworthy and pleasant to work with &mdash; highly recommended.</p>
+        </div>
+        <button class="testimonial-toggle" type="button" aria-expanded="true" aria-controls="testimonial-full-tigay" hidden>Read more</button>
+        <p class="testimonial-attribution">Yis Tigay, Founder, Synema</p>
+      </div>
+
+      <div class="testimonial-card">
+        <p class="testimonial-excerpt">Rails Fever led project management while contributing as Rails developers. Delivery capacity grew, estimating became reliable, and we shipped a site-wide redesign plus a full database migration.</p>
+        <div id="testimonial-full-madison" class="testimonial-full">
+          <p>I had the honor to work with Rails Fever, taking the lead on project management while simultaneously contributing as Rails developers. Critical thinkers who ask the important questions. During their tenure, our team greatly improved its capacity for deliveries, established a reliable process for story-point estimating, underwent a site-wide redesign, migrated to an entirely new database schema, and shipped countless other features. Would recommend for any engineering team.</p>
+        </div>
+        <button class="testimonial-toggle" type="button" aria-expanded="true" aria-controls="testimonial-full-madison" hidden>Read more</button>
+        <p class="testimonial-attribution">John Madison, Software Engineer, Chewy</p>
+      </div>
+
+      <div class="testimonial-card">
+        <p class="testimonial-excerpt">Strong technical and business sense across the full stack &mdash; AWS, Ruby, and front-end. A trustworthy technical partner.</p>
+        <div id="testimonial-full-greenberg" class="testimonial-full">
+          <p>I worked with Wale (founder of Rails Fever) for several months managing software for a large client. Strong technical and business sense applied to software design problems. Full stack &mdash; from fixing server issues on AWS, to writing great Ruby code, to dealing with front-end issues. A trustworthy technical partner.</p>
+        </div>
+        <button class="testimonial-toggle" type="button" aria-expanded="true" aria-controls="testimonial-full-greenberg" hidden>Read more</button>
+        <p class="testimonial-attribution">Ben Greenberg, Product Owner, T-Mobile</p>
+      </div>
+
+      <div class="testimonial-card">
+        <p class="testimonial-excerpt">Rails Fever took our software production to a level we wouldn't have reached otherwise &mdash; sprint and release flow, Rails contributions, and company strategy. The complete package.</p>
+        <div id="testimonial-full-obar" class="testimonial-full">
+          <p>Rails Fever took our software production process to a level that might never have been reached without them. They provided a constant open stream of communication between product owners and the development team that pushed our productivity forward and eliminated considerable prep work. At our small startup they balanced managing our sprint and release flow with contributing as a Rails developer and improving our company strategy. The complete package.</p>
+        </div>
+        <button class="testimonial-toggle" type="button" aria-expanded="true" aria-controls="testimonial-full-obar" hidden>Read more</button>
+        <p class="testimonial-attribution">Lindsay Obar, Product Manager, Subtext Media</p>
       </div>
     </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".testimonial-card").forEach(card => {
+          const btn = card.querySelector(".testimonial-toggle");
+          const excerpt = card.querySelector(".testimonial-excerpt");
+          const full = card.querySelector(".testimonial-full");
+          if (!btn || !full) return;
+
+          full.hidden = true;
+          if (excerpt) excerpt.hidden = false;
+          btn.hidden = false;
+          btn.setAttribute("aria-expanded", "false");
+          btn.textContent = "Read more";
+
+          btn.addEventListener("click", () => {
+            const expanded = btn.getAttribute("aria-expanded") === "true";
+            btn.setAttribute("aria-expanded", String(!expanded));
+            full.hidden = expanded;
+            if (excerpt) excerpt.hidden = !expanded;
+            btn.textContent = expanded ? "Read more" : "Show less";
+          });
+        });
+      });
+    </script>
   </section>
 
   <section class="pricing-cta">

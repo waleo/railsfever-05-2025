@@ -180,13 +180,16 @@
 
   .testimonial-grid {
     @include grid-base($grid-min-width-large, $grid-gap-large);
-    max-width: $container-medium-width;
+    max-width: $container-max-width;
   }
 
   .testimonial-card {
     @include card-base;
     font-style: italic;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 
     &::before {
       content: '"';
@@ -200,6 +203,37 @@
     p {
       font-size: $font-size-small;
       color: $text-secondary;
+    }
+
+    .testimonial-full {
+      margin-top: 10px;
+    }
+
+    .testimonial-toggle {
+      align-self: flex-start;
+      margin-top: 10px;
+      padding: 0;
+      background: none;
+      border: none;
+      font-style: normal;
+      font-size: $font-size-tiny;
+      font-weight: $font-weight-bold;
+      color: $brand-primary;
+      cursor: pointer;
+
+      &:hover, &:focus {
+        text-decoration: underline;
+        color: $brand-primary-hover;
+      }
+    }
+
+    .testimonial-attribution {
+      margin-top: auto;
+      padding-top: 15px;
+      font-style: normal;
+      font-size: $font-size-tiny;
+      font-weight: $font-weight-bold;
+      color: $text-primary;
     }
   }
 
