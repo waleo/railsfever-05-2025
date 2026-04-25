@@ -62,7 +62,7 @@ If you install Ruby 3.2 to satisfy the minimum, Rails 8 will work. But you will 
 
 ## What You Should Actually Install
 
-For a new Rails 8 application, install the latest stable Ruby. At the time of writing, that means **Ruby 3.4.x**, which is the latest stable release and the one the Rails team is actively optimizing against.
+For a new Rails 8 application, install **the latest stable Ruby supported by Rails 8 and your dependency set**, and pin that version in your environment and configuration so every developer, CI run, and deploy uses the same Ruby. That gives you the Ruby the Rails team is actively optimizing against.
 
 For an existing Rails 8 application that needs to be upgraded, the order of operations is:
 
@@ -104,8 +104,8 @@ The pattern is consistent: each minor bumps the Ruby floor, and the "recommended
 
 If you are deploying Rails 8 today and you do not have a specific constraint pushing you lower:
 
-- Install Ruby 3.4.x.
-- Pin it in `.ruby-version`.
+- Install the latest stable Ruby supported by Rails 8 and your dependency set.
+- Pin the chosen version in `.ruby-version`.
 - Add `ruby "3.4.x"` to your Gemfile.
 - Match the version in your Dockerfile, CI config, and any other environment that runs Ruby.
 
