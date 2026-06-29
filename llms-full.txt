@@ -1,4 +1,5 @@
 ---
+layout: none
 permalink: /llms-full.txt
 sitemap: false
 ---
@@ -12,7 +13,9 @@ Rails Fever is a Ruby on Rails consultancy specializing in long-term maintenance
 # {{ post.title }}
 URL: {{ post.url | absolute_url }}
 Date: {{ post.date | date: "%Y-%m-%d" }}
-
+{% if post.author %}Author: {{ post.author }}
+{% endif %}{% if post.updated %}Updated: {{ post.updated | date: "%Y-%m-%d" }}
+{% endif %}
 {{ post.content | strip_html | normalize_whitespace }}
 
 ---
