@@ -1,0 +1,19 @@
+---
+permalink: /llms-full.txt
+sitemap: false
+---
+# Rails Fever — Full Content
+
+> {{ site.description }}
+
+Rails Fever is a Ruby on Rails consultancy specializing in long-term maintenance, upgrades, performance, security, rescue, and fractional CTO services for SaaS apps. Book a consultation: {{ site.schedule_meeting_link }}
+
+{% for post in site.posts %}
+# {{ post.title }}
+URL: {{ post.url | absolute_url }}
+Date: {{ post.date | date: "%Y-%m-%d" }}
+
+{{ post.content | strip_html | normalize_whitespace }}
+
+---
+{% endfor %}

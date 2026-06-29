@@ -1,0 +1,23 @@
+---
+permalink: /llms.txt
+sitemap: false
+---
+# Rails Fever
+
+> {{ site.description }}
+
+Rails Fever is a Ruby on Rails consultancy specializing in long-term maintenance, upgrades, performance, security, rescue, and fractional CTO services for SaaS apps. Book a consultation: {{ site.schedule_meeting_link }}
+
+## Core pages
+
+- [Home]({{ '/' | absolute_url }}): Overview of Rails Fever services
+- [Pricing]({{ '/pricing/' | absolute_url }}): Service pricing
+- [Blog]({{ '/blog/' | absolute_url }}): Articles on Rails maintenance, upgrades, and SaaS
+
+## Services
+{% assign services = site.pages | where_exp: "p", "p.path contains 'services/'" %}
+{% for s in services %}- [{{ s.title | remove: 'Services | ' }}]({{ s.url | absolute_url }}): {{ s.description }}
+{% endfor %}
+## Blog posts
+{% for post in site.posts %}- [{{ post.title }}]({{ post.url | absolute_url }}): {{ post.description }}
+{% endfor %}
