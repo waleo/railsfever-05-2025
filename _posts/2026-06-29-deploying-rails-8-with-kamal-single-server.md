@@ -210,8 +210,8 @@ The cost is that you wire up the networking yourself. The app container has to r
 Make Postgres listen on the bridge interface in addition to localhost, and allow password auth from Docker's subnet:
 
 ```bash
-PG_CONF="/etc/postgresql/16/main/postgresql.conf"
-PG_HBA="/etc/postgresql/16/main/pg_hba.conf"
+PG_CONF="/etc/postgresql/18/main/postgresql.conf"
+PG_HBA="/etc/postgresql/18/main/pg_hba.conf"
 
 sed -i "s/^#\?listen_addresses.*/listen_addresses = 'localhost,172.17.0.1'/" "$PG_CONF"
 
@@ -254,7 +254,7 @@ If you prefer Postgres-in-a-container — for parity with development, or to kee
 ```yaml
 accessories:
   db:
-    image: postgres:16
+    image: postgres:18
     host: 203.0.113.10
     port: "127.0.0.1:5432:5432"   # bound to loopback, not the public IP
     env:
