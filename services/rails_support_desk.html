@@ -44,48 +44,25 @@ description: On-demand support for your Rails app. Rails Support Desk handles bu
   <section class="pricing-section">
     <h2>Rails Emergency Help — Flat Rates — Avoid Surprises</h2>
     <div class="pricing-grid">
-      <div class="pricing-card minor">
-        <h3>Minor Incident</h3>
-        <div class="price">$3,000</div>
-        <p class="price-description">Clear root cause, resolved same day.</p>
+      {% comment %} Prices are the single source of truth in _data/pricing.yml {% endcomment %}
+      {% for tier in site.data.pricing.emergency.tiers %}
+      <div class="pricing-card {{ tier.id }}">
+        <h3>{{ tier.name }}</h3>
+        <div class="price">{{ tier.price }}</div>
+        <p class="price-description">{{ tier.description }}</p>
         <div class="pricing-examples">
           <p><strong>Examples:</strong></p>
           <ul>
-            <li>Expired SSL</li>
-            <li>Background jobs stuck</li>
-            <li>Third-party API key expired</li>
+            {% for example in tier.examples %}
+            <li>{{ example }}</li>
+            {% endfor %}
           </ul>
         </div>
       </div>
-      <div class="pricing-card major">
-        <h3>Major Incident</h3>
-        <div class="price">$6,000</div>
-        <p class="price-description">Multi-layer failures, up to 2 days to stabilize.</p>
-        <div class="pricing-examples">
-          <p><strong>Examples:</strong></p>
-          <ul>
-            <li>Database issues</li>
-            <li>Payments failing</li>
-            <li>Severe performance collapse</li>
-          </ul>
-        </div>
-      </div>
-      <div class="pricing-card critical">
-        <h3>Critical Incident</h3>
-        <div class="price">$12,000</div>
-        <p class="price-description">Catastrophic failures requiring full recovery.</p>
-        <div class="pricing-examples">
-          <p><strong>Examples:</strong></p>
-          <ul>
-            <li>App offline / unusable</li>
-            <li>Corrupted data</li>
-            <li>Security breach</li>
-          </ul>
-        </div>
-      </div>
+      {% endfor %}
     </div>
     <p class="pricing-note">
-      <strong>Note:</strong> Nights and weekend emergencies include a surcharge of $1,000 - $2,000 (tier based) for immediate response.
+      <strong>Note:</strong> {{ site.data.pricing.emergency.surcharge_note }}
     </p>
   </section>
 
