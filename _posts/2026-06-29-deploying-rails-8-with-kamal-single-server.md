@@ -46,7 +46,7 @@ What a good bootstrap script does, in order:
 7. Add fail2ban and automatic security upgrades
 8. Raise file descriptor limits
 
-Run it as root on the fresh box: `bash setup-server.sh`. Below are the pieces that matter, adapted from a script I run on production single-server deploys. Make it idempotent — you will re-run it.
+Run it as root on the fresh box: `bash setup-server.sh`. Below are the pieces that matter, adapted from a script I run on production single-server deploys. Make it idempotent — you will re-run it. The fragments in this section are assembled into a complete, runnable script in [this GitHub gist](https://gist.github.com/waleo/c649651cccabb1b8d060567857f1e2ca) — read it before running it, and adjust the config block at the top for your app.
 
 ### Packages and the deploy user
 
