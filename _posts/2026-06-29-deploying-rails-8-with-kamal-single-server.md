@@ -48,6 +48,14 @@ What a good bootstrap script does, in order:
 
 Run it as root on the fresh box: `bash setup-server.sh`. Below are the pieces that matter, adapted from a script I run on production single-server deploys. Make it idempotent — you will re-run it. The fragments in this section are assembled into a complete, runnable script in [this GitHub gist](https://gist.github.com/waleo/c649651cccabb1b8d060567857f1e2ca) — read it before running it, and adjust the config block at the top for your app.
 
+> **Tip:** You do not have to copy the script onto the server first. Pipe it over SSH and run it in one shot, keeping the file version-controlled in your repo:
+>
+> ```bash
+> ssh deploy@<server-ip> 'sudo bash -s' < bin/setup-server.sh
+> ```
+>
+> On the very first run of a brand-new box the `deploy` user does not exist yet, so connect as root that one time — `ssh root@<server-ip> 'bash -s' < bin/setup-server.sh` — then use the `deploy` form for every re-run after that.
+
 ### Packages and the deploy user
 
 Start with a strict shell and install the essentials:
