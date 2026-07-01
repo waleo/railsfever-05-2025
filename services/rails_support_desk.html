@@ -64,6 +64,9 @@ description: On-demand support for your Rails app. Rails Support Desk handles bu
     <p class="pricing-note">
       <strong>Note:</strong> {{ site.data.pricing.emergency.surcharge_note }}
     </p>
+    {% if site.data.pricing.emergency.breach_note %}
+    <p class="pricing-note">{{ site.data.pricing.emergency.breach_note }}</p>
+    {% endif %}
   </section>
 
   <!-- How It Works Section -->
@@ -121,7 +124,7 @@ description: On-demand support for your Rails app. Rails Support Desk handles bu
           <span class="faq-toggle">+</span>
         </button>
         <div class="faq-answer">
-          <p>After a quick intake call, we'll tell you whether it's Minor ($3K), Major ($6K), or Critical ($12K). Most emergencies fall into the Major tier. You'll know the cost upfront — no surprises.</p>
+          <p>After a quick intake call, we'll tell you whether it's Minor ($3K), Major ($6K), or Critical (from $12K, scoped after triage). Most emergencies fall into the Major tier. Confirmed security breaches are scoped and quoted separately. You'll know the cost upfront — no surprises.</p>
         </div>
       </div>
       <div class="faq-item">

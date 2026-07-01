@@ -179,6 +179,9 @@ description: Transparent pricing for Ruby on Rails services — monthly care pla
       </div>
 
       <p class="pricing-note"><strong>Note:</strong> {{ site.data.pricing.emergency.surcharge_note }}</p>
+      {% if site.data.pricing.emergency.breach_note %}
+      <p class="pricing-note">{{ site.data.pricing.emergency.breach_note }}</p>
+      {% endif %}
 
       <div class="section-cta">
         <a href="/services/rails_support_desk/" class="btn btn-outline">See full emergency support details →</a>

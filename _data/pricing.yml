@@ -26,13 +26,14 @@ emergency:
         - "Severe performance collapse"
     - id: critical
       name: "Critical Incident"
-      price: "$12,000"
-      description: "Catastrophic failures requiring full recovery."
+      price: "Starting at $12,000"
+      description: "Catastrophic failures requiring full recovery — scoped after triage."
       examples:
         - "App offline / unusable"
         - "Corrupted data"
-        - "Security breach"
+        - "Suspected security breach"
   surcharge_note: "Nights and weekend emergencies include a surcharge of $1,000 - $2,000 (tier based) for immediate response."
+  breach_note: "Confirmed security breaches are scoped and quoted separately."
 
 # Quote-based / project services. Shown on /pricing/ under
 # "Project-Based Services", each linking to its service page.
