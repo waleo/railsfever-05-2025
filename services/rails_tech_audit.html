@@ -44,6 +44,15 @@ description: Get a deep technical audit of your Rails app. Identify risks, bottl
     </div>
   </section>
 
+  {% assign audit = site.data.pricing.project_services | where: "id", "audit" | first %}
+  <section class="audit-pricing">
+    <h2>Simple, Fixed Pricing</h2>
+    <div class="audit-price">{{ audit.pricing_model }}</div>
+    <p class="audit-turnaround">{{ audit.turnaround }}</p>
+    <p class="audit-credit">💡 {{ audit.credit }}</p>
+    <a href="{{ site.schedule_meeting_link }}" target="_blank" class="cta-button">Book Your Audit</a>
+  </section>
+
   <section id="contact" class="contact">
     <h2>Get a Clear Roadmap. Build with Confidence.</h2>
     <a href="{{ site.schedule_meeting_link }}" target="_blank">Schedule Your Tech Audit</a>

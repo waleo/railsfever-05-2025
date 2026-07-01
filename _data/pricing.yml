@@ -38,27 +38,37 @@ emergency:
 # Quote-based / project services. Shown on /pricing/ under
 # "Project-Based Services", each linking to its service page.
 project_services:
-  - name: "Rails Upgrade Express"
+  - id: upgrade
+    name: "Rails Upgrade Express"
     icon: "⬆️"
     url: "/services/rails_upgrade_express/"
     pricing_model: "Quoted per project"
     description: "Safe, staged Ruby and Rails version upgrades with test fixes and compatibility work."
-  - name: "Rails Tech Audit"
+  # The Rails Tech Audit is a fixed-price offer. This entry is the single source
+  # of truth for its price, turnaround, and credit terms — rendered on both
+  # /pricing/ and /services/rails_tech_audit/ (looked up there by id).
+  - id: audit
+    name: "Rails Tech Audit"
     icon: "🔍"
     url: "/services/rails_tech_audit/"
-    pricing_model: "Fixed-scope audit"
-    description: "A deep technical review of your app with a prioritized risk and improvement roadmap."
-  - name: "Rails Rescue Kit"
+    pricing_model: "$3,000 flat"
+    turnaround: "Delivered in ~1 week"
+    credit: "The full $3,000 is credited toward a Care Plan or project engagement if you start within 30 days."
+    description: "A deep technical review of your app with a prioritized risk and improvement roadmap — including a team process review to surface bottlenecks."
+  - id: rescue
+    name: "Rails Rescue Kit"
     icon: "🛟"
     url: "/services/rails_rescue_kit/"
     pricing_model: "Flat project rate"
     description: "Diagnose and stabilize a broken or failing legacy Rails app, fast."
-  - name: "Feature Development"
+  - id: feature
+    name: "Feature Development"
     icon: "✨"
     url: "/services/rails_feature_development/"
     pricing_model: "Monthly engagement or scoped build"
     description: "Senior-led feature delivery inside your existing Rails app — no hiring required."
-  - name: "Fractional CTO"
+  - id: cto
+    name: "Fractional CTO"
     icon: "🧭"
     url: "/services/fractional_cto/"
     pricing_model: "Monthly retainer"
