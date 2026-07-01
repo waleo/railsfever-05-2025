@@ -382,6 +382,176 @@
     }
   }
 
+  // Shared section heading for the hub's pricing sections
+  .section-heading {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+
+    h2 {
+      font-size: 2.2rem;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    .section-intro {
+      font-size: 1.2rem;
+      color: #666;
+    }
+  }
+
+  // Emergency Support — compact summary cards (detail lives on Support Desk page)
+  .emergency-pricing {
+    padding: 4rem 0;
+    background: white;
+
+    .emergency-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+
+      @media (max-width: 1024px) {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+    }
+
+    .emergency-card {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 2rem;
+      text-align: center;
+      border-top: 4px solid #f39c12;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+      }
+
+      &.major { border-top-color: #e67e22; }
+      &.critical { border-top-color: #D61A32; }
+
+      h3 {
+        font-size: 1.4rem;
+        color: #333;
+        margin-bottom: 0.75rem;
+      }
+
+      .price {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #D61A32;
+        margin-bottom: 0.75rem;
+      }
+
+      .price-description {
+        color: #666;
+        margin: 0;
+        line-height: 1.5;
+      }
+    }
+
+    .pricing-note {
+      text-align: center;
+      color: #666;
+      margin-top: 2rem;
+      font-size: 0.95rem;
+    }
+
+    .section-cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+  }
+
+  // Project-based services — linked cards to each service page
+  .project-services {
+    padding: 4rem 0;
+    background: #f8f9fa;
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+
+      @media (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+    }
+
+    .project-card {
+      display: block;
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+
+        .project-link {
+          text-decoration: underline;
+        }
+      }
+
+      .project-icon {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      h3 {
+        font-size: 1.3rem;
+        color: #333;
+        margin-bottom: 0.5rem;
+      }
+
+      .project-model {
+        font-weight: 600;
+        color: #667eea;
+        margin-bottom: 0.75rem;
+      }
+
+      .project-desc {
+        color: #555;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+      }
+
+      .project-link {
+        font-weight: 600;
+        color: #D61A32;
+      }
+    }
+  }
+
+  // Outline button used for cross-links between pricing sections/pages
+  .btn-outline {
+    display: inline-block;
+    padding: 0.85rem 1.75rem;
+    border: 2px solid #D61A32;
+    border-radius: 8px;
+    color: #D61A32;
+    background: transparent;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background: #D61A32;
+      color: white;
+    }
+  }
+
   .pricing-faq {
     padding: 3rem 0;
     background: white;

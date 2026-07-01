@@ -1,19 +1,23 @@
 ---
 layout: default
-title: Pricing Plans
-description: Modern maintenance and support for Ruby on Rails apps — upgrades, stability, and peace of mind. Choose the plan that fits your app's needs.
+title: Pricing
+description: Transparent pricing for Ruby on Rails services — monthly care plans, flat-rate emergency support, and project-based upgrades, audits, rescues, and feature work.
 ---
 
 <main class="pricing-page">
   <section class="pricing-hero">
     <div class="container">
-      <h1>Rails Care Plans</h1>
-      <p class="hero-subtitle">Modern maintenance and support — upgrades, stability, and peace of mind.</p>
+      <h1>Simple, Transparent Pricing</h1>
+      <p class="hero-subtitle">Monthly care plans, flat-rate emergency help, and project-based work — pick the engagement that fits your Rails app.</p>
     </div>
   </section>
 
   <section class="pricing-plans">
     <div class="container">
+      <div class="section-heading">
+        <h2>Rails Care Plans</h2>
+        <p class="section-intro">Ongoing maintenance and support on a predictable monthly retainer, priced by your app's size and complexity.</p>
+      </div>
       <div class="plans-grid">
 
         <!-- Foundation Plan -->
@@ -153,6 +157,55 @@ description: Modern maintenance and support for Ruby on Rails apps — upgrades,
           </div>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+  <section class="emergency-pricing">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Emergency Support</h2>
+        <p class="section-intro">{{ site.data.pricing.emergency.intro }} One-off incident response when your app is down — no retainer required.</p>
+      </div>
+
+      <div class="emergency-grid">
+        {% for tier in site.data.pricing.emergency.tiers %}
+        <div class="emergency-card {{ tier.id }}">
+          <h3>{{ tier.name }}</h3>
+          <div class="price">{{ tier.price }}</div>
+          <p class="price-description">{{ tier.description }}</p>
+        </div>
+        {% endfor %}
+      </div>
+
+      <p class="pricing-note"><strong>Note:</strong> {{ site.data.pricing.emergency.surcharge_note }}</p>
+      {% if site.data.pricing.emergency.breach_note %}
+      <p class="pricing-note">{{ site.data.pricing.emergency.breach_note }}</p>
+      {% endif %}
+
+      <div class="section-cta">
+        <a href="/services/rails_support_desk/" class="btn btn-outline">See full emergency support details →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-services">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Project-Based Services</h2>
+        <p class="section-intro">One-time upgrades, audits, rescues, and feature work are scoped and quoted per project. Book a consultation for a tailored quote.</p>
+      </div>
+
+      <div class="project-grid">
+        {% for svc in site.data.pricing.project_services %}
+        <a class="project-card" href="{{ svc.url }}">
+          <div class="project-icon">{{ svc.icon }}</div>
+          <h3>{{ svc.name }}</h3>
+          <p class="project-model">{{ svc.pricing_model }}</p>
+          <p class="project-desc">{{ svc.description }}</p>
+          <span class="project-link">Learn more →</span>
+        </a>
+        {% endfor %}
       </div>
     </div>
   </section>

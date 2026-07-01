@@ -1,0 +1,65 @@
+# Single source of truth for pricing shown across the site.
+# Rendered on /pricing/ (the hub) and on individual service pages.
+# Change a price here and every page that displays it updates.
+
+# Per-incident emergency response (Rails Support Desk).
+# Shown as detailed cards on /services/rails_support_desk/ and as a
+# summary on /pricing/. The Support Desk page is the canonical detail page.
+emergency:
+  intro: "Flat-rate emergency response — no hourly surprises."
+  tiers:
+    - id: minor
+      name: "Minor Incident"
+      price: "$3,000"
+      description: "Clear root cause, resolved same day."
+      examples:
+        - "Expired SSL"
+        - "Background jobs stuck"
+        - "Third-party API key expired"
+    - id: major
+      name: "Major Incident"
+      price: "$6,000"
+      description: "Multi-layer failures, up to 2 days to stabilize."
+      examples:
+        - "Database issues"
+        - "Payments failing"
+        - "Severe performance collapse"
+    - id: critical
+      name: "Critical Incident"
+      price: "Starting at $12,000"
+      description: "Catastrophic failures requiring full recovery — scoped after triage."
+      examples:
+        - "App offline / unusable"
+        - "Corrupted data"
+        - "Suspected security breach"
+  surcharge_note: "Nights and weekend emergencies include a surcharge of $1,000 - $2,000 (tier based) for immediate response."
+  breach_note: "Confirmed security breaches are scoped and quoted separately."
+
+# Quote-based / project services. Shown on /pricing/ under
+# "Project-Based Services", each linking to its service page.
+project_services:
+  - name: "Rails Upgrade Express"
+    icon: "⬆️"
+    url: "/services/rails_upgrade_express/"
+    pricing_model: "Quoted per project"
+    description: "Safe, staged Ruby and Rails version upgrades with test fixes and compatibility work."
+  - name: "Rails Tech Audit"
+    icon: "🔍"
+    url: "/services/rails_tech_audit/"
+    pricing_model: "Fixed-scope audit"
+    description: "A deep technical review of your app with a prioritized risk and improvement roadmap."
+  - name: "Rails Rescue Kit"
+    icon: "🛟"
+    url: "/services/rails_rescue_kit/"
+    pricing_model: "Flat project rate"
+    description: "Diagnose and stabilize a broken or failing legacy Rails app, fast."
+  - name: "Feature Development"
+    icon: "✨"
+    url: "/services/rails_feature_development/"
+    pricing_model: "Monthly engagement or scoped build"
+    description: "Senior-led feature delivery inside your existing Rails app — no hiring required."
+  - name: "Fractional CTO"
+    icon: "🧭"
+    url: "/services/fractional_cto/"
+    pricing_model: "Monthly retainer"
+    description: "Technical leadership — architecture, hiring, and strategy — without a full-time hire."
