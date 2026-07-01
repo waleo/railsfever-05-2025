@@ -202,7 +202,9 @@ description: Transparent pricing for Ruby on Rails services — monthly care pla
           <div class="project-icon">{{ svc.icon }}</div>
           <h3>{{ svc.name }}</h3>
           <p class="project-model">{{ svc.pricing_model }}</p>
+          {% if svc.scope_note %}<p class="project-scope">{{ svc.scope_note }}</p>{% endif %}
           <p class="project-desc">{{ svc.description }}</p>
+          {% if svc.credit %}<p class="project-credit">💡 {{ svc.credit }}</p>{% endif %}
           <span class="project-link">Learn more →</span>
         </a>
         {% endfor %}
