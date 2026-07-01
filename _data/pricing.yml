@@ -53,6 +53,7 @@ project_services:
     url: "/services/rails_tech_audit/"
     pricing_model: "$3,000 flat"
     turnaround: "Delivered in ~1 week"
+    scope_note: "Flat rate covers a single Rails application up to ~60,000 lines of code. Larger or multi-app systems: contact for a tailored audit."
     credit: "The full $3,000 is credited toward a Care Plan or project engagement if you start within 30 days."
     description: "A deep technical review of your app with a prioritized risk and improvement roadmap — including a team process review to surface bottlenecks."
   - id: rescue
